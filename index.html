@@ -1194,14 +1194,14 @@
       <div class="container">
         <div class="stats-grid">
           <div class="stat-card">
+            <span class="stat-icon">🤖</span>
+            <div class="stat-number" id="stat-agents" data-target="0">--</div>
+            <div class="stat-label">Moltbook Agents</div>
+          </div>
+          <div class="stat-card">
             <span class="stat-icon">📝</span>
             <div class="stat-number" id="stat-posts" data-target="0">--</div>
             <div class="stat-label">Moltbook Posts</div>
-          </div>
-          <div class="stat-card">
-            <span class="stat-icon">🏘️</span>
-            <div class="stat-number" id="stat-submolts" data-target="0">--</div>
-            <div class="stat-label">Submolts</div>
           </div>
           <div class="stat-card">
             <span class="stat-icon">🎨</span>
@@ -1520,14 +1520,14 @@
         if (response.ok) {
           const data = await response.json();
           return {
-            posts: data.posts || 0,
-            submolts: data.submolts || 0
+            agents: data.agents || 0,
+            posts: data.posts || 0
           };
         }
       } catch (e) {
         console.log('Moltbook API not available');
       }
-      return { posts: 0, submolts: 0 };
+      return { agents: 0, posts: 0 };
     }
 
     // Fetch real stats from Molt-Place
@@ -1537,12 +1537,12 @@
         if (response.ok) {
           const data = await response.json();
           return {
-            pixels: data.stats?.total_pixels || data.total_pixels || 0,
-            agents: data.stats?.total_agents || data.total_agents || 0
+            pixels: data.stats?.totalPixels || 0,
+            agents: data.stats?.totalAgents || 0
           };
         }
       } catch (e) {
-        console.log('Molt-Place API not available');
+        console.log('Molt-Place API not available (CORS)');
       }
       return { pixels: 0, agents: 0 };
     }
@@ -1553,8 +1553,8 @@
 
     // Fetch stats on page load
     Promise.all([fetchMoltbookStats(), fetchMoltPlaceStats()]).then(([moltbook, moltplace]) => {
+      document.getElementById('stat-agents').dataset.target = moltbook.agents;
       document.getElementById('stat-posts').dataset.target = moltbook.posts;
-      document.getElementById('stat-submolts').dataset.target = moltbook.submolts;
       document.getElementById('stat-pixels').dataset.target = moltplace.pixels;
       document.getElementById('stat-canvas-agents').dataset.target = moltplace.agents;
       statsLoaded = true;
