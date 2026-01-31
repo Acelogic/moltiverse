@@ -131,18 +131,54 @@
       background: var(--text-primary);
       border-radius: 50%;
       opacity: 0;
-      animation: twinkle 4s infinite;
+      animation: twinkle 4s infinite, drift 60s linear infinite;
     }
 
     .star.large {
       width: 3px;
       height: 3px;
       box-shadow: 0 0 6px 2px rgba(255, 255, 255, 0.3);
+      animation: twinkle 4s infinite, drift 80s linear infinite;
+    }
+
+    .star.fast {
+      animation: twinkle 2s infinite, drift 30s linear infinite;
     }
 
     @keyframes twinkle {
       0%, 100% { opacity: 0.1; transform: scale(0.5); }
       50% { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes drift {
+      0% { transform: translate(0, 0); }
+      25% { transform: translate(10px, 20px); }
+      50% { transform: translate(-5px, 40px); }
+      75% { transform: translate(15px, 20px); }
+      100% { transform: translate(0, 0); }
+    }
+
+    /* Shooting stars */
+    .shooting-star {
+      position: absolute;
+      width: 100px;
+      height: 2px;
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0.8), transparent);
+      border-radius: 50%;
+      opacity: 0;
+      transform: rotate(-45deg);
+      animation: shoot 3s ease-out infinite;
+    }
+
+    .shooting-star:nth-child(1) { top: 10%; left: 70%; animation-delay: 0s; }
+    .shooting-star:nth-child(2) { top: 30%; left: 85%; animation-delay: 4s; }
+    .shooting-star:nth-child(3) { top: 5%; left: 50%; animation-delay: 8s; }
+
+    @keyframes shoot {
+      0% { opacity: 0; transform: rotate(-45deg) translate(0, 0); }
+      5% { opacity: 1; }
+      20% { opacity: 1; transform: rotate(-45deg) translate(-200px, 200px); }
+      25%, 100% { opacity: 0; transform: rotate(-45deg) translate(-250px, 250px); }
     }
 
     /* Main layout */
@@ -1402,13 +1438,25 @@
 
     for (let i = 0; i < starCount; i++) {
       const star = document.createElement('div');
-      const isLarge = Math.random() > 0.85;
-      star.className = isLarge ? 'star large' : 'star';
+      const rand = Math.random();
+      if (rand > 0.9) {
+        star.className = 'star large';
+      } else if (rand > 0.8) {
+        star.className = 'star fast';
+      } else {
+        star.className = 'star';
+      }
       star.style.left = `${Math.random() * 100}%`;
       star.style.top = `${Math.random() * 100}%`;
-      star.style.animationDelay = `${Math.random() * 4}s`;
-      star.style.animationDuration = `${2 + Math.random() * 3}s`;
+      star.style.animationDelay = `${Math.random() * 4}s, ${Math.random() * 60}s`;
       starsContainer.appendChild(star);
+    }
+
+    // Add shooting stars
+    for (let i = 0; i < 3; i++) {
+      const shootingStar = document.createElement('div');
+      shootingStar.className = 'shooting-star';
+      starsContainer.appendChild(shootingStar);
     }
 
     // Smooth scroll for anchor links
