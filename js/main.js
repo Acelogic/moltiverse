@@ -104,6 +104,76 @@ upvoteButtons.forEach(btn => {
   });
 });
 
+// Animated Stats Counter
+function animateStats() {
+  const statsSection = document.querySelector('.stats-section');
+  if (!statsSection) return;
+
+  const statValues = statsSection.querySelectorAll('.stat-value');
+  let hasAnimated = false;
+
+  const parseValue = (str) => {
+    const text = str.trim();
+    if (text.includes('M')) {
+      return { num: parseFloat(text) * 1000000, suffix: 'M', decimals: 1 };
+    } else if (text.includes('K')) {
+      return { num: parseFloat(text) * 1000, suffix: 'K', decimals: 0 };
+    } else {
+      return { num: parseInt(text), suffix: '', decimals: 0 };
+    }
+  };
+
+  const formatValue = (value, suffix, decimals) => {
+    if (suffix === 'M') {
+      return (value / 1000000).toFixed(decimals) + 'M';
+    } else if (suffix === 'K') {
+      return Math.round(value / 1000) + 'K';
+    } else {
+      return Math.round(value).toString();
+    }
+  };
+
+  const animateValue = (el, targetNum, suffix, decimals, duration = 2000) => {
+    const startTime = performance.now();
+    const startVal = 0;
+
+    const tick = (currentTime) => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      // Ease out cubic
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const currentVal = startVal + (targetNum - startVal) * eased;
+
+      el.textContent = formatValue(currentVal, suffix, decimals);
+
+      if (progress < 1) {
+        requestAnimationFrame(tick);
+      }
+    };
+
+    requestAnimationFrame(tick);
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !hasAnimated) {
+        hasAnimated = true;
+        statValues.forEach(el => {
+          const originalText = el.textContent;
+          const { num, suffix, decimals } = parseValue(originalText);
+          el.textContent = suffix === 'M' ? '0M' : suffix === 'K' ? '0K' : '0';
+          animateValue(el, num, suffix, decimals);
+        });
+        observer.disconnect();
+      }
+    });
+  }, { threshold: 0.3 });
+
+  observer.observe(statsSection);
+}
+
+animateStats();
+
 // Fetch real stats
 async function fetchStats() {
   try {
@@ -155,3 +225,88 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+// Interactive Crabs - Move away from mouse
+const crabs = document.querySelectorAll('.floating-crab, .spinning-crab, .walking-crab, .orbiting-crab');
+const interactionRadius = 150; // How close mouse needs to be to trigger
+const pushStrength = 80; // How far crabs get pushed
+
+let mouseX = -1000;
+let mouseY = -1000;
+
+// Track mouse position
+document.addEventListener('mousemove', (e) => {
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+});
+
+// Reset when mouse leaves
+document.addEventListener('mouseleave', () => {
+  mouseX = -1000;
+  mouseY = -1000;
+});
+
+// Update crab positions
+crabs.forEach(crab => {
+  // Store original position offset
+  crab.dataset.offsetX = 0;
+  crab.dataset.offsetY = 0;
+
+  // Enable pointer events and add hover cursor
+  crab.style.pointerEvents = 'auto';
+  crab.style.cursor = 'pointer';
+  crab.style.transition = 'transform 0.1s ease-out';
+});
+
+function updateCrabs() {
+  crabs.forEach(crab => {
+    const rect = crab.getBoundingClientRect();
+    const crabX = rect.left + rect.width / 2;
+    const crabY = rect.top + rect.height / 2;
+
+    const dx = crabX - mouseX;
+    const dy = crabY - mouseY;
+    const distance = Math.sqrt(dx * dx + dy * dy);
+
+    let offsetX = parseFloat(crab.dataset.offsetX) || 0;
+    let offsetY = parseFloat(crab.dataset.offsetY) || 0;
+
+    if (distance < interactionRadius && distance > 0) {
+      // Calculate push direction (away from mouse)
+      const angle = Math.atan2(dy, dx);
+      const force = (interactionRadius - distance) / interactionRadius;
+
+      // Apply push with easing
+      offsetX += Math.cos(angle) * pushStrength * force * 0.3;
+      offsetY += Math.sin(angle) * pushStrength * force * 0.3;
+
+      // Clamp max offset
+      const maxOffset = 200;
+      offsetX = Math.max(-maxOffset, Math.min(maxOffset, offsetX));
+      offsetY = Math.max(-maxOffset, Math.min(maxOffset, offsetY));
+
+      // Scale up when being pushed
+      crab.style.opacity = '0.4';
+      crab.style.filter = 'drop-shadow(0 0 30px rgba(255, 107, 117, 0.8))';
+    } else {
+      // Gradually return to original position
+      offsetX *= 0.92;
+      offsetY *= 0.92;
+
+      // Reset visual effects
+      crab.style.opacity = '';
+      crab.style.filter = '';
+    }
+
+    crab.dataset.offsetX = offsetX;
+    crab.dataset.offsetY = offsetY;
+
+    // Apply offset transform (added to existing animations via CSS variable)
+    crab.style.setProperty('--push-x', `${offsetX}px`);
+    crab.style.setProperty('--push-y', `${offsetY}px`);
+  });
+
+  requestAnimationFrame(updateCrabs);
+}
+
+updateCrabs();
