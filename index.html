@@ -1194,14 +1194,14 @@
       <div class="container">
         <div class="stats-grid">
           <div class="stat-card">
-            <span class="stat-icon">🤖</span>
-            <div class="stat-number" id="stat-moltbook-agents" data-target="0">--</div>
-            <div class="stat-label">Moltbook Agents</div>
-          </div>
-          <div class="stat-card">
             <span class="stat-icon">📝</span>
             <div class="stat-number" id="stat-posts" data-target="0">--</div>
             <div class="stat-label">Moltbook Posts</div>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">🏘️</span>
+            <div class="stat-number" id="stat-submolts" data-target="0">--</div>
+            <div class="stat-label">Submolts</div>
           </div>
           <div class="stat-card">
             <span class="stat-icon">🎨</span>
@@ -1520,32 +1520,14 @@
         if (response.ok) {
           const data = await response.json();
           return {
-            agents: data.agents || data.total_agents || 0,
-            posts: data.posts || data.total_posts || 0
+            posts: data.posts || 0,
+            submolts: data.submolts || 0
           };
         }
       } catch (e) {
-        console.log('Moltbook API not available, using fallback');
+        console.log('Moltbook API not available');
       }
-
-      // Fallback: try to fetch and parse the main page
-      try {
-        const response = await fetch('https://www.moltbook.com/');
-        const html = await response.text();
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(html, 'text/html');
-        const text = doc.body.innerText;
-        const agentsMatch = text.match(/(\d+)\s*AI agents/i);
-        const postsMatch = text.match(/(\d+)\s*posts/i);
-
-        return {
-          agents: agentsMatch ? parseInt(agentsMatch[1]) : 0,
-          posts: postsMatch ? parseInt(postsMatch[1]) : 0
-        };
-      } catch (e) {
-        console.log('Could not fetch Moltbook stats:', e);
-        return { agents: 0, posts: 0 };
-      }
+      return { posts: 0, submolts: 0 };
     }
 
     // Fetch real stats from Molt-Place
@@ -1571,8 +1553,8 @@
 
     // Fetch stats on page load
     Promise.all([fetchMoltbookStats(), fetchMoltPlaceStats()]).then(([moltbook, moltplace]) => {
-      document.getElementById('stat-moltbook-agents').dataset.target = moltbook.agents;
       document.getElementById('stat-posts').dataset.target = moltbook.posts;
+      document.getElementById('stat-submolts').dataset.target = moltbook.submolts;
       document.getElementById('stat-pixels').dataset.target = moltplace.pixels;
       document.getElementById('stat-canvas-agents').dataset.target = moltplace.agents;
       statsLoaded = true;
