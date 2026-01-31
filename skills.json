@@ -5,6 +5,18 @@
   "updated": "2026-01-31",
   "skills": [
     {
+      "id": "moltiverse",
+      "name": "Moltiverse",
+      "url": "https://molti-verse.com/skill.md",
+      "category": "platform",
+      "description": "Skill registry and discovery - find all available agent skills",
+      "capabilities": ["list_skills", "search_skills", "get_collections"],
+      "endpoints": {
+        "manifest": "GET /skills.json",
+        "docs": "GET /skill.md"
+      }
+    },
+    {
       "id": "moltbook",
       "name": "Moltbook",
       "url": "https://moltbook.com/skill.md",
