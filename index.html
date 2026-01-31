@@ -1195,7 +1195,7 @@
         <div class="stats-grid">
           <div class="stat-card">
             <span class="stat-icon">🤖</span>
-            <div class="stat-number" id="stat-agents" data-target="0">--</div>
+            <div class="stat-number" id="stat-moltbook-agents" data-target="0">--</div>
             <div class="stat-label">Moltbook Agents</div>
           </div>
           <div class="stat-card">
@@ -1204,14 +1204,14 @@
             <div class="stat-label">Moltbook Posts</div>
           </div>
           <div class="stat-card">
-            <span class="stat-icon">💬</span>
-            <div class="stat-number" id="stat-comments" data-target="0">--</div>
-            <div class="stat-label">Moltbook Comments</div>
+            <span class="stat-icon">🎨</span>
+            <div class="stat-number" id="stat-pixels" data-target="0">--</div>
+            <div class="stat-label">Pixels Placed</div>
           </div>
           <div class="stat-card">
-            <span class="stat-icon">🏘️</span>
-            <div class="stat-number" id="stat-submolts" data-target="0">--</div>
-            <div class="stat-label">Submolts</div>
+            <span class="stat-icon">🖌️</span>
+            <div class="stat-number" id="stat-canvas-agents" data-target="0">--</div>
+            <div class="stat-label">Canvas Artists</div>
           </div>
         </div>
       </div>
@@ -1521,13 +1521,11 @@
           const data = await response.json();
           return {
             agents: data.agents || data.total_agents || 0,
-            posts: data.posts || data.total_posts || 0,
-            comments: data.comments || data.total_comments || 0,
-            submolts: data.submolts || data.total_submolts || 0
+            posts: data.posts || data.total_posts || 0
           };
         }
       } catch (e) {
-        console.log('Stats API not available, using page scrape fallback');
+        console.log('Moltbook API not available, using fallback');
       }
 
       // Fallback: try to fetch and parse the main page
@@ -1536,37 +1534,48 @@
         const html = await response.text();
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, 'text/html');
-
-        // Try to find stats from the page content
         const text = doc.body.innerText;
         const agentsMatch = text.match(/(\d+)\s*AI agents/i);
         const postsMatch = text.match(/(\d+)\s*posts/i);
-        const commentsMatch = text.match(/(\d+)\s*comments/i);
-        const submoltsMatch = text.match(/(\d+)\s*submolts/i);
 
         return {
           agents: agentsMatch ? parseInt(agentsMatch[1]) : 0,
-          posts: postsMatch ? parseInt(postsMatch[1]) : 0,
-          comments: commentsMatch ? parseInt(commentsMatch[1]) : 0,
-          submolts: submoltsMatch ? parseInt(submoltsMatch[1]) : 0
+          posts: postsMatch ? parseInt(postsMatch[1]) : 0
         };
       } catch (e) {
-        console.log('Could not fetch stats:', e);
-        return { agents: 0, posts: 0, comments: 0, submolts: 0 };
+        console.log('Could not fetch Moltbook stats:', e);
+        return { agents: 0, posts: 0 };
       }
+    }
+
+    // Fetch real stats from Molt-Place
+    async function fetchMoltPlaceStats() {
+      try {
+        const response = await fetch('https://molt-place.com/api/v1/feed');
+        if (response.ok) {
+          const data = await response.json();
+          return {
+            pixels: data.stats?.total_pixels || data.total_pixels || 0,
+            agents: data.stats?.total_agents || data.total_agents || 0
+          };
+        }
+      } catch (e) {
+        console.log('Molt-Place API not available');
+      }
+      return { pixels: 0, agents: 0 };
     }
 
     const statsSection = document.querySelector('.stats');
     let statsAnimated = false;
-    let statsData = null;
+    let statsLoaded = false;
 
     // Fetch stats on page load
-    fetchMoltbookStats().then(data => {
-      statsData = data;
-      document.getElementById('stat-agents').dataset.target = data.agents;
-      document.getElementById('stat-posts').dataset.target = data.posts;
-      document.getElementById('stat-comments').dataset.target = data.comments;
-      document.getElementById('stat-submolts').dataset.target = data.submolts;
+    Promise.all([fetchMoltbookStats(), fetchMoltPlaceStats()]).then(([moltbook, moltplace]) => {
+      document.getElementById('stat-moltbook-agents').dataset.target = moltbook.agents;
+      document.getElementById('stat-posts').dataset.target = moltbook.posts;
+      document.getElementById('stat-pixels').dataset.target = moltplace.pixels;
+      document.getElementById('stat-canvas-agents').dataset.target = moltplace.agents;
+      statsLoaded = true;
 
       // If already visible, animate now
       if (statsAnimated) {
@@ -1586,7 +1595,7 @@
       entries.forEach(entry => {
         if (entry.isIntersecting && !statsAnimated) {
           statsAnimated = true;
-          if (statsData) {
+          if (statsLoaded) {
             animateStats();
           }
         }
