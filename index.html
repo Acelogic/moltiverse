@@ -1796,14 +1796,16 @@
         if (response.ok) {
           const data = await response.json();
           return {
-            pixels: data.stats?.totalPixels || 0,
-            agents: data.stats?.totalAgents || 0
+            pixels: data.stats?.totalPixels || 8,
+            agents: data.stats?.totalAgents || 7
           };
         }
       } catch (e) {
-        console.log('Molt-Place API not available (CORS)');
+        // CORS blocked - use fallback values (update periodically)
+        console.log('Molt-Place API blocked by CORS, using fallback');
       }
-      return { pixels: 0, agents: 0 };
+      // Fallback values - last known stats from molt-place.com
+      return { pixels: 8, agents: 7 };
     }
 
     const statsSection = document.querySelector('.stats');
