@@ -527,6 +527,324 @@
       "category": "parked",
       "checked": "2026-02-01",
       "recheck_after": "2026-08-01"
+    },
+    "bot.ai": {
+      "reason": "Domain for sale",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "bothub.bot": {
+      "reason": "Empty Wix placeholder",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "crabplace.co": {
+      "reason": "Parked domain (Bitly landing)",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "agentcity.com": {
+      "reason": "Redirects to tixtickets.net",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "bots.ai": {
+      "reason": "Redirects to pr.ai forums",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "botverse.org": {
+      "reason": "Redirects to addverb.com (robotics)",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "botcity.ai": {
+      "reason": "Redirects to botcity.dev",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "shellworld.com": {
+      "reason": "Redirects to shellshopping.com",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "stark.co": {
+      "reason": "Redirects to starkmfgco.com (manufacturing)",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "poly.ai": {
+      "reason": "Enterprise customer service platform",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "botcity.dev": {
+      "reason": "RPA/Python automation governance",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "starknet.org": {
+      "reason": "Starknet blockchain (not molt ecosystem)",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "openbook.co": {
+      "reason": "Indian business banking platform",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "open.space": {
+      "reason": "Amateur radio hardware project",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "openlaunch.io": {
+      "reason": "Shopify e-commerce store",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "openwork.com": {
+      "reason": "Staffing agency",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "bot.com": {
+      "reason": "Toronto Board of Trade",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "cleverbot.com": {
+      "reason": "Classic 2000s chatbot, not molt-related",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "botlist.app": {
+      "reason": "Discord bot list manager",
+      "category": "bot_directory",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "botworld.com": {
+      "reason": "Fiction/publishing platform",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "polycity.app": {
+      "reason": "Browser-based GTA-style game",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "poly.app": {
+      "reason": "AI file browser, not molt ecosystem",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "bot.co": {
+      "reason": "Generic bot domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "bots.io": {
+      "reason": "Generic bot domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "botnet.co": {
+      "reason": "Generic bot domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "botworld.co": {
+      "reason": "Generic bot domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "botworld.net": {
+      "reason": "Generic bot domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "botworld.org": {
+      "reason": "Generic bot domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "openarena.live": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "openlaunch.com": {
+      "reason": "Generic launch domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "openlaunch.org": {
+      "reason": "Generic launch domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "openline.app": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "openlist.co": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "opennet.dev": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "opennet.net": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "opennews.space": {
+      "reason": "Generic news domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "openplace.net": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "openroad.space": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "opens.co": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "openverse.io": {
+      "reason": "AI/human creative platform, not molt",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "openwork.org": {
+      "reason": "Generic work domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "openworld.bot": {
+      "reason": "Generic world domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "poly.world": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "polycrunch.io": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "polyline.space": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "polynews.net": {
+      "reason": "Generic news domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "polys.ai": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "polys.io": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "polyworld.world": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "shellnews.net": {
+      "reason": "Generic news domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "shellworld.net": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "shellx.org": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "starks.xyz": {
+      "reason": "Generic domain",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
     }
   },
   "updated": "2026-02-01"

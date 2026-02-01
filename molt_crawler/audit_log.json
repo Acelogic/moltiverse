@@ -5,6 +5,24 @@
       "action": "initial_audit",
       "count": 88,
       "description": "Migrated 88 excluded domains from hardcoded list to excluded_sites.json"
+    },
+    {
+      "date": "2026-02-01 01:54",
+      "action": "cleanup",
+      "reason": "Removed: polyclaw.ai...",
+      "count": 1
+    },
+    {
+      "date": "2026-02-01 01:54",
+      "action": "cleanup",
+      "reason": "Removed: mailto:aegis@aegisagent.ai, clawnet.dev, molthub.com, shellcity.net, lobster.ai...",
+      "count": 131
+    },
+    {
+      "date": "2026-02-01 01:57",
+      "action": "cleanup",
+      "reason": "Verified low-trust sites, removed false positives",
+      "count": 53
     }
   ]
 }
