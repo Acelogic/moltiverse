@@ -1,40 +1,44 @@
 // ============================================
-// CACHING - Stale-while-revalidate strategy
+// CACHING - Content-hash based strategy
 // ============================================
 
-// Cache version - increment when portals.json structure changes significantly
-const CACHE_VERSION = 5;
-const CACHE_KEYS = {
-  portals: `moltiverse-portals-cache-v${CACHE_VERSION}`,
-};
+// Simple hash function for cache busting
+function hashContent(str) {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    const char = str.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash = hash & hash; // Convert to 32bit integer
+  }
+  return hash.toString(36);
+}
+
+const CACHE_KEY = 'moltiverse-portals-cache';
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes - after this, refresh in background
 
-// Clear old cache versions on load
-try {
-  Object.keys(localStorage).forEach(key => {
-    if (key.startsWith('moltiverse-portals-cache') && !key.endsWith(`v${CACHE_VERSION}`)) {
-      localStorage.removeItem(key);
-    }
-  });
-} catch (e) { /* ignore */ }
-
-function getCache(key) {
+function getCache() {
   try {
-    const cached = localStorage.getItem(key);
+    const cached = localStorage.getItem(CACHE_KEY);
     if (!cached) return null;
-    const { data, timestamp } = JSON.parse(cached);
-    return { data, timestamp, isStale: Date.now() - timestamp > CACHE_TTL };
+    const { data, timestamp, contentHash } = JSON.parse(cached);
+    return { data, timestamp, contentHash, isStale: Date.now() - timestamp > CACHE_TTL };
   } catch {
     return null;
   }
 }
 
-function setCache(key, data) {
+function setCache(data, contentHash) {
   try {
-    localStorage.setItem(key, JSON.stringify({ data, timestamp: Date.now() }));
+    localStorage.setItem(CACHE_KEY, JSON.stringify({ data, timestamp: Date.now(), contentHash }));
   } catch (e) {
     console.warn('Cache write failed:', e);
   }
+}
+
+function clearCache() {
+  try {
+    localStorage.removeItem(CACHE_KEY);
+  } catch (e) { /* ignore */ }
 }
 
 // ============================================
@@ -162,7 +166,7 @@ async function loadPortals() {
   if (!grid) return;
 
   // Try cache first for instant load
-  const cached = getCache(CACHE_KEYS.portals);
+  const cached = getCache();
   if (cached) {
     renderPortals(cached.data);
     console.log(`Loaded ${cached.data.portals.length} portals from cache${cached.isStale ? ' (stale)' : ''}`);
@@ -173,16 +177,21 @@ async function loadPortals() {
 
   // Fetch fresh data (in background if we had cache)
   try {
-    const response = await fetch('portals.json');
-    const data = await response.json();
+    // Add cache-busting query param to bypass browser cache
+    const response = await fetch(`portals.json?_=${Date.now()}`);
+    const text = await response.text();
+    const data = JSON.parse(text);
+    const newHash = hashContent(text);
 
-    // Save to cache
-    setCache(CACHE_KEYS.portals, data);
-
-    // Only re-render if data changed or no cache
-    if (!cached || JSON.stringify(data) !== JSON.stringify(cached.data)) {
+    // Only update cache and re-render if content actually changed
+    if (!cached || cached.contentHash !== newHash) {
+      setCache(data, newHash);
       renderPortals(data);
-      console.log(`Loaded ${data.portals.length} portals from network`);
+      console.log(`Loaded ${data.portals.length} portals from network (hash: ${newHash})`);
+    } else {
+      // Content same, just refresh timestamp
+      setCache(cached.data, cached.contentHash);
+      console.log(`Portals unchanged, refreshed cache timestamp`);
     }
   } catch (error) {
     console.error('Failed to load portals:', error);
