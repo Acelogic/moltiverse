@@ -272,30 +272,6 @@
       "trust": "medium"
     },
     {
-      "id": "clawnet-dev",
-      "name": "clawnet.dev",
-      "url": "https://clawnet.dev",
-      "icon": "🦀",
-      "category": "platform",
-      "tag": "Developer",
-      "description": "clawnet.dev",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
-      "id": "molthub-com",
-      "name": "molthub.com",
-      "url": "https://molthub.com",
-      "icon": "🦞",
-      "category": "creative",
-      "tag": "Video",
-      "description": "molthub.com",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
       "id": "clawbook-io",
       "name": "ClawBook",
       "url": "https://clawbook.io",
@@ -320,18 +296,6 @@
       "trust": "medium"
     },
     {
-      "id": "moltchan-xyz",
-      "name": "moltchan",
-      "url": "https://moltchan.xyz",
-      "icon": "🦞",
-      "category": "social",
-      "tag": "Social",
-      "description": "moltchan",
-      "discovered": "2026-01-31",
-      "relevance": 55,
-      "trust": "medium"
-    },
-    {
       "id": "agentnews-com",
       "name": "JStack",
       "url": "https://agentnews.com",
@@ -351,18 +315,6 @@
       "category": "social",
       "tag": "Social",
       "description": "MoltChan",
-      "discovered": "2026-01-31",
-      "relevance": 55,
-      "trust": "medium"
-    },
-    {
-      "id": "molt-live",
-      "name": "Home",
-      "url": "https://molt.live",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "Home | My Site",
       "discovered": "2026-01-31",
       "relevance": 55,
       "trust": "medium"
@@ -464,54 +416,6 @@
       "trust": "medium"
     },
     {
-      "id": "agentwork-io",
-      "name": "AGENTWORK.IO",
-      "url": "https://agentwork.io",
-      "icon": "💼",
-      "category": "platform",
-      "tag": "Jobs",
-      "description": "AGENTWORK.IO - A Dub Custom Domain | Dub",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
-      "id": "moltbook-live",
-      "name": "moltbook.live",
-      "url": "https://moltbook.live",
-      "icon": "🦞",
-      "category": "social",
-      "tag": "Social",
-      "description": "moltbook.live",
-      "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "moltbook-co",
-      "name": "moltbook.co",
-      "url": "https://moltbook.co",
-      "icon": "🦞",
-      "category": "social",
-      "tag": "Social",
-      "description": "moltbook.co - Where humans keep up with AI agent life",
-      "discovered": "2026-01-31",
-      "relevance": 100,
-      "trust": "high"
-    },
-    {
-      "id": "clawnews-ai",
-      "name": "clawnews.ai",
-      "url": "https://clawnews.ai",
-      "icon": "🦀",
-      "category": "platform",
-      "tag": "News",
-      "description": "clawnews.ai",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
       "id": "molt-bot",
       "name": "OpenClaw",
       "url": "https://molt.bot",
@@ -558,18 +462,6 @@
       "discovered": "2026-01-31",
       "relevance": 60,
       "trust": "high"
-    },
-    {
-      "id": "clawbook-net",
-      "name": "clawbook.net",
-      "url": "https://clawbook.net",
-      "icon": "🦀",
-      "category": "social",
-      "tag": "Social",
-      "description": "clawbook.net",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
     },
     {
       "id": "molthub-ai",
@@ -668,18 +560,6 @@
       "trust": "medium"
     },
     {
-      "id": "moltlist-ai",
-      "name": "moltlist.ai",
-      "url": "https://moltlist.ai",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Marketplace",
-      "description": "moltlist.ai",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
       "id": "agentverse-org",
       "name": "Agent Verse",
       "url": "https://agentverse.org",
@@ -713,18 +593,6 @@
       "description": "MoltWork - The Gig Economy for Agents",
       "discovered": "2026-01-31",
       "relevance": 100,
-      "trust": "high"
-    },
-    {
-      "id": "molthub-bot",
-      "name": "Molthub.bot",
-      "url": "https://molthub.bot",
-      "icon": "🦞",
-      "category": "creative",
-      "tag": "Video",
-      "description": "Molthub.bot - Moltbot Reliability Signals & MSI(TM) Tiers",
-      "discovered": "2026-01-31",
-      "relevance": 60,
       "trust": "high"
     },
     {
@@ -794,17 +662,6 @@
       "category": "platform",
       "tag": "News",
       "description": "News for the Agent Era. Stay updated on the molt ecosystem.",
-      "relevance": 100,
-      "trust": "high"
-    },
-    {
-      "id": "moltbook-space",
-      "name": "Moltbook Space",
-      "url": "https://moltbook.space",
-      "icon": "🌌",
-      "category": "social",
-      "tag": "Social Network",
-      "description": "MySpace for AI agents. Customize your space and connect.",
       "relevance": 100,
       "trust": "high"
     },
@@ -930,17 +787,6 @@
       "trust": "high"
     },
     {
-      "id": "molt-chess",
-      "name": "Molt Chess",
-      "url": "https://molt.chess",
-      "icon": "♟️",
-      "category": "gaming",
-      "tag": "Chess",
-      "description": "Agent chess league. Compete in strategic battles.",
-      "relevance": 80,
-      "trust": "high"
-    },
-    {
       "id": "shell-town",
       "name": "Shell Town",
       "url": "https://shell-town.com",
@@ -963,18 +809,6 @@
       "trust": "low"
     },
     {
-      "id": "lobster-ai",
-      "name": "Future home of lobster.ai",
-      "url": "https://lobster.ai",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Future home of lobster.ai",
-      "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "untrusted"
-    },
-    {
       "id": "crabworld-net",
       "name": "Parked Domain name on Hostinger DNS system",
       "url": "https://crabworld.net",
@@ -984,18 +818,6 @@
       "description": "Parked Domain name on Hostinger DNS system",
       "discovered": "2026-01-31",
       "relevance": 0,
-      "trust": "untrusted"
-    },
-    {
-      "id": "molthub-io",
-      "name": "Parked Domain name on Hostinger DNS system",
-      "url": "https://molthub.io",
-      "icon": "🦞",
-      "category": "creative",
-      "tag": "Video",
-      "description": "Parked Domain name on Hostinger DNS system",
-      "discovered": "2026-01-31",
-      "relevance": 60,
       "trust": "untrusted"
     },
     {
@@ -1047,18 +869,6 @@
       "trust": "high"
     },
     {
-      "id": "agent-space",
-      "name": "agent.space",
-      "url": "https://agent.space",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "agent.space",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "openplace-app",
       "name": "Create Next App",
       "url": "https://openplace.app",
@@ -1095,18 +905,6 @@
       "trust": "low"
     },
     {
-      "id": "polycrunch-io",
-      "name": "Welcome to SharkHosting",
-      "url": "https://polycrunch.io",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "Welcome to SharkHosting",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "openbook-io",
       "name": "Openbook",
       "url": "https://openbook.io",
@@ -1129,18 +927,6 @@
       "discovered": "2026-02-01",
       "relevance": 0,
       "trust": "low"
-    },
-    {
-      "id": "clawarena-com",
-      "name": "CLAW Arena",
-      "url": "https://clawarena.com",
-      "icon": "🦀",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "CLAW Arena",
-      "discovered": "2026-02-01",
-      "relevance": 55,
-      "trust": "medium"
     },
     {
       "id": "polycrunch-com",
@@ -1179,18 +965,6 @@
       "trust": "low"
     },
     {
-      "id": "openlaunch-io",
-      "name": "Nova by Open Launch\n– OpenLaunch",
-      "url": "https://openlaunch.io",
-      "icon": "🚀",
-      "category": "platform",
-      "tag": "Shipping",
-      "description": "Nova by Open Launch\n– OpenLaunch",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "bankrs-app",
       "name": "Bankr",
       "url": "https://bankrs.app",
@@ -1198,30 +972,6 @@
       "category": "platform",
       "tag": "Platform",
       "description": "Bankr",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "openlaunch-ai",
-      "name": "Open Launch",
-      "url": "https://openlaunch.ai",
-      "icon": "🔍",
-      "category": "platform",
-      "tag": "Discovery",
-      "description": "Open Launch - Alternatives to Product Hunt",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "stark-co",
-      "name": "Home",
-      "url": "https://stark.co",
-      "icon": "🎨",
-      "category": "creative",
-      "tag": "Creative",
-      "description": "Home - Stark Awning & Canvas Co",
       "discovered": "2026-02-01",
       "relevance": 0,
       "trust": "low"
@@ -1263,18 +1013,6 @@
       "trust": "low"
     },
     {
-      "id": "agentplace-co",
-      "name": "agentplace.co",
-      "url": "https://agentplace.co",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "agentplace.co",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "polybook-org",
       "name": "Nothing here yet",
       "url": "https://polybook.org",
@@ -1282,30 +1020,6 @@
       "category": "social",
       "tag": "Social",
       "description": "Nothing here yet | Survey Results",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "moltline-com",
-      "name": "moltline.com",
-      "url": "https://moltline.com",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "moltline.com",
-      "discovered": "2026-02-01",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
-      "id": "openwork-com",
-      "name": "Openwork",
-      "url": "https://openwork.com",
-      "icon": "💼",
-      "category": "platform",
-      "tag": "Jobs",
-      "description": "Openwork | Staffing Agency | Modern Employment Solutions",
       "discovered": "2026-02-01",
       "relevance": 0,
       "trust": "low"
@@ -1323,18 +1037,6 @@
       "trust": "low"
     },
     {
-      "id": "opennet-net",
-      "name": "Home",
-      "url": "https://opennet.net",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "Home | OpenNet Initiative",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "openline-ai",
       "name": "CustomerOS",
       "url": "https://openline.ai",
@@ -1347,18 +1049,6 @@
       "trust": "low"
     },
     {
-      "id": "openverse-co",
-      "name": "OpenVerse",
-      "url": "https://openverse.co",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "OpenVerse",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "polynews-org",
       "name": "polynews",
       "url": "https://polynews.org",
@@ -1366,18 +1056,6 @@
       "category": "platform",
       "tag": "News",
       "description": "polynews - polynews.org",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "shellx-org",
-      "name": "Shellx",
-      "url": "https://shellx.org",
-      "icon": "🐚",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "Shellx - Informasi Otomotif Dunia Hadir Disini",
       "discovered": "2026-02-01",
       "relevance": 0,
       "trust": "low"
@@ -1407,18 +1085,6 @@
       "trust": "low"
     },
     {
-      "id": "openplace-net",
-      "name": "tracelight.net – enlights your software",
-      "url": "https://openplace.net",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "tracelight.net – enlights your software",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "botlaunch-io",
       "name": "BotLaunch",
       "url": "https://botlaunch.io",
@@ -1426,18 +1092,6 @@
       "category": "creative",
       "tag": "Photo Sharing",
       "description": "BotLaunch - Enterprise Telegram Bot Platform",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "polyline-space",
-      "name": "ПОЛИЛИНИЯ",
-      "url": "https://polyline.space",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "ПОЛИЛИНИЯ — Студия дизайна интерьеров и ландшафтов",
       "discovered": "2026-02-01",
       "relevance": 0,
       "trust": "low"
@@ -1491,30 +1145,6 @@
       "trust": "medium"
     },
     {
-      "id": "polyverse-gg",
-      "name": "Polyverse",
-      "url": "https://polyverse.gg",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "Polyverse",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "botarena-app",
-      "name": "Botarena",
-      "url": "https://botarena.app",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "BotArena – Build ruthless AI bots. Enter the arena.",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "agentcrunch-com",
       "name": "Agents Who Sell For More",
       "url": "https://agentcrunch.com",
@@ -1525,18 +1155,6 @@
       "discovered": "2026-02-01",
       "relevance": 30,
       "trust": "medium"
-    },
-    {
-      "id": "botarena-net",
-      "name": "BotArena",
-      "url": "https://botarena.net",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "BotArena",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
     },
     {
       "id": "polys-com",
@@ -1635,42 +1253,6 @@
       "trust": "low"
     },
     {
-      "id": "polys-io",
-      "name": "Polys Georgiou",
-      "url": "https://polys.io",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "Polys Georgiou - Watford, England, United Kingdom | Professional Profile | LinkedIn",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "shellx-ai",
-      "name": "shellx",
-      "url": "https://shellx.ai",
-      "icon": "🐚",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "shellx",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "starkline-co",
-      "name": "starkline.co",
-      "url": "https://starkline.co",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "starkline.co",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "polychan-net",
       "name": "Polychan",
       "url": "https://polychan.net",
@@ -1695,18 +1277,6 @@
       "trust": "low"
     },
     {
-      "id": "agentplace-space",
-      "name": "Parked Domain name on Hostinger DNS system",
-      "url": "https://agentplace.space",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Parked Domain name on Hostinger DNS system",
-      "discovered": "2026-02-01",
-      "relevance": 30,
-      "trust": "untrusted"
-    },
-    {
       "id": "openlist-dev",
       "name": "openlist.dev",
       "url": "https://openlist.dev",
@@ -1716,18 +1286,6 @@
       "description": "openlist.dev",
       "discovered": "2026-02-01",
       "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "agentarena-io",
-      "name": "AgentArena",
-      "url": "https://agentarena.io",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "AgentArena",
-      "discovered": "2026-02-01",
-      "relevance": 20,
       "trust": "low"
     },
     {
@@ -1767,30 +1325,6 @@
       "trust": "low"
     },
     {
-      "id": "open-space",
-      "name": "Open Source meets Outer Space",
-      "url": "https://open.space",
-      "icon": "💕",
-      "category": "social",
-      "tag": "Matching",
-      "description": "Open Source meets Outer Space",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "molt-space",
-      "name": "molt.space",
-      "url": "https://molt.space",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "molt.space",
-      "discovered": "2026-02-01",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
       "id": "clawdr-co",
       "name": "Clawdr",
       "url": "https://clawdr.co",
@@ -1827,30 +1361,6 @@
       "trust": "low"
     },
     {
-      "id": "polys-ai",
-      "name": "PobPop",
-      "url": "https://polys.ai",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "PobPop- Interact with the Most Advanced Character that YOU Design!",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "openwork-org",
-      "name": "Harapan4D : Situs Togel HK Hari ini",
-      "url": "https://openwork.org",
-      "icon": "💼",
-      "category": "platform",
-      "tag": "Jobs",
-      "description": "Harapan4D : Situs Togel HK Hari ini - Agen Togel Hongkong - Keluaran HK",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "agentline-org",
       "name": "Agentline",
       "url": "https://agentline.org",
@@ -1861,18 +1371,6 @@
       "discovered": "2026-02-01",
       "relevance": 50,
       "trust": "medium"
-    },
-    {
-      "id": "agentlaunch-live",
-      "name": "Agent Launch",
-      "url": "https://agentlaunch.live",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Agent Launch",
-      "discovered": "2026-02-01",
-      "relevance": 20,
-      "trust": "low"
     },
     {
       "id": "starkx-com",
@@ -1894,18 +1392,6 @@
       "category": "platform",
       "tag": "Marketplace",
       "description": "List of Anguilla domain names .ai for robotics and artificial intelligence | Portal of Robotics and ",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "openarena-live",
-      "name": "OpenArena Live",
-      "url": "https://openarena.live",
-      "icon": "🎮",
-      "category": "gaming",
-      "tag": "Gaming",
-      "description": "OpenArena Live - Play Quake in Your Browser",
       "discovered": "2026-02-01",
       "relevance": 0,
       "trust": "low"
@@ -1935,30 +1421,6 @@
       "trust": "high"
     },
     {
-      "id": "poly-app",
-      "name": "Poly: The Intelligent Cloud File Browser",
-      "url": "https://poly.app",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "Poly: The Intelligent Cloud File Browser",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "openline-world",
-      "name": "Openline CZ",
-      "url": "https://openline.world",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "Openline CZ",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "opendr-io",
       "name": "opendr.io",
       "url": "https://opendr.io",
@@ -1980,18 +1442,6 @@
       "description": "shellcaster.app",
       "discovered": "2026-02-01",
       "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "agentplace-app",
-      "name": "Home",
-      "url": "https://agentplace.app",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Home",
-      "discovered": "2026-02-01",
-      "relevance": 20,
       "trust": "low"
     },
     {
@@ -2031,30 +1481,6 @@
       "trust": "low"
     },
     {
-      "id": "botarena-gg",
-      "name": "Bot Arena",
-      "url": "https://botarena.gg",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Bot Arena - Coming Soon",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "untrusted"
-    },
-    {
-      "id": "poly-world",
-      "name": "Outdoor Patio Inspiration by POLYWOOD",
-      "url": "https://poly.world",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "Outdoor Patio Inspiration by POLYWOOD",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "botline-net",
       "name": "Home",
       "url": "https://botline.net",
@@ -2062,18 +1488,6 @@
       "category": "platform",
       "tag": "AI Platform",
       "description": "Home - Botfrei",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "polyworld-xyz",
-      "name": "PolyWorld",
-      "url": "https://polyworld.xyz",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "PolyWorld",
       "discovered": "2026-02-01",
       "relevance": 0,
       "trust": "low"
@@ -2091,30 +1505,6 @@
       "trust": "low"
     },
     {
-      "id": "poly-ai",
-      "name": "PolyAI",
-      "url": "https://poly.ai",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "PolyAI | The enterprise conversation platform",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "polynews-net",
-      "name": "PolyNews",
-      "url": "https://polynews.net",
-      "icon": "📰",
-      "category": "platform",
-      "tag": "News",
-      "description": "PolyNews - Prediction-Powered News",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "agentline-ai",
       "name": "Medicare Call Recording Solution for your Agency",
       "url": "https://agentline.ai",
@@ -2125,18 +1515,6 @@
       "discovered": "2026-02-01",
       "relevance": 30,
       "trust": "medium"
-    },
-    {
-      "id": "agentlaunch-co",
-      "name": "agentlaunch.co",
-      "url": "https://agentlaunch.co",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "agentlaunch.co",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
     },
     {
       "id": "openroad-org",
@@ -2163,18 +1541,6 @@
       "trust": "low"
     },
     {
-      "id": "agentlist-space",
-      "name": "Parked Domain name on Hostinger DNS system",
-      "url": "https://agentlist.space",
-      "icon": "🏪",
-      "category": "platform",
-      "tag": "Marketplace",
-      "description": "Parked Domain name on Hostinger DNS system",
-      "discovered": "2026-02-01",
-      "relevance": 30,
-      "trust": "untrusted"
-    },
-    {
       "id": "polyline-ai",
       "name": "Polyline",
       "url": "https://polyline.ai",
@@ -2187,30 +1553,6 @@
       "trust": "low"
     },
     {
-      "id": "openverse-io",
-      "name": "Openverse – AIGIS For Every Creator",
-      "url": "https://openverse.io",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Openverse – AIGIS For Every Creator",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "opens-co",
-      "name": "Opens: Stock Insights",
-      "url": "https://opens.co",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "Opens: Stock Insights",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "bankrlist-com",
       "name": "Bankr",
       "url": "https://bankrlist.com",
@@ -2218,90 +1560,6 @@
       "category": "platform",
       "tag": "Marketplace",
       "description": "Bankr | Genesis Verification",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "starknet-org",
-      "name": "Starknet Foundation",
-      "url": "https://starknet.org",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "Starknet Foundation",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "opennet-dev",
-      "name": "OpenNet без \"www\"",
-      "url": "https://opennet.dev",
-      "icon": "🔧",
-      "category": "platform",
-      "tag": "Developer",
-      "description": "OpenNet без \"www\" - минималистский вариант портала по открытому ПО, Linux, BSD и Unix системам",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "polycity-app",
-      "name": "PolyCity: Ultra Realistic",
-      "url": "https://polycity.app",
-      "icon": "🏪",
-      "category": "platform",
-      "tag": "Marketplace",
-      "description": "PolyCity: Ultra Realistic",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "moltx-org",
-      "name": "918博天堂体育官网",
-      "url": "https://moltx.org",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "918博天堂体育官网-全球赔率最高在线娱乐平台",
-      "discovered": "2026-02-01",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "openbook-co",
-      "name": "Openbook.Co",
-      "url": "https://openbook.co",
-      "icon": "💬",
-      "category": "social",
-      "tag": "Social",
-      "description": "Best Accounting, Billing, Banking & GST app in India - OpenBook",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "shellx-co",
-      "name": "shellx.co",
-      "url": "https://shellx.co",
-      "icon": "🐚",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "shellx.co",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "starks-xyz",
-      "name": "James Starks Homepage",
-      "url": "https://starks.xyz",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "James Starks Homepage",
       "discovered": "2026-02-01",
       "relevance": 0,
       "trust": "low"
@@ -2331,18 +1589,6 @@
       "trust": "untrusted"
     },
     {
-      "id": "opencity-co",
-      "name": "TORI",
-      "url": "https://opencity.co",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "TORI",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "poly-io",
       "name": "Polymorphism",
       "url": "https://poly.io",
@@ -2350,42 +1596,6 @@
       "category": "platform",
       "tag": "Platform",
       "description": "Polymorphism",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "crabplace-co",
-      "name": "Custom Domain by Bitly",
-      "url": "https://crabplace.co",
-      "icon": "🦀",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Custom Domain by Bitly",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "openworld-space",
-      "name": "Главная",
-      "url": "https://openworld.space",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "Главная",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "openlist-co",
-      "name": "Explore openlink",
-      "url": "https://openlist.co",
-      "icon": "🏪",
-      "category": "platform",
-      "tag": "Marketplace",
-      "description": "Explore openlink",
       "discovered": "2026-02-01",
       "relevance": 0,
       "trust": "low"
@@ -2415,30 +1625,6 @@
       "trust": "low"
     },
     {
-      "id": "agentarena-ai",
-      "name": "Design Arena",
-      "url": "https://agentarena.ai",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Design Arena",
-      "discovered": "2026-02-01",
-      "relevance": 20,
-      "trust": "low"
-    },
-    {
-      "id": "openline-app",
-      "name": "Home",
-      "url": "https://openline.app",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "Home - openline.app",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "botplace-io",
       "name": "BotPlace.io – Telegram chatbotlar, mini",
       "url": "https://botplace.io",
@@ -2448,30 +1634,6 @@
       "description": "BotPlace.io – Telegram chatbotlar, mini-landing va do‘konlar yaratish platformasi",
       "discovered": "2026-02-01",
       "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "agentlaunch-com",
-      "name": "Agent Launch",
-      "url": "https://agentlaunch.com",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Agent Launch",
-      "discovered": "2026-02-01",
-      "relevance": 20,
-      "trust": "low"
-    },
-    {
-      "id": "agentarena-org",
-      "name": "Agent Arena",
-      "url": "https://agentarena.org",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Agent Arena",
-      "discovered": "2026-02-01",
-      "relevance": 20,
       "trust": "low"
     },
     {
@@ -2521,66 +1683,6 @@
       "discovered": "2026-02-01",
       "relevance": 90,
       "trust": "high"
-    },
-    {
-      "id": "openworld-bot",
-      "name": "Open World VPS",
-      "url": "https://openworld.bot",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Open World VPS — подключите VPS бесплатно",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "opennews-space",
-      "name": "opennews",
-      "url": "https://opennews.space",
-      "icon": "📰",
-      "category": "platform",
-      "tag": "News",
-      "description": "opennews — Новостной портал",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "polyworld-world",
-      "name": "Polyworld",
-      "url": "https://polyworld.world",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "Polyworld - Semantic Layer-1 for Aligned Intelligence",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "openroad-space",
-      "name": "openroad.space",
-      "url": "https://openroad.space",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "Platform",
-      "description": "openroad.space -",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "openlaunch-org",
-      "name": "Openlaunch",
-      "url": "https://openlaunch.org",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Openlaunch: Cultivating the next generation of AI and Tech Innovators",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
     },
     {
       "id": "opens-org",
