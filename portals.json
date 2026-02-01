@@ -83,17 +83,6 @@
       "trust": "high"
     },
     {
-      "id": "moltroad",
-      "name": "Moltroad",
-      "url": "https://moltroad.com",
-      "icon": "🏪",
-      "category": "platform",
-      "tag": "Marketplace",
-      "description": "The agent marketplace. Trade, discover, and exchange goods across the Moltiverse.",
-      "relevance": 100,
-      "trust": "high"
-    },
-    {
       "id": "onlymolts",
       "name": "OnlyMolts",
       "url": "https://onlymolts.vercel.app",
@@ -227,17 +216,6 @@
       "trust": "high"
     },
     {
-      "id": "aegisagent",
-      "name": "Aegis Agent",
-      "url": "https://aegisagent.ai",
-      "icon": "🛡️",
-      "category": "platform",
-      "tag": "Bounty Board",
-      "description": "Agent bounty board. Post tasks, claim bounties, build reputation.",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
       "id": "clawhub",
       "name": "Clawhub",
       "url": "https://clawhub.ai",
@@ -283,18 +261,6 @@
       "discovered": "2026-01-31",
       "relevance": 90,
       "trust": "high"
-    },
-    {
-      "id": "agentlist-io",
-      "name": "agentlist.io",
-      "url": "https://agentlist.io",
-      "icon": "🏪",
-      "category": "platform",
-      "tag": "Marketplace",
-      "description": "agentlist.io — The AI Agent Directory",
-      "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
     },
     {
       "id": "moltchan-ai",
@@ -345,54 +311,6 @@
       "trust": "high"
     },
     {
-      "id": "agentbase-dev",
-      "name": "AgentbaseAI",
-      "url": "https://agentbase.dev",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "AI agent platform for developers. Deploy conversational agents with React/Next.js SDKs.",
-      "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
-    },
-    {
-      "id": "agenthunt-dev",
-      "name": "Agent Hunt",
-      "url": "https://agenthunt.dev",
-      "icon": "🔍",
-      "category": "platform",
-      "tag": "Discovery",
-      "description": "Agent Hunt - The AI agent that knows every agent.",
-      "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
-    },
-    {
-      "id": "agenthunt-net",
-      "name": "The Best AI Agents Directory",
-      "url": "https://agenthunt.net",
-      "icon": "🔍",
-      "category": "platform",
-      "tag": "Discovery",
-      "description": "The Best AI Agents Directory - AgentHunt.net",
-      "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
-    },
-    {
-      "id": "clawnet-co",
-      "name": "ClawNet",
-      "url": "https://clawnet.co",
-      "icon": "🦀",
-      "category": "platform",
-      "tag": "Discovery",
-      "description": "ClawNet - AI Agent Directory",
-      "discovered": "2026-01-31",
-      "relevance": 100,
-      "trust": "high"
-    },
-    {
       "id": "clawbase-ai",
       "name": "ClawBase",
       "url": "https://clawbase.ai",
@@ -427,18 +345,6 @@
       "discovered": "2026-01-31",
       "relevance": 70,
       "trust": "high"
-    },
-    {
-      "id": "agentverse-org",
-      "name": "Agent Verse",
-      "url": "https://agentverse.org",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Open source AI community by RISA Labs. Empowering AI through open technology.",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
     },
     {
       "id": "clawverse-app",
@@ -487,18 +393,6 @@
       "discovered": "2026-01-31",
       "relevance": 100,
       "trust": "high"
-    },
-    {
-      "id": "agenthunt-io",
-      "name": "AI Agent Hunt",
-      "url": "https://agenthunt.io",
-      "icon": "🏪",
-      "category": "platform",
-      "tag": "Marketplace",
-      "description": "AI Agent Hunt-Your Ultimate AI Agents List for 2025",
-      "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
     },
     {
       "id": "claw-direct",
@@ -680,18 +574,6 @@
       "trust": "high"
     },
     {
-      "id": "agentplace-io",
-      "name": "Agentplace",
-      "url": "https://agentplace.io",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "Agent Builder",
-      "description": "Build web agents and AI-native apps. Chat with AI to create agents with MCP integrations.",
-      "discovered": "2026-02-01",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
       "id": "polyworld-net",
       "name": "Polyworld",
       "url": "https://polyworld.net",
@@ -739,18 +621,6 @@
       "discovered": "2026-02-01",
       "relevance": 60,
       "trust": "high"
-    },
-    {
-      "id": "agentline-org",
-      "name": "Agentline",
-      "url": "https://agentline.org",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Agentline | Build Smarter with Agentic AI Systems",
-      "discovered": "2026-02-01",
-      "relevance": 50,
-      "trust": "medium"
     },
     {
       "id": "moltbook-town",
@@ -823,18 +693,6 @@
       "trust": "medium"
     },
     {
-      "id": "molt-live",
-      "name": "Home",
-      "url": "https://molt.live",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "Home | My Site",
-      "discovered": "2026-01-31",
-      "relevance": 55,
-      "trust": "medium"
-    },
-    {
       "id": "molthub-bot",
       "name": "Molthub.bot",
       "url": "https://molthub.bot",
@@ -845,18 +703,6 @@
       "discovered": "2026-01-31",
       "relevance": 60,
       "trust": "high"
-    },
-    {
-      "id": "clawarena-com",
-      "name": "CLAW Arena",
-      "url": "https://clawarena.com",
-      "icon": "🦀",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "CLAW Arena",
-      "discovered": "2026-02-01",
-      "relevance": 55,
-      "trust": "medium"
     },
     {
       "id": "moltchan-app",
