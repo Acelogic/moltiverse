@@ -1,4 +1,33 @@
 // ============================================
+// CACHING - Stale-while-revalidate strategy
+// ============================================
+
+const CACHE_KEYS = {
+  portals: 'moltiverse-portals-cache',
+  skills: 'moltiverse-skills-cache',
+};
+const CACHE_TTL = 5 * 60 * 1000; // 5 minutes - after this, refresh in background
+
+function getCache(key) {
+  try {
+    const cached = localStorage.getItem(key);
+    if (!cached) return null;
+    const { data, timestamp } = JSON.parse(cached);
+    return { data, timestamp, isStale: Date.now() - timestamp > CACHE_TTL };
+  } catch {
+    return null;
+  }
+}
+
+function setCache(key, data) {
+  try {
+    localStorage.setItem(key, JSON.stringify({ data, timestamp: Date.now() }));
+  } catch (e) {
+    console.warn('Cache write failed:', e);
+  }
+}
+
+// ============================================
 // PORTALS - Loaded from portals.json
 // ============================================
 
@@ -17,65 +46,90 @@ function meetsQualityThreshold(portal) {
   return trustIdx >= minIdx;
 }
 
+function renderPortals(data) {
+  const grid = document.getElementById('portals-grid');
+  if (!grid) return;
+
+  // Filter to quality portals only
+  const qualityPortals = data.portals.filter(meetsQualityThreshold);
+  loadedPortals = qualityPortals;
+
+  // Sort: featured first, then by relevance
+  qualityPortals.sort((a, b) => {
+    if (a.featured && !b.featured) return -1;
+    if (!a.featured && b.featured) return 1;
+    return (b.relevance || 0) - (a.relevance || 0);
+  });
+
+  // Clear loading state
+  grid.innerHTML = '';
+
+  // Render each portal
+  qualityPortals.forEach((portal, index) => {
+    const accent = ACCENT_COLORS[index % ACCENT_COLORS.length];
+    const card = document.createElement('a');
+    card.href = portal.url;
+    card.target = '_blank';
+    card.rel = 'noopener noreferrer';
+    card.className = 'portal-card';
+    card.dataset.accent = accent;
+    card.dataset.category = portal.category;
+    if (portal.featured) card.dataset.featured = 'true';
+
+    // Trust badge
+    const trustBadge = portal.trust === 'verified' ? '<span class="trust-badge verified">✓</span>' :
+                       portal.trust === 'high' ? '<span class="trust-badge high">★</span>' : '';
+
+    card.innerHTML = `
+      <div class="portal-glow"></div>
+      <div class="portal-content">
+        <div class="portal-icon">${portal.icon}${trustBadge}</div>
+        <div class="portal-tag">${portal.tag}</div>
+        <h3 class="portal-name">${portal.name}</h3>
+        <p class="portal-desc">${portal.description}</p>
+        <div class="portal-arrow">→</div>
+      </div>
+    `;
+
+    grid.appendChild(card);
+  });
+
+  // Also load footer links from portals
+  loadFooterLinks(qualityPortals);
+}
+
 async function loadPortals() {
   const grid = document.getElementById('portals-grid');
   if (!grid) return;
 
+  // Try cache first for instant load
+  const cached = getCache(CACHE_KEYS.portals);
+  if (cached) {
+    renderPortals(cached.data);
+    console.log(`Loaded ${cached.data.portals.length} portals from cache${cached.isStale ? ' (stale)' : ''}`);
+
+    // If cache is fresh, we're done
+    if (!cached.isStale) return;
+  }
+
+  // Fetch fresh data (in background if we had cache)
   try {
     const response = await fetch('portals.json');
     const data = await response.json();
 
-    // Filter to quality portals only
-    const qualityPortals = data.portals.filter(meetsQualityThreshold);
-    loadedPortals = qualityPortals;
+    // Save to cache
+    setCache(CACHE_KEYS.portals, data);
 
-    // Sort: featured first, then by relevance
-    qualityPortals.sort((a, b) => {
-      if (a.featured && !b.featured) return -1;
-      if (!a.featured && b.featured) return 1;
-      return (b.relevance || 0) - (a.relevance || 0);
-    });
-
-    // Clear loading state
-    grid.innerHTML = '';
-
-    // Render each portal
-    qualityPortals.forEach((portal, index) => {
-      const accent = ACCENT_COLORS[index % ACCENT_COLORS.length];
-      const card = document.createElement('a');
-      card.href = portal.url;
-      card.target = '_blank';
-      card.rel = 'noopener noreferrer';
-      card.className = 'portal-card';
-      card.dataset.accent = accent;
-      card.dataset.category = portal.category;
-      if (portal.featured) card.dataset.featured = 'true';
-
-      // Trust badge
-      const trustBadge = portal.trust === 'verified' ? '<span class="trust-badge verified">✓</span>' :
-                         portal.trust === 'high' ? '<span class="trust-badge high">★</span>' : '';
-
-      card.innerHTML = `
-        <div class="portal-glow"></div>
-        <div class="portal-content">
-          <div class="portal-icon">${portal.icon}${trustBadge}</div>
-          <div class="portal-tag">${portal.tag}</div>
-          <h3 class="portal-name">${portal.name}</h3>
-          <p class="portal-desc">${portal.description}</p>
-          <div class="portal-arrow">→</div>
-        </div>
-      `;
-
-      grid.appendChild(card);
-    });
-
-    // Also load footer links from portals
-    loadFooterLinks(qualityPortals);
-
-    console.log(`Loaded ${qualityPortals.length} quality portals (${data.portals.length} total)`);
+    // Only re-render if data changed or no cache
+    if (!cached || JSON.stringify(data) !== JSON.stringify(cached.data)) {
+      renderPortals(data);
+      console.log(`Loaded ${data.portals.length} portals from network`);
+    }
   } catch (error) {
     console.error('Failed to load portals:', error);
-    grid.innerHTML = '<div class="portals-error">Failed to load portals. <a href="portals.json">View raw data</a></div>';
+    if (!cached) {
+      grid.innerHTML = '<div class="portals-error">Failed to load portals. <a href="portals.json">View raw data</a></div>';
+    }
   }
 }
 
@@ -111,37 +165,63 @@ function loadFooterLinks(portals) {
 // SKILLS - Loaded from skills.json
 // ============================================
 
+function renderSkills(data) {
+  const grid = document.getElementById('skills-grid');
+  if (!grid) return;
+
+  loadedSkills = data.skills;
+
+  // Load saved upvotes from localStorage
+  const savedUpvotes = JSON.parse(localStorage.getItem('moltiverse-upvotes') || '{}');
+
+  // Sort by upvotes
+  loadedSkills.sort((a, b) => (b.upvotes || 0) - (a.upvotes || 0));
+
+  // Clear loading state
+  grid.innerHTML = '';
+
+  // Render each skill
+  loadedSkills.forEach(skill => {
+    const card = createSkillCard(skill, savedUpvotes);
+    grid.appendChild(card);
+  });
+
+  // Initialize upvote handlers after render
+  initUpvoteHandlers();
+}
+
 async function loadSkills() {
   const grid = document.getElementById('skills-grid');
   if (!grid) return;
 
+  // Try cache first for instant load
+  const cached = getCache(CACHE_KEYS.skills);
+  if (cached) {
+    renderSkills(cached.data);
+    console.log(`Loaded ${cached.data.skills.length} skills from cache${cached.isStale ? ' (stale)' : ''}`);
+
+    // If cache is fresh, we're done
+    if (!cached.isStale) return;
+  }
+
+  // Fetch fresh data (in background if we had cache)
   try {
     const response = await fetch('skills.json');
     const data = await response.json();
-    loadedSkills = data.skills;
 
-    // Load saved upvotes from localStorage
-    const savedUpvotes = JSON.parse(localStorage.getItem('moltiverse-upvotes') || '{}');
+    // Save to cache
+    setCache(CACHE_KEYS.skills, data);
 
-    // Sort by upvotes
-    loadedSkills.sort((a, b) => (b.upvotes || 0) - (a.upvotes || 0));
-
-    // Clear loading state
-    grid.innerHTML = '';
-
-    // Render each skill
-    loadedSkills.forEach(skill => {
-      const card = createSkillCard(skill, savedUpvotes);
-      grid.appendChild(card);
-    });
-
-    // Initialize upvote handlers after render
-    initUpvoteHandlers();
-
-    console.log(`Loaded ${loadedSkills.length} skills`);
+    // Only re-render if data changed or no cache
+    if (!cached || JSON.stringify(data) !== JSON.stringify(cached.data)) {
+      renderSkills(data);
+      console.log(`Loaded ${data.skills.length} skills from network`);
+    }
   } catch (error) {
     console.error('Failed to load skills:', error);
-    grid.innerHTML = '<div class="skills-error">Failed to load skills. <a href="skills.json">View raw data</a></div>';
+    if (!cached) {
+      grid.innerHTML = '<div class="skills-error">Failed to load skills. <a href="skills.json">View raw data</a></div>';
+    }
   }
 }
 
