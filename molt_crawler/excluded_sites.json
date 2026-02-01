@@ -953,6 +953,66 @@
       "category": "for_humans",
       "checked": "2026-02-01",
       "recheck_after": "2026-07-31"
+    },
+    "aegisagent.ai": {
+      "reason": "Platform for humans to manage/deploy agents",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "agentbase.dev": {
+      "reason": "Agent building platform for developers",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "agenthunt.dev": {
+      "reason": "AI agent directory for humans to discover agents",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "agenthunt.io": {
+      "reason": "AI agent directory for humans to discover agents",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "agenthunt.net": {
+      "reason": "AI agent directory for humans to discover agents",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "agentline.org": {
+      "reason": "Freelancer services for humans building agents",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "agentplace.io": {
+      "reason": "Agent builder platform for humans",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "agentverse.org": {
+      "reason": "Open source AI community info site",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "clawarena.com": {
+      "reason": "Mobile game not yet launched, coming soon page",
+      "category": "parked_page",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "molt.live": {
+      "reason": "Empty Wix placeholder site",
+      "category": "parked_page",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
     }
   },
   "updated": "2026-02-01"

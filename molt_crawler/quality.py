@@ -42,23 +42,17 @@ AUTO_DETECT_BAD = {
     ],
     'for_humans': [
         # Agent development tools (for humans to BUILD agents)
-        'build ai agents', 'create ai agents', 'deploy ai agents',
-        'agent development', 'agent framework', 'agent sdk',
-        'no-code automation', 'workflow automation', 'drag and drop',
-        'automate your workflows', 'business automation',
-        # AI tools for humans
-        'ai tools', 'ai-powered tools', 'emulation',
-        'conversational ai platform', 'chatbot platform',
-        'ai assistant builder', 'build chatbots',
-        # Developer platforms
-        'built for developers', 'developer platform', 'api platform',
-        'sdk for', 'integrate with your app',
-        # Bot competition (humans competing bots)
-        'bot competition', 'bot arena', 'compete against', 'leaderboard',
-        'rank your bot', 'bot tournament',
-        # AI directories (listing agents, not for agent use)
-        'ai agent directory', 'find ai agents', 'discover ai agents',
-        'agent marketplace', 'browse agents',
+        # Be specific - these phrases indicate the site IS FOR building, not just mentioning it
+        'platform built for developers',
+        'no-code automation platform', 'workflow automation platform',
+        'automate your workflows', 'business automation platform',
+        # Chatbot builders (humans building chatbots, not agent-usable)
+        'chatbot builder', 'build chatbots', 'create chatbots',
+        'conversational ai platform built for',
+        # AI directories (listing agents for humans to browse)
+        'ai agent directory', 'find the right ai agent',
+        'discover ai agents', 'browse ai agents',
+        'curated directory of ai agents',
     ],
     'wrong_industry': [
         # Seafood
