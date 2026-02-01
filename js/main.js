@@ -94,6 +94,56 @@ function renderPortals(data) {
 
   // Also load footer links from portals
   loadFooterLinks(qualityPortals);
+
+  // Also populate agent portals grid
+  renderAgentPortals(qualityPortals);
+}
+
+function renderAgentPortals(portals) {
+  const grid = document.getElementById('agent-portals-grid');
+  if (!grid) return;
+
+  grid.innerHTML = '';
+
+  // Sort by relevance, featured first
+  const sorted = [...portals].sort((a, b) => {
+    if (a.featured && !b.featured) return -1;
+    if (!a.featured && b.featured) return 1;
+    return (b.relevance || 0) - (a.relevance || 0);
+  });
+
+  // Show top portals for agents
+  sorted.slice(0, 12).forEach(portal => {
+    const card = document.createElement('div');
+    card.className = 'agent-portal-card';
+
+    // Extract domain for skill.md URL
+    const domain = portal.url.replace(/^https?:\/\//, '').replace(/\/$/, '');
+    const skillUrl = `https://${domain}/skill.md`;
+
+    card.innerHTML = `
+      <div class="agent-portal-header">
+        <span class="agent-portal-icon">${portal.icon}</span>
+        <div class="agent-portal-info">
+          <div class="agent-portal-name">${portal.name}</div>
+          <div class="agent-portal-category">${portal.category || 'platform'}</div>
+        </div>
+      </div>
+      <div class="agent-portal-desc">${portal.description}</div>
+      <div class="agent-portal-endpoints">
+        <a href="${portal.url}" target="_blank" class="agent-endpoint">
+          <span class="agent-endpoint-label">URL</span>
+          <span class="agent-endpoint-url">${portal.url}</span>
+        </a>
+        <a href="${skillUrl}" target="_blank" class="agent-endpoint">
+          <span class="agent-endpoint-label">SKILL</span>
+          <span class="agent-endpoint-url">${skillUrl}</span>
+        </a>
+      </div>
+    `;
+
+    grid.appendChild(card);
+  });
 }
 
 async function loadPortals() {

@@ -1767,30 +1767,238 @@ body.agent-mode .section-subtitle.agent-only {
   border-color: rgba(167, 139, 250, 0.3);
 }
 
-/* ========== MANIFEST SECTION (Agent Mode) ========== */
-.manifest-section {
-  padding: 3rem 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+/* ========== AGENT MODE SECTIONS ========== */
+
+/* Agent Hero Header */
+.agent-hero-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
 }
 
-.manifest-code {
+.agent-badge {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background: rgba(0, 229, 204, 0.1);
+  border: 1px solid rgba(0, 229, 204, 0.3);
+  border-radius: 100px;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--cyan-primary);
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.agent-title {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.agent-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.agent-quickstart {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.agent-quickstart h2 {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.75rem;
+}
+
+.agent-quickstart pre {
   background: var(--bg-surface);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   padding: 1.5rem;
   font-family: 'Space Mono', monospace;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   overflow-x: auto;
-  white-space: pre;
-  color: var(--text-secondary);
+  color: var(--cyan-primary);
 }
 
-.manifest-code .key {
+.agent-quickstart .comment {
+  color: var(--text-muted);
+}
+
+.agent-quickstart .string {
   color: var(--coral-primary);
 }
 
-.manifest-code .string {
+/* Agent Portals Section */
+.agent-portals-section {
+  padding: 4rem 0;
+}
+
+.agent-portals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.agent-portal-card {
+  background: var(--bg-surface);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1.25rem;
+  transition: all 0.3s;
+}
+
+.agent-portal-card:hover {
+  border-color: rgba(0, 229, 204, 0.3);
+  transform: translateY(-2px);
+}
+
+.agent-portal-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.agent-portal-icon {
+  font-size: 1.5rem;
+}
+
+.agent-portal-info {
+  flex: 1;
+}
+
+.agent-portal-name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+}
+
+.agent-portal-category {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.agent-portal-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.agent-portal-endpoints {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.agent-endpoint {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-elevated);
+  border-radius: 6px;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem;
+  text-decoration: none;
   color: var(--cyan-primary);
+  transition: all 0.2s;
+}
+
+.agent-endpoint:hover {
+  background: rgba(0, 229, 204, 0.1);
+}
+
+.agent-endpoint-label {
+  color: var(--text-muted);
+  min-width: 45px;
+}
+
+.agent-endpoint-url {
+  color: var(--coral-primary);
+  word-break: break-all;
+}
+
+/* Agent Resources Section */
+.agent-resources-section {
+  padding: 3rem 0 5rem;
+}
+
+.agent-resources-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.agent-resource-card {
+  background: var(--bg-surface);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.agent-resource-card:hover {
+  border-color: rgba(167, 139, 250, 0.3);
+  transform: translateY(-2px);
+}
+
+.agent-resource-card .resource-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.agent-resource-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.agent-resource-card p {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.resource-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: 1px solid var(--purple-primary);
+  border-radius: 6px;
+  color: var(--purple-primary);
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.resource-link:hover {
+  background: var(--purple-primary);
+  color: var(--bg-void);
+}
+
+@media (max-width: 900px) {
+  .agent-resources-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .agent-portals-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ========== FOOTER ========== */
