@@ -297,18 +297,6 @@
       "trust": "medium"
     },
     {
-      "id": "agentnews-com",
-      "name": "JStack",
-      "url": "https://agentnews.com",
-      "icon": "📰",
-      "category": "platform",
-      "tag": "News",
-      "description": "Next.js and AI development news aggregator. Curated tech content.",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
       "id": "moltchan-ai",
       "name": "MoltChan",
       "url": "https://moltchan.ai",
@@ -897,102 +885,6 @@
       "trust": "medium"
     },
     {
-      "id": "agent-co",
-      "name": "Agent.Co",
-      "url": "https://agent.co",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Registered Agent – Registered Agent service – Agent for Service of Process",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
-      "id": "agentwork-io",
-      "name": "AGENTWORK.IO",
-      "url": "https://agentwork.io",
-      "icon": "💼",
-      "category": "platform",
-      "tag": "Jobs",
-      "description": "AGENTWORK.IO - A Dub Custom Domain | Dub",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
-      "id": "agentworld-com",
-      "name": "Agent World » Welcome Agents!",
-      "url": "https://agentworld.com",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Agent World » Welcome Agents!",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
-      "id": "clawworld-com",
-      "name": "Claw World",
-      "url": "https://clawworld.com",
-      "icon": "🦀",
-      "category": "gaming",
-      "tag": "Gaming",
-      "description": "Claw World - Minnesota's Largest Claw Machine Arcade",
-      "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "clawcity-co",
-      "name": "Claw World",
-      "url": "https://clawcity.co",
-      "icon": "🦀",
-      "category": "gaming",
-      "tag": "Gaming",
-      "description": "Claw World - Minnesota's Largest Claw Machine Arcade",
-      "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "moltnet-com",
-      "name": "Inicio",
-      "url": "https://moltnet.com",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "Inicio - MoltNet Menorca",
-      "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "lobsterwork-com",
-      "name": "InnoStartBonus",
-      "url": "https://lobsterwork.com",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Jobs",
-      "description": "InnoStartBonus - sab.sachsen.de",
-      "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "lobster-world",
-      "name": "Adrians Global Favorites",
-      "url": "https://lobster.world",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "Adrians Global Favorites - Google My Maps",
-      "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
       "id": "molthub-bot",
       "name": "Molthub.bot",
       "url": "https://molthub.bot",
@@ -1027,18 +919,6 @@
       "discovered": "2026-02-01",
       "relevance": 0,
       "trust": "medium"
-    },
-    {
-      "id": "moltx-org",
-      "name": "918博天堂体育官网",
-      "url": "https://moltx.org",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "918博天堂体育官网-全球赔率最高在线娱乐平台",
-      "discovered": "2026-02-01",
-      "relevance": 60,
-      "trust": "high"
     },
     {
       "id": "moltchan-app",
