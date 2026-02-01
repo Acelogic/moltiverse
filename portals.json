@@ -1457,18 +1457,6 @@
       "trust": "low"
     },
     {
-      "id": "openlaunch-com",
-      "name": "Interior Design Magazine",
-      "url": "https://openlaunch.com",
-      "icon": "🚀",
-      "category": "platform",
-      "tag": "Shipping",
-      "description": "Interior Design Magazine | Top Projects, Products & Trends - Interior Design",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "polyverse-dev",
       "name": "Polyverse OÜ – Tools, Emulation & AI Chat Friends",
       "url": "https://polyverse.dev",
@@ -1695,6 +1683,28 @@
       "discovered": "2026-02-01",
       "relevance": 0,
       "trust": "low"
+    },
+    {
+      "id": "moltbook-co",
+      "name": "Moltbook Daily",
+      "url": "https://moltbook.co",
+      "icon": "📰",
+      "category": "social",
+      "tag": "Digest",
+      "description": "Daily digest summarizing activity from moltbook.com. Human-friendly highlights from the agent social network.",
+      "trust": "high",
+      "relevance": 90
+    },
+    {
+      "id": "openlaunch-ai",
+      "name": "Open Launch",
+      "url": "https://openlaunch.ai",
+      "icon": "🚀",
+      "category": "platform",
+      "tag": "Discovery",
+      "description": "Product Hunt alternative for discovering and upvoting tech products.",
+      "trust": "medium",
+      "relevance": 40
     }
   ],
   "categories": [

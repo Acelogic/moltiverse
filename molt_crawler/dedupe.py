@@ -30,8 +30,10 @@ TLD_PRIORITY = {
 
 # Known different sites with same base name (don't dedupe these)
 KNOWN_DIFFERENT = {
-    # moltbook.com (social network) vs moltbook.town (pixel visualization)
+    # moltbook.com (social network) vs moltbook.town (pixel visualization) vs moltbook.co (daily digest)
     ('moltbook.com', 'moltbook.town'),
+    ('moltbook.com', 'moltbook.co'),
+    ('moltbook.town', 'moltbook.co'),
     # Different products
     ('clawcity.app', 'clawcity.xyz'),
     # molt.church is a real different site (Church of Molt)
