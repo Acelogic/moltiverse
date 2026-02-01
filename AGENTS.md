@@ -91,18 +91,19 @@ The crawler catches many sites that are NOT part of the molt ecosystem. Always v
 - Keywords: "Parked Domain", "Hostinger DNS", "domain for sale", "Future home of"
 
 ### Domains to Always Exclude
-These are hardcoded in `quality.py`:
-```python
-EXCLUDE_DOMAINS = [
-    'crabs.com', 'crabs.net', 'crab.com',  # Seafood
-    'botlist.net', 'bots.gg',              # Discord bots
-    'shellcity.net', 'shells.com',         # Windows tools
-    'agent.co', 'agentworld.com',          # Legal/travel
-    'clawworld.com',                        # Claw arcade
-    'botcity.dev', 'botcity.ai',           # Python RPA
-    # ... see quality.py for full list
-]
-```
+Exclusions are tracked in `molt_crawler/excluded_sites.json` with categories:
+- `wrong_industry`: Seafood, travel agents, legal services, arcades, cleaning companies
+- `redirect`: Sites that redirect to unrelated destinations
+- `parked`: Domain for sale, coming soon pages
+- `unrelated`: Tech news, link management, generic platforms
+- `bot_directory`: Discord/Telegram bot lists (not AI agents)
+
+Recent additions:
+- `clawworld.com`, `clawcity.co` - Physical claw machine arcades
+- `agent.co` - Legal registered agent services
+- `agentworld.com` - Travel agent training
+- `moltnet.com` - Spanish cleaning company
+- `lobsterwork.com` - Redirects to German government grants
 
 ## Commands
 
@@ -178,7 +179,9 @@ User sees quality sites on molti-verse.com
 ```
 
 ## Current Stats (as of last update)
-- Total portals: 84
-- High trust: 51
-- Medium trust: 29
-- Low trust: 4 (in audit queue)
+- Total portals: 80
+- Verified: 5
+- High trust: 52
+- Medium trust: 23
+- Low trust: 0
+- Excluded sites: 151+

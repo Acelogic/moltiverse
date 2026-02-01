@@ -857,6 +857,66 @@
       "category": "redirect",
       "checked": "2026-02-01",
       "recheck_after": "2026-07-31"
+    },
+    "moltx.org": {
+      "reason": "Electronics manufacturer (AUO), gambling spam injection",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "lobster.world": {
+      "reason": "Redirects to Google Maps personal favorites",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "lobsterwork.com": {
+      "reason": "Redirects to German government grants site",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "agent.co": {
+      "reason": "Legal registered agent services",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "clawworld.com": {
+      "reason": "Physical claw machine arcade in Minnesota",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "clawcity.co": {
+      "reason": "Redirects to clawworld.com arcade",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "agentnews.com": {
+      "reason": "Tech news aggregation site (JStack)",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "agentworld.com": {
+      "reason": "Travel agent training platform",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "moltnet.com": {
+      "reason": "Spanish cleaning/maintenance company",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "agentwork.io": {
+      "reason": "Link management platform demo (Dub)",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
     }
   },
   "updated": "2026-02-01"

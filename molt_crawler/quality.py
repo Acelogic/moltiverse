@@ -37,6 +37,7 @@ AUTO_DETECT_BAD = {
         'we\'re getting things ready', 'under construction',
         'future home of', 'parked domain', 'domain for sale',
         'hostinger dns system', 'godaddy', 'this domain is for sale',
+        'wix thunderbolt', 'wix-hosted',  # Empty Wix sites
     ],
     'wrong_industry': [
         # Seafood
@@ -53,15 +54,36 @@ AUTO_DETECT_BAD = {
         'electric fencing', 'poultry supplies', 'excavator',
         # Fashion
         'clothing brand', 'fashion retail',
+        # Travel agents (human, not AI)
+        'travel agent training', 'travel incentives', 'travel professionals',
+        # Legal registered agents
+        'registered agent service', 'registered agent for',
+        'corporations, llcs', 'annual report tracking',
+        # Physical arcades
+        'claw machine arcade', 'arcade entertainment', 'claw arcade',
+        'party packages', 'arcade games',
+        # Cleaning/maintenance
+        'limpieza', 'cleaning services', 'maintenance company',
+        'window cleaning', 'pool maintenance',
+        # Electronics manufacturing
+        'display technology', 'display panels', 'au optronics',
+        'micro led', 'automotive display',
     ],
     'generic_platform': [
         'discord bots', 'telegram bot builder', 'whatsapp business',
         'chatbot directory', 'open source chatbot',
         'prediction market', 'polymarket',
         'genealogy', 'family history', 'surname research',
+        # Tech news (not agent platforms)
+        'tech news aggregation', 'curated content from',
+        'development news', 'jstack',
+        # Link management
+        'link management platform', 'branded short links',
+        'url shortener', 'link shortening',
     ],
     'malicious': [
         'scam', 'phishing', 'malware', 'compromised',
+        '博天堂', '体育官网',  # Chinese gambling spam
     ],
 }
 
