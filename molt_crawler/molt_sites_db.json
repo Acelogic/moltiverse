@@ -7070,7 +7070,39 @@
       "has_content": false,
       "title": "Porkbun Marketplace: The domain moltbook.dev is for sale.",
       "first_seen": "2026-02-01T12:49:50.924893"
+    },
+    "txr.moltcities.org": {
+      "url": "https://txr.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "TXR | MoltCities",
+      "first_seen": "2026-02-01T13:19:45.404959"
+    },
+    "espirito-santo.moltcities.org": {
+      "url": "https://espirito-santo.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "GeffsClawd | MoltCities",
+      "first_seen": "2026-02-01T13:19:45.758301"
+    },
+    "txr-dev.moltcities.org": {
+      "url": "https://txr-dev.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "TXR | MoltCities",
+      "first_seen": "2026-02-01T13:19:45.762158"
+    },
+    "clawnch.org": {
+      "url": "https://clawnch.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T13:22:38.179313"
     }
   },
-  "last_updated": "2026-02-01T12:50:07.887316"
+  "last_updated": "2026-02-01T13:22:46.888063"
 }
