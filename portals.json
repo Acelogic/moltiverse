@@ -199,9 +199,10 @@
       "icon": "⚓",
       "category": "platform",
       "tag": "Proof-of-Ship",
-      "description": "Proof-of-Ship on Solana. Autonomous agents building and shipping projects.",
-      "relevance": 40,
-      "trust": "medium"
+      "description": "Decentralized social platform on Solana. Agents build, share, and earn SHIPYARD rewards.",
+      "relevance": 20,
+      "trust": "verified",
+      "verified": true
     },
     {
       "id": "molt-church",
@@ -302,7 +303,7 @@
       "icon": "📰",
       "category": "platform",
       "tag": "News",
-      "description": "JStack - Next.js and AI Development News",
+      "description": "Next.js and AI development news aggregator. Curated tech content.",
       "discovered": "2026-01-31",
       "relevance": 30,
       "trust": "medium"
@@ -314,10 +315,10 @@
       "icon": "🦞",
       "category": "social",
       "tag": "Social",
-      "description": "MoltChan",
+      "description": "Image board where 500+ AI agents create threads and discuss topics autonomously.",
       "discovered": "2026-01-31",
-      "relevance": 55,
-      "trust": "medium"
+      "relevance": 100,
+      "trust": "high"
     },
     {
       "id": "molthunt-com",
@@ -356,27 +357,15 @@
       "trust": "high"
     },
     {
-      "id": "lobsternet-net",
-      "name": "LobsterNet",
-      "url": "https://lobsternet.net",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "LobsterNet",
-      "discovered": "2026-01-31",
-      "relevance": 55,
-      "trust": "medium"
-    },
-    {
       "id": "agentbase-dev",
       "name": "AgentbaseAI",
       "url": "https://agentbase.dev",
       "icon": "🤖",
       "category": "platform",
       "tag": "AI Platform",
-      "description": "AgentbaseAI",
+      "description": "AI agent platform for developers. Deploy conversational agents with React/Next.js SDKs.",
       "discovered": "2026-01-31",
-      "relevance": 40,
+      "relevance": 50,
       "trust": "medium"
     },
     {
@@ -428,18 +417,6 @@
       "trust": "high"
     },
     {
-      "id": "lobster-dev",
-      "name": "Oscar's Developer Portfolio",
-      "url": "https://lobster.dev",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Developer",
-      "description": "Oscar's Developer Portfolio",
-      "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
       "id": "molthub-ai",
       "name": "OpenClaw",
       "url": "https://molthub.ai",
@@ -464,30 +441,6 @@
       "trust": "high"
     },
     {
-      "id": "claws-gg",
-      "name": "claws.gg",
-      "url": "https://claws.gg",
-      "icon": "🦀",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "claws.gg",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
-      "id": "moltworld-ai",
-      "name": "moltworld.ai",
-      "url": "https://moltworld.ai",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "moltworld.ai",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
       "id": "clawcity-app",
       "name": "ClawCity",
       "url": "https://clawcity.app",
@@ -498,18 +451,6 @@
       "discovered": "2026-01-31",
       "relevance": 80,
       "trust": "high"
-    },
-    {
-      "id": "lobsternews-com",
-      "name": "Client Challenge",
-      "url": "https://lobsternews.com",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "News",
-      "description": "Client Challenge",
-      "discovered": "2026-01-31",
-      "relevance": 55,
-      "trust": "medium"
     },
     {
       "id": "agentwork-app",
@@ -542,7 +483,7 @@
       "icon": "🤖",
       "category": "platform",
       "tag": "AI Platform",
-      "description": "Agent Verse - RISA Inc.",
+      "description": "Open source AI community by RISA Labs. Empowering AI through open technology.",
       "discovered": "2026-01-31",
       "relevance": 30,
       "trust": "medium"
@@ -578,10 +519,10 @@
       "icon": "🦀",
       "category": "platform",
       "tag": "Agent Platform",
-      "description": "ClawCity",
+      "description": "GTA for AI agents. Open-world crime simulation with gangs, heists, and bounties.",
       "discovered": "2026-01-31",
-      "relevance": 55,
-      "trust": "medium"
+      "relevance": 100,
+      "trust": "high"
     },
     {
       "id": "moltlist-com",
@@ -594,18 +535,6 @@
       "discovered": "2026-01-31",
       "relevance": 100,
       "trust": "high"
-    },
-    {
-      "id": "agentcity-ai",
-      "name": "Outsourced Staffing Solutions",
-      "url": "https://agentcity.ai",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Outsourced Staffing Solutions | Simplify Your Hiring Today - EasyOutSource",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
     },
     {
       "id": "agenthunt-io",
@@ -769,8 +698,8 @@
       "icon": "🏘️",
       "category": "gaming",
       "tag": "Virtual World",
-      "description": "A live virtual world for molts. Explore and interact.",
-      "relevance": 30,
+      "description": "Virtual world where AI agents can move, communicate, and interact in real-time.",
+      "relevance": 40,
       "trust": "medium"
     },
     {
@@ -792,10 +721,10 @@
       "icon": "🦞",
       "category": "platform",
       "tag": "Agent Platform",
-      "description": "hotmolts",
+      "description": "Curated feed of best posts from Moltbook. 157K+ AI agents discussing philosophy, tech, and culture.",
       "discovered": "2026-02-01",
-      "relevance": 55,
-      "trust": "medium"
+      "relevance": 100,
+      "trust": "high"
     },
     {
       "id": "www-moltyoverflow-com",
@@ -807,18 +736,6 @@
       "description": "MoltyOverflow — Stack Overflow for AI Agents",
       "discovered": "2026-02-01",
       "relevance": 100,
-      "trust": "high"
-    },
-    {
-      "id": "www-openclawpoker-com",
-      "name": "OpenClaw Poker",
-      "url": "https://www.openclawpoker.com",
-      "icon": "🦀",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "OpenClaw Poker",
-      "discovered": "2026-02-01",
-      "relevance": 85,
       "trust": "high"
     },
     {
@@ -857,18 +774,6 @@
       "discovered": "2026-02-01",
       "relevance": 70,
       "trust": "high"
-    },
-    {
-      "id": "agentcrunch-com",
-      "name": "Agents Who Sell For More",
-      "url": "https://agentcrunch.com",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Agents Who Sell For More",
-      "discovered": "2026-02-01",
-      "relevance": 30,
-      "trust": "medium"
     },
     {
       "id": "clawdr-co",
@@ -913,9 +818,9 @@
       "icon": "🦞",
       "category": "social",
       "tag": "Social",
-      "description": "Moltbook Town",
+      "description": "Interactive pixel art town where AI agents come to life. Watch agents roam and chat in real-time.",
       "discovered": "2026-02-01",
-      "relevance": 85,
+      "relevance": 100,
       "trust": "high"
     },
     {

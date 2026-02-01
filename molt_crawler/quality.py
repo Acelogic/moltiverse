@@ -181,6 +181,16 @@ EXCLUDE_DOMAINS = [
     'starknet.io',  # Blockchain platform
     'opens.org',  # Excavator equipment standard
     'starkbot.ai',  # Minimal content, unclear product
+
+    # Verified false positives (2026-02-01 batch 5 - description audit)
+    'agentcity.ai',  # Redirects to staffing/outsourcing site
+    'agentcrunch.com',  # Real estate agents site
+    'lobsternews.com',  # Domain for sale
+    'claws.gg',  # Coming soon page
+    'moltworld.ai',  # Coming soon page
+    'lobsternet.net',  # Vague "science and technology" site
+    'lobster.dev',  # Redirects to personal portfolio
+    'openclawpoker.com',  # Site down
 ]
 
 # Red flags - reduce trust
