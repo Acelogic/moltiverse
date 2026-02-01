@@ -1088,7 +1088,7 @@ body.agent-mode .human-hero {
 
 .portals-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
@@ -1971,7 +1971,13 @@ footer {
 }
 
 /* ========== RESPONSIVE ========== */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
+  .portals-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
   .portals-grid {
     grid-template-columns: 1fr;
   }
