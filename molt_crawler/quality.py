@@ -107,6 +107,13 @@ EXCLUDE_DOMAINS = [
     # Verified not molt ecosystem (checked actual site content)
     'agents.ai',  # Browser automation "browse-to-earn", not AI agents
     'agenthub.app',  # Real estate/insurance agents, not AI
+
+    # More verified false positives (2026-02-01)
+    'lobster.com',  # Domain for sale
+    'lobsterplace.com',  # Seafood restaurant NYC
+    'claw.space',  # Unrelated Japanese shop
+    'clawx.io',  # Expired domain
+    'clawx.net',  # Default page
 ]
 
 # Red flags - reduce trust
