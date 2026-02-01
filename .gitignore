@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Crawler temp files
+molt_crawler/molt_sites_db.json
+molt_crawler/audit_queue.csv
+
+# Editor
+.vscode/
+.idea/
+*.swp
