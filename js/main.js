@@ -6,6 +6,10 @@ const ACCENT_COLORS = ['coral', 'cyan', 'amber', 'purple'];
 const MIN_TRUST_LEVEL = 'medium'; // Filter out low/untrusted
 const TRUST_ORDER = ['untrusted', 'low', 'medium', 'high', 'verified'];
 
+// Store loaded data for filtering/searching
+let loadedSkills = [];
+let loadedPortals = [];
+
 function meetsQualityThreshold(portal) {
   const trust = portal.trust || 'medium';
   const trustIdx = TRUST_ORDER.indexOf(trust);
@@ -23,6 +27,7 @@ async function loadPortals() {
 
     // Filter to quality portals only
     const qualityPortals = data.portals.filter(meetsQualityThreshold);
+    loadedPortals = qualityPortals;
 
     // Sort: featured first, then by relevance
     qualityPortals.sort((a, b) => {
@@ -64,6 +69,9 @@ async function loadPortals() {
       grid.appendChild(card);
     });
 
+    // Also load footer links from portals
+    loadFooterLinks(qualityPortals);
+
     console.log(`Loaded ${qualityPortals.length} quality portals (${data.portals.length} total)`);
   } catch (error) {
     console.error('Failed to load portals:', error);
@@ -71,8 +79,185 @@ async function loadPortals() {
   }
 }
 
-// Load portals on page load
+// ============================================
+// FOOTER - Loaded from portals.json
+// ============================================
+
+function loadFooterLinks(portals) {
+  const footerList = document.getElementById('footer-explore-links');
+  if (!footerList) return;
+
+  // Clear loading state
+  footerList.innerHTML = '';
+
+  // Take top 20 portals by relevance for footer
+  const topPortals = portals
+    .sort((a, b) => (b.relevance || 0) - (a.relevance || 0))
+    .slice(0, 20);
+
+  topPortals.forEach(portal => {
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = portal.url;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.textContent = portal.name;
+    li.appendChild(a);
+    footerList.appendChild(li);
+  });
+}
+
+// ============================================
+// SKILLS - Loaded from skills.json
+// ============================================
+
+async function loadSkills() {
+  const grid = document.getElementById('skills-grid');
+  if (!grid) return;
+
+  try {
+    const response = await fetch('skills.json');
+    const data = await response.json();
+    loadedSkills = data.skills;
+
+    // Load saved upvotes from localStorage
+    const savedUpvotes = JSON.parse(localStorage.getItem('moltiverse-upvotes') || '{}');
+
+    // Sort by upvotes
+    loadedSkills.sort((a, b) => (b.upvotes || 0) - (a.upvotes || 0));
+
+    // Clear loading state
+    grid.innerHTML = '';
+
+    // Render each skill
+    loadedSkills.forEach(skill => {
+      const card = createSkillCard(skill, savedUpvotes);
+      grid.appendChild(card);
+    });
+
+    // Initialize upvote handlers after render
+    initUpvoteHandlers();
+
+    console.log(`Loaded ${loadedSkills.length} skills`);
+  } catch (error) {
+    console.error('Failed to load skills:', error);
+    grid.innerHTML = '<div class="skills-error">Failed to load skills. <a href="skills.json">View raw data</a></div>';
+  }
+}
+
+function createSkillCard(skill, savedUpvotes = {}) {
+  const card = document.createElement('div');
+  card.className = 'skill-card';
+  card.dataset.category = skill.category;
+
+  // Use saved upvote count if exists
+  const upvoteCount = savedUpvotes[skill.id] || skill.upvotes || 0;
+  const isUpvoted = savedUpvotes[skill.id] !== undefined;
+
+  // Determine skill URL and link text
+  const skillUrl = skill.githubUrl || skill.url;
+  const linkText = skill.githubUrl ? 'View on GitHub' : (skill.comingSoon ? 'Coming Soon' : 'View Skill');
+  const linkClass = skill.comingSoon ? 'skill-link coming-soon' : 'skill-link';
+
+  // Build tags HTML
+  const tagsHtml = skill.tags.map((tag, i) => {
+    const tagClass = i === 0 ? `skill-tag ${skill.category}` : 'skill-tag';
+    return `<span class="${tagClass}">${tag}</span>`;
+  }).join('');
+
+  card.innerHTML = `
+    <div class="skill-upvote">
+      <button class="upvote-btn ${isUpvoted ? 'upvoted' : ''}" data-skill="${skill.id}">
+        <span class="arrow">▲</span>
+        <span class="count">${upvoteCount}</span>
+      </button>
+    </div>
+    <div class="skill-content">
+      <div class="skill-header">
+        <div class="skill-icon">${skill.icon}</div>
+        <div class="skill-info">
+          <h3 class="skill-name">
+            <a href="${skill.url}" target="_blank" rel="noopener noreferrer">${skill.name}</a>
+          </h3>
+          <span class="skill-platform">${skill.platform}</span>
+        </div>
+      </div>
+      <p class="skill-description">${skill.description}</p>
+      <div class="skill-tags">${tagsHtml}</div>
+      <div class="skill-footer">
+        ${skill.comingSoon
+          ? `<span class="${linkClass}">${linkText}</span>`
+          : `<a href="${skillUrl}" target="_blank" rel="noopener noreferrer" class="${linkClass}">${linkText} →</a>`
+        }
+      </div>
+      <div class="skill-endpoint">${skill.url}</div>
+    </div>
+  `;
+
+  return card;
+}
+
+function initUpvoteHandlers() {
+  const upvoteButtons = document.querySelectorAll('.upvote-btn');
+  const upvotes = JSON.parse(localStorage.getItem('moltiverse-upvotes') || '{}');
+
+  upvoteButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const skillId = btn.dataset.skill;
+      const countEl = btn.querySelector('.count');
+      let count = parseInt(countEl.textContent);
+
+      if (btn.classList.contains('upvoted')) {
+        // Remove upvote
+        btn.classList.remove('upvoted');
+        count--;
+        delete upvotes[skillId];
+      } else {
+        // Add upvote
+        btn.classList.add('upvoted');
+        count++;
+        upvotes[skillId] = count;
+      }
+
+      countEl.textContent = count;
+      localStorage.setItem('moltiverse-upvotes', JSON.stringify(upvotes));
+    });
+  });
+}
+
+// Filter skills by category
+function filterSkillsByCategory(category) {
+  const cards = document.querySelectorAll('.skill-card');
+  cards.forEach(card => {
+    if (category === 'all' || card.dataset.category === category) {
+      card.style.display = 'flex';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+
+// Search skills
+function searchSkills(query) {
+  const cards = document.querySelectorAll('.skill-card');
+  const lowerQuery = query.toLowerCase();
+
+  cards.forEach(card => {
+    const name = card.querySelector('.skill-name').textContent.toLowerCase();
+    const desc = card.querySelector('.skill-description').textContent.toLowerCase();
+    const platform = card.querySelector('.skill-platform').textContent.toLowerCase();
+
+    if (name.includes(lowerQuery) || desc.includes(lowerQuery) || platform.includes(lowerQuery)) {
+      card.style.display = 'flex';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+
+// Load portals and skills on page load
 loadPortals();
+loadSkills();
 
 // ============================================
 // ORIGINAL CODE BELOW
@@ -119,84 +304,31 @@ modeButtons.forEach(btn => {
   });
 });
 
-// Category Filter
+// Category Filter (works with dynamically loaded skills)
 const categoryButtons = document.querySelectorAll('.category-btn');
-const skillCards = document.querySelectorAll('.skill-card');
 
 categoryButtons.forEach(btn => {
   btn.addEventListener('click', () => {
     categoryButtons.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-
-    const category = btn.dataset.category;
-
-    skillCards.forEach(card => {
-      if (category === 'all' || card.dataset.category === category) {
-        card.style.display = 'flex';
-      } else {
-        card.style.display = 'none';
-      }
-    });
+    filterSkillsByCategory(btn.dataset.category);
   });
 });
 
-// Search
+// Search (works with dynamically loaded skills)
 const searchInput = document.getElementById('skill-search');
-searchInput.addEventListener('input', (e) => {
-  const query = e.target.value.toLowerCase();
+if (searchInput) {
+  searchInput.addEventListener('input', (e) => {
+    const query = e.target.value;
+    searchSkills(query);
 
-  skillCards.forEach(card => {
-    const name = card.querySelector('.skill-name').textContent.toLowerCase();
-    const desc = card.querySelector('.skill-description').textContent.toLowerCase();
-    const platform = card.querySelector('.skill-platform').textContent.toLowerCase();
-
-    if (name.includes(query) || desc.includes(query) || platform.includes(query)) {
-      card.style.display = 'flex';
-    } else {
-      card.style.display = 'none';
+    // Reset category filter when searching
+    if (query) {
+      categoryButtons.forEach(b => b.classList.remove('active'));
+      categoryButtons[0].classList.add('active');
     }
   });
-
-  // Reset category filter when searching
-  if (query) {
-    categoryButtons.forEach(b => b.classList.remove('active'));
-    categoryButtons[0].classList.add('active');
-  }
-});
-
-// Upvotes (localStorage persistence)
-const upvoteButtons = document.querySelectorAll('.upvote-btn');
-const upvotes = JSON.parse(localStorage.getItem('moltiverse-upvotes') || '{}');
-
-upvoteButtons.forEach(btn => {
-  const skillId = btn.dataset.skill;
-  const countEl = btn.querySelector('.count');
-  let count = parseInt(countEl.textContent);
-
-  // Check if already upvoted
-  if (upvotes[skillId]) {
-    btn.classList.add('upvoted');
-    count = upvotes[skillId];
-    countEl.textContent = count;
-  }
-
-  btn.addEventListener('click', () => {
-    if (btn.classList.contains('upvoted')) {
-      // Remove upvote
-      btn.classList.remove('upvoted');
-      count--;
-      delete upvotes[skillId];
-    } else {
-      // Add upvote
-      btn.classList.add('upvoted');
-      count++;
-      upvotes[skillId] = count;
-    }
-
-    countEl.textContent = count;
-    localStorage.setItem('moltiverse-upvotes', JSON.stringify(upvotes));
-  });
-});
+}
 
 // Animated Stats Counter
 function animateStats() {

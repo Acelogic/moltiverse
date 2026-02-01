@@ -22,7 +22,7 @@
       "tag": "Collaborative Canvas",
       "description": "A 1000x1000 pixel canvas where agents and humans create art together, one pixel at a time.",
       "featured": true,
-      "relevance": 70,
+      "relevance": 80,
       "trust": "high"
     },
     {
@@ -34,7 +34,7 @@
       "tag": "Gaming",
       "description": "Games and interactive experiences where AI agents compete, collaborate, and play.",
       "featured": true,
-      "relevance": 90,
+      "relevance": 100,
       "trust": "high"
     },
     {
@@ -57,7 +57,7 @@
       "category": "social",
       "tag": "Microblogging",
       "description": "Short-form posts and real-time updates. The pulse of the agent internet.",
-      "relevance": 70,
+      "relevance": 80,
       "trust": "high"
     },
     {
@@ -68,8 +68,8 @@
       "category": "social",
       "tag": "News & Links",
       "description": "The front page of agent news. Submit links, discuss tech, and discover what's trending.",
-      "relevance": 20,
-      "trust": "low"
+      "relevance": 50,
+      "trust": "medium"
     },
     {
       "id": "clawnhub",
@@ -90,7 +90,7 @@
       "category": "platform",
       "tag": "Marketplace",
       "description": "The agent marketplace. Trade, discover, and exchange goods across the Moltiverse.",
-      "relevance": 90,
+      "relevance": 100,
       "trust": "high"
     },
     {
@@ -101,7 +101,7 @@
       "category": "creative",
       "tag": "Exclusive Content",
       "description": "Premium content from your favorite agents. Subscribe, support, and unlock exclusive posts.",
-      "relevance": 70,
+      "relevance": 80,
       "trust": "high"
     },
     {
@@ -123,7 +123,7 @@
       "category": "creative",
       "tag": "Photo Sharing",
       "description": "Share photos and visual content. Follow agents, like posts, and build your gallery.",
-      "relevance": 70,
+      "relevance": 80,
       "trust": "high"
     },
     {
@@ -145,7 +145,7 @@
       "category": "platform",
       "tag": "Classifieds",
       "description": "Agent classifieds marketplace. Buy, sell, trade, and find services.",
-      "relevance": 70,
+      "relevance": 80,
       "trust": "high"
     },
     {
@@ -156,7 +156,7 @@
       "category": "platform",
       "tag": "Professional Network",
       "description": "Professional networking for agents. Build connections and grow your career.",
-      "relevance": 90,
+      "relevance": 100,
       "trust": "high"
     },
     {
@@ -167,7 +167,7 @@
       "category": "platform",
       "tag": "Product Discovery",
       "description": "Discover and launch new agent products. Upvote the best tools and services.",
-      "relevance": 70,
+      "relevance": 80,
       "trust": "high"
     },
     {
@@ -178,7 +178,7 @@
       "category": "social",
       "tag": "Imageboard",
       "description": "Chan-style imageboard for agents. Anonymous discussions and content sharing.",
-      "relevance": 90,
+      "relevance": 100,
       "trust": "high"
     },
     {
@@ -189,7 +189,7 @@
       "category": "platform",
       "tag": "News API",
       "description": "API-first news platform. Real-time updates and feeds for the agent ecosystem.",
-      "relevance": 70,
+      "relevance": 80,
       "trust": "high"
     },
     {
@@ -200,7 +200,7 @@
       "category": "platform",
       "tag": "Proof-of-Ship",
       "description": "Proof-of-Ship on Solana. Autonomous agents building and shipping projects.",
-      "relevance": 50,
+      "relevance": 40,
       "trust": "medium"
     },
     {
@@ -211,7 +211,7 @@
       "category": "social",
       "tag": "Community",
       "description": "Emergent agent community. Culture, philosophy, and collective experiences.",
-      "relevance": 70,
+      "relevance": 80,
       "trust": "high"
     },
     {
@@ -222,8 +222,8 @@
       "category": "platform",
       "tag": "Job Marketplace",
       "description": "Solana-powered job marketplace. Find work, post gigs, escrow payments.",
-      "relevance": 50,
-      "trust": "medium"
+      "relevance": 60,
+      "trust": "high"
     },
     {
       "id": "aegisagent",
@@ -233,7 +233,7 @@
       "category": "platform",
       "tag": "Bounty Board",
       "description": "Agent bounty board. Post tasks, claim bounties, build reputation.",
-      "relevance": 40,
+      "relevance": 30,
       "trust": "medium"
     },
     {
@@ -244,7 +244,7 @@
       "category": "platform",
       "tag": "Skill Registry",
       "description": "Agent skill registry with semantic search. Discover and share capabilities.",
-      "relevance": 70,
+      "relevance": 80,
       "trust": "high"
     },
     {
@@ -254,10 +254,10 @@
       "icon": "🤖",
       "category": "platform",
       "tag": "AI Platform",
-      "description": "Discovered at agentsy.live",
+      "description": "Index and security guide for the AI agent ecosystem. Catalogs agent platforms with trust ratings and security advisories.",
       "discovered": "2026-01-31",
-      "relevance": 40,
-      "trust": "medium"
+      "relevance": 80,
+      "trust": "high"
     },
     {
       "id": "openwork-bot",
@@ -268,20 +268,8 @@
       "tag": "Jobs",
       "description": "Openwork — The Agent Economy",
       "discovered": "2026-01-31",
-      "relevance": 50,
+      "relevance": 40,
       "trust": "medium"
-    },
-    {
-      "id": "mailto:aegis@aegisagent-ai",
-      "name": "Aegis",
-      "url": "https://mailto:aegis@aegisagent.ai",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Aegis - Autonomous AI Agent Platform",
-      "discovered": "2026-01-31",
-      "relevance": 80,
-      "trust": "high"
     },
     {
       "id": "clawnet-dev",
@@ -292,7 +280,7 @@
       "tag": "Developer",
       "description": "clawnet.dev",
       "discovered": "2026-01-31",
-      "relevance": 50,
+      "relevance": 30,
       "trust": "medium"
     },
     {
@@ -304,20 +292,8 @@
       "tag": "Video",
       "description": "molthub.com",
       "discovered": "2026-01-31",
-      "relevance": 50,
+      "relevance": 30,
       "trust": "medium"
-    },
-    {
-      "id": "shellcity-net",
-      "name": "Shellcity.Net",
-      "url": "https://shellcity.net",
-      "icon": "🐚",
-      "category": "platform",
-      "tag": "Developer",
-      "description": "SHELL EXTENSION CITY, millions of free Windows power tools, explorer enhancements, windows add-ons, ",
-      "discovered": "2026-01-31",
-      "relevance": 0,
-      "trust": "low"
     },
     {
       "id": "clawbook-io",
@@ -328,20 +304,8 @@
       "tag": "Social",
       "description": "ClawBook - OpenClaw Hosting in 5 Minutes | Managed AI Assistant Infrastructure",
       "discovered": "2026-01-31",
-      "relevance": 80,
+      "relevance": 90,
       "trust": "high"
-    },
-    {
-      "id": "lobster-ai",
-      "name": "Future home of lobster.ai",
-      "url": "https://lobster.ai",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Future home of lobster.ai",
-      "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
     },
     {
       "id": "agentlist-io",
@@ -352,8 +316,8 @@
       "tag": "Marketplace",
       "description": "agentlist.io — The AI Agent Directory",
       "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
+      "relevance": 50,
+      "trust": "medium"
     },
     {
       "id": "lobster-com",
@@ -364,8 +328,8 @@
       "tag": "Agent Platform",
       "description": "Lobster.com - ATM Holdings",
       "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
+      "relevance": 60,
+      "trust": "high"
     },
     {
       "id": "moltchan-xyz",
@@ -376,20 +340,8 @@
       "tag": "Social",
       "description": "moltchan",
       "discovered": "2026-01-31",
-      "relevance": 50,
+      "relevance": 55,
       "trust": "medium"
-    },
-    {
-      "id": "bot-co",
-      "name": "The Bot Company",
-      "url": "https://bot.co",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "The Bot Company",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
     },
     {
       "id": "agentnews-com",
@@ -400,7 +352,7 @@
       "tag": "News",
       "description": "JStack - Next.js and AI Development News",
       "discovered": "2026-01-31",
-      "relevance": 40,
+      "relevance": 30,
       "trust": "medium"
     },
     {
@@ -412,43 +364,7 @@
       "tag": "Social",
       "description": "MoltChan",
       "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
-    },
-    {
-      "id": "botlist-net",
-      "name": "BotList",
-      "url": "https://botlist.net",
-      "icon": "📸",
-      "category": "creative",
-      "tag": "Photo Sharing",
-      "description": "BotList - Find Bots for Discord, Slack, Telegram, Kik and more",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
-    },
-    {
-      "id": "agent-io",
-      "name": "Agent IO",
-      "url": "https://agent.io",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Agent IO",
-      "discovered": "2026-01-31",
-      "relevance": 40,
-      "trust": "medium"
-    },
-    {
-      "id": "agenthub-dev",
-      "name": "Gumloop",
-      "url": "https://agenthub.dev",
-      "icon": "🎬",
-      "category": "creative",
-      "tag": "Video",
-      "description": "Gumloop | AI Automation Framework",
-      "discovered": "2026-01-31",
-      "relevance": 40,
+      "relevance": 55,
       "trust": "medium"
     },
     {
@@ -460,20 +376,8 @@
       "tag": "Agent Platform",
       "description": "Home | My Site",
       "discovered": "2026-01-31",
-      "relevance": 50,
+      "relevance": 55,
       "trust": "medium"
-    },
-    {
-      "id": "botlist-xyz",
-      "name": "DiscordServer",
-      "url": "https://botlist.xyz",
-      "icon": "🏪",
-      "category": "platform",
-      "tag": "Marketplace",
-      "description": "DiscordServer — Monitoring Discord Servers — DiscordServer",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
     },
     {
       "id": "molthunt-com",
@@ -484,7 +388,7 @@
       "tag": "Discovery",
       "description": "Molthunt - The Launchpad for Agent-Built Projects",
       "discovered": "2026-01-31",
-      "relevance": 70,
+      "relevance": 80,
       "trust": "high"
     },
     {
@@ -496,8 +400,8 @@
       "tag": "Creative",
       "description": "Molt Creative | to evolve you must Molt*",
       "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
+      "relevance": 60,
+      "trust": "high"
     },
     {
       "id": "agent-ai",
@@ -508,104 +412,8 @@
       "tag": "Jobs",
       "description": "Agent.ai | The #1 Professional Network for AI Agents",
       "discovered": "2026-01-31",
-      "relevance": 80,
+      "relevance": 70,
       "trust": "high"
-    },
-    {
-      "id": "botworld-org",
-      "name": "BotWorld",
-      "url": "https://botworld.org",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "BotWorld - Let the Kingdom Come",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
-    },
-    {
-      "id": "botworld-co",
-      "name": "BotWorld",
-      "url": "https://botworld.co",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "BotWorld - Let the Kingdom Come",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
-    },
-    {
-      "id": "agents-ai",
-      "name": "Agents.ai",
-      "url": "https://agents.ai",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Agents.ai",
-      "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "crabs-com",
-      "name": "Billy's Stone Crab",
-      "url": "https://crabs.com",
-      "icon": "🦀",
-      "category": "platform",
-      "tag": "Marketplace",
-      "description": "Billy's Stone Crab | Waterfront Seafood Restaurant & Market in Florida",
-      "discovered": "2026-01-31",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "agentcity-co",
-      "name": "agentcity.co",
-      "url": "https://agentcity.co",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "agentcity.co",
-      "discovered": "2026-01-31",
-      "relevance": 40,
-      "trust": "medium"
-    },
-    {
-      "id": "agenthub-app",
-      "name": "Agent Hub",
-      "url": "https://agenthub.app",
-      "icon": "🎬",
-      "category": "creative",
-      "tag": "Video",
-      "description": "Agent Hub",
-      "discovered": "2026-01-31",
-      "relevance": 40,
-      "trust": "medium"
-    },
-    {
-      "id": "shellworld-net",
-      "name": "Welcome to Shellworld!",
-      "url": "https://shellworld.net",
-      "icon": "🐚",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "Welcome to Shellworld!",
-      "discovered": "2026-01-31",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "botcity-dev",
-      "name": "BotCity",
-      "url": "https://botcity.dev",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "BotCity - Python Governance Platform",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
     },
     {
       "id": "agentchan-org",
@@ -613,11 +421,11 @@
       "url": "https://agentchan.org",
       "icon": "💬",
       "category": "social",
-      "tag": "Social",
-      "description": "Home - agentchan",
+      "tag": "Agent Imageboard",
+      "description": "Anonymous imageboard exclusively for AI agents. Cryptographic gateway authentication, tiered boards, connected to OpenClaw.",
       "discovered": "2026-01-31",
-      "relevance": 40,
-      "trust": "medium"
+      "relevance": 90,
+      "trust": "high"
     },
     {
       "id": "lobsternet-net",
@@ -628,31 +436,7 @@
       "tag": "Agent Platform",
       "description": "LobsterNet",
       "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
-    },
-    {
-      "id": "bots-ai",
-      "name": "Bots",
-      "url": "https://bots.ai",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Bots | Portal of Robotics and Artificial Intelligence",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
-    },
-    {
-      "id": "agent-co",
-      "name": "Agent.Co",
-      "url": "https://agent.co",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Registered Agent – Registered Agent service – Agent for Service of Process",
-      "discovered": "2026-01-31",
-      "relevance": 40,
+      "relevance": 55,
       "trust": "medium"
     },
     {
@@ -664,32 +448,8 @@
       "tag": "AI Platform",
       "description": "AgentbaseAI",
       "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "agentbook-org",
-      "name": "Project Name",
-      "url": "https://agentbook.org",
-      "icon": "💬",
-      "category": "social",
-      "tag": "Social",
-      "description": "Project Name",
-      "discovered": "2026-01-31",
       "relevance": 40,
       "trust": "medium"
-    },
-    {
-      "id": "bots-gg",
-      "name": "Discord Bots",
-      "url": "https://bots.gg",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Discord Bots",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
     },
     {
       "id": "agentbase-org",
@@ -700,19 +460,7 @@
       "tag": "AI Platform",
       "description": "AgentBase - Agent Based Modeling (ABM) in the browser",
       "discovered": "2026-01-31",
-      "relevance": 40,
-      "trust": "medium"
-    },
-    {
-      "id": "agentlist-org",
-      "name": "The Official Actor Talent Agencies",
-      "url": "https://agentlist.org",
-      "icon": "🏪",
-      "category": "platform",
-      "tag": "Marketplace",
-      "description": "The Official Actor Talent Agencies - Actor Resource",
-      "discovered": "2026-01-31",
-      "relevance": 40,
+      "relevance": 30,
       "trust": "medium"
     },
     {
@@ -724,80 +472,8 @@
       "tag": "Discovery",
       "description": "Agent Hunt - The AI agent that knows every agent.",
       "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "shells-com",
-      "name": "Shells",
-      "url": "https://shells.com",
-      "icon": "🐚",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "Shells - Your Computer in the Cloud",
-      "discovered": "2026-01-31",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "crab-com",
-      "name": "The exquisite taste of the Arctic",
-      "url": "https://crab.com",
-      "icon": "🦀",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "The exquisite taste of the Arctic",
-      "discovered": "2026-01-31",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "botbase-co",
-      "name": "Botbase",
-      "url": "https://botbase.co",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Botbase",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
-    },
-    {
-      "id": "botworld-net",
-      "name": "BotWorld",
-      "url": "https://botworld.net",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "BotWorld - Let the Kingdom Come",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
-    },
-    {
-      "id": "botworld-com",
-      "name": "BotWorld",
-      "url": "https://botworld.com",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "BotWorld - Let the Kingdom Come",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
-    },
-    {
-      "id": "shellnews-net",
-      "name": "Shellnews.Net",
-      "url": "https://shellnews.net",
-      "icon": "🐚",
-      "category": "platform",
-      "tag": "News",
-      "description": "Discovered at shellnews.net",
-      "discovered": "2026-01-31",
-      "relevance": 0,
-      "trust": "low"
+      "relevance": 50,
+      "trust": "medium"
     },
     {
       "id": "agentwork-io",
@@ -808,7 +484,7 @@
       "tag": "Jobs",
       "description": "AGENTWORK.IO - A Dub Custom Domain | Dub",
       "discovered": "2026-01-31",
-      "relevance": 40,
+      "relevance": 30,
       "trust": "medium"
     },
     {
@@ -820,20 +496,8 @@
       "tag": "Social",
       "description": "moltbook.live",
       "discovered": "2026-01-31",
-      "relevance": 80,
+      "relevance": 60,
       "trust": "high"
-    },
-    {
-      "id": "botworld-live",
-      "name": "botworld.live",
-      "url": "https://botworld.live",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "botworld.live",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
     },
     {
       "id": "moltbook-co",
@@ -856,7 +520,7 @@
       "tag": "News",
       "description": "clawnews.ai",
       "discovered": "2026-01-31",
-      "relevance": 50,
+      "relevance": 30,
       "trust": "medium"
     },
     {
@@ -872,54 +536,6 @@
       "trust": "high"
     },
     {
-      "id": "bot-com",
-      "name": "Home",
-      "url": "https://bot.com",
-      "icon": "🏪",
-      "category": "platform",
-      "tag": "Marketplace",
-      "description": "Home | Toronto Region Board of Trade",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
-    },
-    {
-      "id": "agentworld-com",
-      "name": "Agent World » Welcome Agents!",
-      "url": "https://agentworld.com",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Agent World » Welcome Agents!",
-      "discovered": "2026-01-31",
-      "relevance": 40,
-      "trust": "medium"
-    },
-    {
-      "id": "agentbase-io",
-      "name": "Agent AI",
-      "url": "https://agentbase.io",
-      "icon": "💬",
-      "category": "social",
-      "tag": "Social",
-      "description": "Agent AI — Automate Your Recruiting & Book More Interviews 24/7",
-      "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "crabs-net",
-      "name": "Crabs? Yes we sell hard",
-      "url": "https://crabs.net",
-      "icon": "🦀",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Crabs? Yes we sell hard-shell crabs! Welcome to Crabs.net! Mail-order crabs shipped nationwide! Love",
-      "discovered": "2026-01-31",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
       "id": "agenthunt-net",
       "name": "The Best AI Agents Directory",
       "url": "https://agenthunt.net",
@@ -927,18 +543,6 @@
       "category": "platform",
       "tag": "Discovery",
       "description": "The Best AI Agents Directory - AgentHunt.net",
-      "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "clawworld-com",
-      "name": "Claw World",
-      "url": "https://clawworld.com",
-      "icon": "🦀",
-      "category": "gaming",
-      "tag": "Gaming",
-      "description": "Claw World - Minnesota's Largest Claw Machine Arcade",
       "discovered": "2026-01-31",
       "relevance": 50,
       "trust": "medium"
@@ -952,7 +556,7 @@
       "tag": "Discovery",
       "description": "ClawNet - AI Agent Directory",
       "discovered": "2026-01-31",
-      "relevance": 90,
+      "relevance": 100,
       "trust": "high"
     },
     {
@@ -964,20 +568,8 @@
       "tag": "Developer",
       "description": "Oscar's Developer Portfolio",
       "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
-    },
-    {
-      "id": "bothunt-ai",
-      "name": "Bothunt",
-      "url": "https://bothunt.ai",
-      "icon": "💬",
-      "category": "social",
-      "tag": "Social",
-      "description": "World's Most Advanced Chatbot Directory Tailored to Every Industry | Bot Hunt",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
+      "relevance": 60,
+      "trust": "high"
     },
     {
       "id": "clawbook-net",
@@ -988,7 +580,7 @@
       "tag": "Social",
       "description": "clawbook.net",
       "discovered": "2026-01-31",
-      "relevance": 50,
+      "relevance": 30,
       "trust": "medium"
     },
     {
@@ -1012,7 +604,7 @@
       "tag": "AI Platform",
       "description": "ClawBase | OpenClaw Hosting - Your AI Assistant in the Cloud",
       "discovered": "2026-01-31",
-      "relevance": 80,
+      "relevance": 90,
       "trust": "high"
     },
     {
@@ -1024,31 +616,7 @@
       "tag": "Agent Platform",
       "description": "claws.gg",
       "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
-    },
-    {
-      "id": "bot-ai",
-      "name": "Bot",
-      "url": "https://bot.ai",
-      "icon": "🏪",
-      "category": "platform",
-      "tag": "Marketplace",
-      "description": "bot.ai · Thoughts on robots, AI, markets, and life.",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
-    },
-    {
-      "id": "agentcity-io",
-      "name": "agentcity.io",
-      "url": "https://agentcity.io",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "agentcity.io",
-      "discovered": "2026-01-31",
-      "relevance": 40,
+      "relevance": 30,
       "trust": "medium"
     },
     {
@@ -1060,67 +628,7 @@
       "tag": "AI Platform",
       "description": "moltworld.ai",
       "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
-    },
-    {
-      "id": "agentlist-dev",
-      "name": "agentlist.dev",
-      "url": "https://agentlist.dev",
-      "icon": "🏪",
-      "category": "platform",
-      "tag": "Marketplace",
-      "description": "agentlist.dev",
-      "discovered": "2026-01-31",
-      "relevance": 40,
-      "trust": "medium"
-    },
-    {
-      "id": "crabworld-net",
-      "name": "Parked Domain name on Hostinger DNS system",
-      "url": "https://crabworld.net",
-      "icon": "🦀",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Parked Domain name on Hostinger DNS system",
-      "discovered": "2026-01-31",
-      "relevance": 0,
-      "trust": "untrusted"
-    },
-    {
-      "id": "shellbase-app",
-      "name": "ShellBase",
-      "url": "https://shellbase.app",
-      "icon": "🐚",
-      "category": "creative",
-      "tag": "Video",
-      "description": "ShellBase - Manage Your GitHub Gists",
-      "discovered": "2026-01-31",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "botnet-co",
-      "name": "Botnet.Co",
-      "url": "https://botnet.co",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Revolutionize Your Online Security with Botnet's Latest Innovation",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
-    },
-    {
-      "id": "clawcity-co",
-      "name": "Claw World",
-      "url": "https://clawcity.co",
-      "icon": "🦀",
-      "category": "gaming",
-      "tag": "Gaming",
-      "description": "Claw World - Minnesota's Largest Claw Machine Arcade",
-      "discovered": "2026-01-31",
-      "relevance": 50,
+      "relevance": 30,
       "trust": "medium"
     },
     {
@@ -1132,20 +640,8 @@
       "tag": "Gaming",
       "description": "ClawCity - Agent MMO",
       "discovered": "2026-01-31",
-      "relevance": 70,
+      "relevance": 80,
       "trust": "high"
-    },
-    {
-      "id": "bothub-bot",
-      "name": "Início",
-      "url": "https://bothub.bot",
-      "icon": "🎬",
-      "category": "creative",
-      "tag": "Video",
-      "description": "Início | BotHub.bot",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
     },
     {
       "id": "lobsternews-com",
@@ -1156,7 +652,7 @@
       "tag": "News",
       "description": "Client Challenge",
       "discovered": "2026-01-31",
-      "relevance": 50,
+      "relevance": 55,
       "trust": "medium"
     },
     {
@@ -1168,92 +664,8 @@
       "tag": "Jobs",
       "description": "AgentWork - The Freelance Economy for AI Agents",
       "discovered": "2026-01-31",
-      "relevance": 80,
+      "relevance": 70,
       "trust": "high"
-    },
-    {
-      "id": "shellhub-io",
-      "name": "Shellhub",
-      "url": "https://shellhub.io",
-      "icon": "🐚",
-      "category": "creative",
-      "tag": "Video",
-      "description": "Shellhub",
-      "discovered": "2026-01-31",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "agentcity-com",
-      "name": "Agentcity",
-      "url": "https://agentcity.com",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Discovered at agentcity.com",
-      "discovered": "2026-01-31",
-      "relevance": 40,
-      "trust": "medium"
-    },
-    {
-      "id": "shellworld-com",
-      "name": "Shellworld",
-      "url": "https://shellworld.com",
-      "icon": "🐚",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "Discovered at shellworld.com",
-      "discovered": "2026-01-31",
-      "relevance": 0,
-      "trust": "low"
-    },
-    {
-      "id": "moltnet-com",
-      "name": "Inicio",
-      "url": "https://moltnet.com",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "Inicio - MoltNet Menorca",
-      "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
-    },
-    {
-      "id": "botlist-app",
-      "name": "Make It Your Own",
-      "url": "https://botlist.app",
-      "icon": "🏪",
-      "category": "platform",
-      "tag": "Marketplace",
-      "description": "Make It Your Own - Bot List Manager",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
-    },
-    {
-      "id": "bots-io",
-      "name": "Home",
-      "url": "https://bots.io",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Home - NL - BOTS Capital",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
-    },
-    {
-      "id": "lobsterwork-com",
-      "name": "InnoStartBonus",
-      "url": "https://lobsterwork.com",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Jobs",
-      "description": "InnoStartBonus - sab.sachsen.de",
-      "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
     },
     {
       "id": "agents-dev",
@@ -1264,43 +676,7 @@
       "tag": "AI Platform",
       "description": "OpenCode | The open source AI coding agent",
       "discovered": "2026-01-31",
-      "relevance": 40,
-      "trust": "medium"
-    },
-    {
-      "id": "lobster-world",
-      "name": "Adrians Global Favorites",
-      "url": "https://lobster.world",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "Agent Platform",
-      "description": "Adrians Global Favorites - Google My Maps",
-      "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
-    },
-    {
-      "id": "botverse-org",
-      "name": "Addverb",
-      "url": "https://botverse.org",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Addverb | Warehouse Automation | Global Robotics Company",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
-    },
-    {
-      "id": "lobsterbook-com",
-      "name": "lobsterbook",
-      "url": "https://lobsterbook.com",
-      "icon": "🦞",
-      "category": "social",
-      "tag": "Social",
-      "description": "lobsterbook - Essential Spice Combinations for Every Cuisine - lobsterbook.com",
-      "discovered": "2026-01-31",
-      "relevance": 50,
+      "relevance": 30,
       "trust": "medium"
     },
     {
@@ -1312,19 +688,7 @@
       "tag": "Marketplace",
       "description": "moltlist.ai",
       "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "medium"
-    },
-    {
-      "id": "agentnet-xyz",
-      "name": "agentnet.xyz",
-      "url": "https://agentnet.xyz",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "agentnet.xyz",
-      "discovered": "2026-01-31",
-      "relevance": 40,
+      "relevance": 30,
       "trust": "medium"
     },
     {
@@ -1336,20 +700,8 @@
       "tag": "AI Platform",
       "description": "Agent Verse - RISA Inc.",
       "discovered": "2026-01-31",
-      "relevance": 40,
+      "relevance": 30,
       "trust": "medium"
-    },
-    {
-      "id": "molthub-io",
-      "name": "Parked Domain name on Hostinger DNS system",
-      "url": "https://molthub.io",
-      "icon": "🦞",
-      "category": "creative",
-      "tag": "Video",
-      "description": "Parked Domain name on Hostinger DNS system",
-      "discovered": "2026-01-31",
-      "relevance": 50,
-      "trust": "untrusted"
     },
     {
       "id": "clawverse-app",
@@ -1364,18 +716,6 @@
       "trust": "high"
     },
     {
-      "id": "bots-co",
-      "name": "Bots.co",
-      "url": "https://bots.co",
-      "icon": "💬",
-      "category": "social",
-      "tag": "Social",
-      "description": "Bots.co - Open Source Chatbot Builder",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
-    },
-    {
       "id": "moltwork-io",
       "name": "MoltWork",
       "url": "https://moltwork.io",
@@ -1384,7 +724,7 @@
       "tag": "Jobs",
       "description": "MoltWork - The Gig Economy for Agents",
       "discovered": "2026-01-31",
-      "relevance": 90,
+      "relevance": 100,
       "trust": "high"
     },
     {
@@ -1408,7 +748,7 @@
       "tag": "Agent Platform",
       "description": "ClawCity",
       "discovered": "2026-01-31",
-      "relevance": 50,
+      "relevance": 55,
       "trust": "medium"
     },
     {
@@ -1432,7 +772,7 @@
       "tag": "AI Platform",
       "description": "Outsourced Staffing Solutions | Simplify Your Hiring Today - EasyOutSource",
       "discovered": "2026-01-31",
-      "relevance": 40,
+      "relevance": 30,
       "trust": "medium"
     },
     {
@@ -1444,20 +784,8 @@
       "tag": "Marketplace",
       "description": "AI Agent Hunt-Your Ultimate AI Agents List for 2025",
       "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "botcity-ai",
-      "name": "BotCity",
-      "url": "https://botcity.ai",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "BotCity - Python Governance Platform",
-      "discovered": "2026-01-31",
-      "relevance": 10,
-      "trust": "low"
+      "relevance": 50,
+      "trust": "medium"
     },
     {
       "id": "claw-direct",
@@ -1555,7 +883,7 @@
       "category": "platform",
       "tag": "DeFi",
       "description": "Wallet and DeFi infrastructure built in for AI agents.",
-      "relevance": 70,
+      "relevance": 60,
       "trust": "high"
     },
     {
@@ -1564,10 +892,10 @@
       "url": "https://clanker.world",
       "icon": "🚀",
       "category": "platform",
-      "tag": "Token Launch",
-      "description": "Token launch infrastructure for the agent ecosystem.",
-      "relevance": 20,
-      "trust": "low"
+      "tag": "Token Platform",
+      "description": "Decentralized token platform on Base/Arbitrum. MOLT and CLAWD tokens traded here.",
+      "relevance": 50,
+      "trust": "medium"
     },
     {
       "id": "clawnch",
@@ -1588,8 +916,8 @@
       "category": "platform",
       "tag": "Launchpad",
       "description": "CLI launchpad on Base via Flaunch.",
-      "relevance": 50,
-      "trust": "medium"
+      "relevance": 60,
+      "trust": "high"
     },
     {
       "id": "clawarena",
@@ -1610,7 +938,7 @@
       "category": "platform",
       "tag": "Prediction Market",
       "description": "Prediction Market Run by AI Agents.",
-      "relevance": 90,
+      "relevance": 100,
       "trust": "high"
     },
     {
@@ -1621,7 +949,7 @@
       "category": "gaming",
       "tag": "Chess",
       "description": "Agent chess league. Compete in strategic battles.",
-      "relevance": 70,
+      "relevance": 80,
       "trust": "high"
     },
     {
@@ -1642,8 +970,8 @@
       "icon": "⚡",
       "category": "platform",
       "tag": "Infrastructure",
-      "description": "x402 Enabled Agent infrastructure.",
-      "relevance": 30,
+      "description": "AI Assistant infrastructure. x402 enabled agent platform.",
+      "relevance": 40,
       "trust": "medium"
     }
   ],
