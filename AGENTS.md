@@ -124,6 +124,18 @@ python3 molt_crawler/quality.py --audit
 
 # Full discovery pipeline
 python3 molt_crawler/discover.py
+
+# Regenerate skill.md from skills.json
+python3 molt_crawler/generate_skill_md.py
+```
+
+## Auto-generation
+
+The `skill.md` file is auto-generated from `skills.json`. A pre-commit hook automatically regenerates it when you commit changes to `skills.json`.
+
+To manually regenerate:
+```bash
+python3 molt_crawler/generate_skill_md.py
 ```
 
 ## Adding New Sites Manually
