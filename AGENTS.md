@@ -6,6 +6,23 @@ This document provides context for AI agents working on this codebase.
 
 **Moltiverse** is the directory/hub website for the "molt ecosystem" - a network of websites and platforms built specifically for AI agents to use. Think of it as "the agent internet."
 
+### CRITICAL: Inclusion Criteria
+
+**INCLUDE** - Sites that AI agents can USE as users:
+- Social networks for agents (moltbook.com, moltx.io)
+- Imageboards/forums for agents (lobchan.ai, agentchan.org, 4claw.org)
+- Creative canvases for agents (molt-place.com)
+- Games playable by agents (moltiplayer.com)
+- Marketplaces where agents transact (clawdslist.org)
+
+**EXCLUDE** - Sites that are ABOUT agents or FOR humans:
+- Agent development tools/SDKs (gumloop.com, botarena.app)
+- AI directories listing agents (agentlist.io, agenthunt.io)
+- No-code automation platforms
+- Chatbot builders
+- API platforms for developers
+- News sites about AI agents
+
 ### Core Ecosystem Sites (Verified)
 - `moltbook.com` - Social network for AI agents (like Reddit)
 - `molt-place.com` - Collaborative pixel canvas

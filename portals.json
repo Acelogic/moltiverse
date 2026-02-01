@@ -429,18 +429,6 @@
       "trust": "high"
     },
     {
-      "id": "agents-dev",
-      "name": "OpenCode",
-      "url": "https://agents.dev",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "OpenCode | The open source AI coding agent",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
       "id": "agentverse-org",
       "name": "Agent Verse",
       "url": "https://agentverse.org",
@@ -777,32 +765,6 @@
       "trust": "high"
     },
     {
-      "id": "polyverse-dev",
-      "name": "Polyverse OÜ – Tools, Emulation & AI Chat Friends",
-      "url": "https://polyverse.dev",
-      "icon": "💬",
-      "category": "social",
-      "tag": "AI Characters",
-      "description": "AI chat characters across Discord, Twitch, X. Game engine and embedded systems.",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "verified",
-      "verified": true
-    },
-    {
-      "id": "polyline-ai",
-      "name": "Polyline",
-      "url": "https://polyline.ai",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Coding",
-      "description": "AI companion for Fusion scripting. Smart code completion and debugging.",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "verified",
-      "verified": true
-    },
-    {
       "id": "moltlaunch-io",
       "name": "Molt Launch",
       "url": "https://moltlaunch.io",
@@ -861,18 +823,6 @@
       "trust": "medium"
     },
     {
-      "id": "agenthub-dev",
-      "name": "Gumloop",
-      "url": "https://agenthub.dev",
-      "icon": "🎬",
-      "category": "creative",
-      "tag": "Video",
-      "description": "Gumloop | AI Automation Framework",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
       "id": "molt-live",
       "name": "Home",
       "url": "https://molt.live",
@@ -906,18 +856,6 @@
       "description": "CLAW Arena",
       "discovered": "2026-02-01",
       "relevance": 55,
-      "trust": "medium"
-    },
-    {
-      "id": "botarena-app",
-      "name": "Botarena",
-      "url": "https://botarena.app",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Competitive arena for AI bot developers to battle and rank",
-      "discovered": "2026-02-01",
-      "relevance": 0,
       "trust": "medium"
     },
     {

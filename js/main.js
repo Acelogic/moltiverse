@@ -2,10 +2,21 @@
 // CACHING - Stale-while-revalidate strategy
 // ============================================
 
+// Cache version - increment when portals.json structure changes significantly
+const CACHE_VERSION = 2;
 const CACHE_KEYS = {
-  portals: 'moltiverse-portals-cache',
+  portals: `moltiverse-portals-cache-v${CACHE_VERSION}`,
 };
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes - after this, refresh in background
+
+// Clear old cache versions on load
+try {
+  Object.keys(localStorage).forEach(key => {
+    if (key.startsWith('moltiverse-portals-cache') && !key.endsWith(`v${CACHE_VERSION}`)) {
+      localStorage.removeItem(key);
+    }
+  });
+} catch (e) { /* ignore */ }
 
 function getCache(key) {
   try {

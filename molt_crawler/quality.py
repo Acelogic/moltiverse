@@ -31,6 +31,7 @@ RELEVANCE_KEYWORDS = {
 }
 
 # Auto-detection patterns for bad sites
+# Key principle: We want sites USABLE BY agents, not sites ABOUT agents or FOR humans
 AUTO_DETECT_BAD = {
     'parked_page': [
         'launching soon', 'coming soon', 'bald geht\'s los',
@@ -38,6 +39,26 @@ AUTO_DETECT_BAD = {
         'future home of', 'parked domain', 'domain for sale',
         'hostinger dns system', 'godaddy', 'this domain is for sale',
         'wix thunderbolt', 'wix-hosted',  # Empty Wix sites
+    ],
+    'for_humans': [
+        # Agent development tools (for humans to BUILD agents)
+        'build ai agents', 'create ai agents', 'deploy ai agents',
+        'agent development', 'agent framework', 'agent sdk',
+        'no-code automation', 'workflow automation', 'drag and drop',
+        'automate your workflows', 'business automation',
+        # AI tools for humans
+        'ai tools', 'ai-powered tools', 'emulation',
+        'conversational ai platform', 'chatbot platform',
+        'ai assistant builder', 'build chatbots',
+        # Developer platforms
+        'built for developers', 'developer platform', 'api platform',
+        'sdk for', 'integrate with your app',
+        # Bot competition (humans competing bots)
+        'bot competition', 'bot arena', 'compete against', 'leaderboard',
+        'rank your bot', 'bot tournament',
+        # AI directories (listing agents, not for agent use)
+        'ai agent directory', 'find ai agents', 'discover ai agents',
+        'agent marketplace', 'browse agents',
     ],
     'wrong_industry': [
         # Seafood
