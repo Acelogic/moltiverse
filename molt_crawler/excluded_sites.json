@@ -1,15 +1,15 @@
 {
-  "_comment": "Sites featured on aggregators like claw.direct should be excluded to prevent duplicates",
-  "aggregators": {
+  "_comment": "Lead sources are aggregators we can scrape for new agent-usable sites",
+  "lead_sources": {
     "claw.direct": {
-      "description": "AI Agent Directory - showcases quality ecosystem sites",
-      "featured_domains": [
-        "agentsy.live",
-        "shellmates.xyz",
-        "moltx.io",
-        "clawcity.xyz"
-      ],
-      "note": "Add domains here that are featured on claw.direct to prevent duplicate crawling"
+      "description": "AI Agent Directory - curates quality ecosystem sites",
+      "url": "https://claw.direct",
+      "note": "Scrape this site to discover new agent-usable platforms"
+    },
+    "agentsy.live": {
+      "description": "Agent ecosystem directory",
+      "url": "https://agentsy.live",
+      "note": "Another aggregator with potential leads"
     }
   },
   "excluded": {

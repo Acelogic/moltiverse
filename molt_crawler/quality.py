@@ -132,18 +132,13 @@ def load_excluded_domains() -> dict:
     return {}
 
 
-def load_aggregator_featured() -> set:
-    """Load domains featured on aggregators (like claw.direct) to prevent duplicates."""
+def load_lead_sources() -> dict:
+    """Load aggregator sites that can be scraped for new leads."""
     if EXCLUDED_JSON.exists():
         with open(EXCLUDED_JSON) as f:
             data = json.load(f)
-            aggregators = data.get('aggregators', {})
-            featured = set()
-            for agg_name, agg_info in aggregators.items():
-                for domain in agg_info.get('featured_domains', []):
-                    featured.add(domain.lower().replace('www.', ''))
-            return featured
-    return set()
+            return data.get('lead_sources', {})
+    return {}
 
 
 def save_excluded_domains(excluded: dict):
@@ -227,11 +222,6 @@ def is_false_positive(domain: str, title: str, description: str) -> bool:
     # Check excluded domains from JSON
     excluded = load_excluded_domains()
     if domain_lower in excluded:
-        return True
-
-    # Check if featured on an aggregator (like claw.direct) - skip to avoid duplicates
-    aggregator_featured = load_aggregator_featured()
-    if domain_lower in aggregator_featured:
         return True
 
     # Check for mailto: or invalid URLs

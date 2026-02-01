@@ -19,6 +19,20 @@ from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor
 
 DB_FILE = Path(__file__).parent / "molt_sites_db.json"
+EXCLUDED_JSON = Path(__file__).parent / "excluded_sites.json"
+
+
+def load_lead_sources():
+    """Load aggregator sites that should be deep-scraped for leads."""
+    if EXCLUDED_JSON.exists():
+        try:
+            with open(EXCLUDED_JSON) as f:
+                data = json.load(f)
+                return data.get('lead_sources', {})
+        except:
+            pass
+    return {}
+
 
 # All known seeds - comprehensive list from ecosystem mapping
 SEED_URLS = [
@@ -321,6 +335,31 @@ class Crawler:
             if new_domains:
                 await self.batch_check_sites(session, new_domains[:20], "link")
 
+    async def deep_scrape_lead_source(self, session, url, name):
+        """Deep scrape a lead source (aggregator) for all linked domains."""
+        print(f"\n  🔍 Deep scraping {name} ({url})")
+        html, alive = await self.fetch(session, url)
+        if not html:
+            print(f"    ❌ Could not fetch {name}")
+            return []
+
+        # Extract ALL domains from the page
+        domains = self.extract_domains(html, url)
+
+        # Filter to interesting ones not already known
+        new_leads = [d for d in domains
+                     if d not in self.visited
+                     and d not in SKIP
+                     and not any(s in d for s in SKIP)]
+
+        print(f"    Found {len(new_leads)} potential leads")
+
+        # Check them all for real content
+        if new_leads:
+            await self.batch_check_sites(session, new_leads, f"lead:{name}")
+
+        return new_leads
+
     async def run(self):
         print("\n" + "="*60)
         print("🦞 MOLT CRAWLER - PARALLEL MODE")
@@ -331,6 +370,15 @@ class Crawler:
         conn = aiohttp.TCPConnector(limit=500, ssl=ssl_ctx, ttl_dns_cache=300)
 
         async with aiohttp.ClientSession(connector=conn) as session:
+            # Phase 0: Deep scrape lead sources (aggregators)
+            lead_sources = load_lead_sources()
+            if lead_sources:
+                print(f"\n🎯 PHASE 0: SCRAPING {len(lead_sources)} LEAD SOURCES")
+                print("-"*40)
+                for name, info in lead_sources.items():
+                    url = info.get('url', f'https://{name}')
+                    await self.deep_scrape_lead_source(session, url, name)
+
             # Phase 1: Crawl seeds
             print(f"\n📡 PHASE 1: CRAWLING {len(SEED_URLS)} SEEDS")
             print("-"*40)

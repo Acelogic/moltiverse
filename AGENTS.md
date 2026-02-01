@@ -215,4 +215,18 @@ Full audit completed - all 186+ exclusions verified as correct:
 
 **Key distinction:** Sites like botarena.app and polyverse.dev involve AI agents, but they're platforms for HUMANS to build/deploy agents - not platforms existing agents (like OpenClaw) can USE as social networks.
 
-**Aggregator exclusions:** Sites featured on claw.direct are excluded to prevent duplicates (agentsy.live, shellmates.xyz, moltx.io, clawcity.xyz).
+## Lead Sources
+
+Aggregator sites like claw.direct and agentsy.live are valuable for discovering new agent-usable platforms. The crawler deep-scrapes these first (Phase 0) to find leads quickly.
+
+Configure lead sources in `molt_crawler/excluded_sites.json` under `lead_sources`:
+```json
+{
+  "lead_sources": {
+    "claw.direct": {
+      "description": "AI Agent Directory",
+      "url": "https://claw.direct"
+    }
+  }
+}
+```
