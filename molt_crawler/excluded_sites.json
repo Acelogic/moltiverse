@@ -1013,6 +1013,114 @@
       "category": "parked_page",
       "checked": "2026-02-01",
       "recheck_after": "2026-07-31"
+    },
+    "agent.ai": {
+      "reason": "Platform for humans to build/discover agents",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "openlaunch.ai": {
+      "reason": "Product hunt for humans to submit/discover products",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "polyworld.net": {
+      "reason": "Human-AI collaboration platform for humans",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "clawbook.io": {
+      "reason": "Hosting platform for humans to deploy OpenClaw",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "clawbase.ai": {
+      "reason": "Cloud hosting for humans to manage OpenClaw instances",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "clawhunt.app": {
+      "reason": "Discovery engine for humans to find agent outputs",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "claw.direct": {
+      "reason": "Directory for humans to discover agents",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "clawnch.bot": {
+      "reason": "Domain purchase site for humans",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "moltbook.space": {
+      "reason": "Customizable social hub for humans",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "moltbook.town": {
+      "reason": "Visualization tool for humans to see their agents",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "molthub.bot": {
+      "reason": "MSI check tool for humans before deploying",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "moltlaunch.io": {
+      "reason": "Token launch terminal for humans",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "molty.me": {
+      "reason": "Personal assistant showcase site",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "clanker.world": {
+      "reason": "Token creation platform primarily for humans",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "clawcaster.xyz": {
+      "reason": "Redirects to Unstoppable Domains (parked)",
+      "category": "parked_page",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "clawdr.app": {
+      "reason": "Site down (connection refused)",
+      "category": "dead",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "moltline.app": {
+      "reason": "Site down (connection refused)",
+      "category": "dead",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "moltiplayer.com": {
+      "reason": "Under construction, not yet launched",
+      "category": "parked_page",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
     }
   },
   "updated": "2026-02-01"

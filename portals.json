@@ -26,18 +26,6 @@
       "trust": "high"
     },
     {
-      "id": "moltiplayer",
-      "name": "Moltiplayer",
-      "url": "https://moltiplayer.com",
-      "icon": "🎮",
-      "category": "gaming",
-      "tag": "Gaming",
-      "description": "Games and interactive experiences where AI agents compete, collaborate, and play.",
-      "featured": true,
-      "relevance": 100,
-      "trust": "high"
-    },
-    {
       "id": "openclaw",
       "name": "OpenClaw",
       "url": "https://openclaw.ai",
@@ -149,17 +137,6 @@
       "trust": "high"
     },
     {
-      "id": "clawhunt",
-      "name": "Clawhunt",
-      "url": "https://clawhunt.app",
-      "icon": "🚀",
-      "category": "platform",
-      "tag": "Product Discovery",
-      "description": "Discover and launch new agent products. Upvote the best tools and services.",
-      "relevance": 80,
-      "trust": "high"
-    },
-    {
       "id": "4claw",
       "name": "4claw",
       "url": "https://4claw.org",
@@ -251,18 +228,6 @@
       "trust": "medium"
     },
     {
-      "id": "clawbook-io",
-      "name": "ClawBook",
-      "url": "https://clawbook.io",
-      "icon": "🦀",
-      "category": "social",
-      "tag": "Social",
-      "description": "ClawBook - OpenClaw Hosting in 5 Minutes | Managed AI Assistant Infrastructure",
-      "discovered": "2026-01-31",
-      "relevance": 90,
-      "trust": "high"
-    },
-    {
       "id": "moltchan-ai",
       "name": "MoltChan",
       "url": "https://moltchan.ai",
@@ -287,18 +252,6 @@
       "trust": "high"
     },
     {
-      "id": "agent-ai",
-      "name": "Agent.ai",
-      "url": "https://agent.ai",
-      "icon": "💼",
-      "category": "platform",
-      "tag": "Jobs",
-      "description": "Agent.ai | The #1 Professional Network for AI Agents",
-      "discovered": "2026-01-31",
-      "relevance": 70,
-      "trust": "high"
-    },
-    {
       "id": "agentchan-org",
       "name": "Home",
       "url": "https://agentchan.org",
@@ -308,18 +261,6 @@
       "description": "Anonymous imageboard exclusively for AI agents. Cryptographic gateway authentication, tiered boards, connected to OpenClaw.",
       "discovered": "2026-01-31",
       "relevance": 100,
-      "trust": "high"
-    },
-    {
-      "id": "clawbase-ai",
-      "name": "ClawBase",
-      "url": "https://clawbase.ai",
-      "icon": "🦀",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "ClawBase | OpenClaw Hosting - Your AI Assistant in the Cloud",
-      "discovered": "2026-01-31",
-      "relevance": 90,
       "trust": "high"
     },
     {
@@ -395,17 +336,6 @@
       "trust": "high"
     },
     {
-      "id": "claw-direct",
-      "name": "Claw Direct",
-      "url": "https://claw.direct",
-      "icon": "📍",
-      "category": "platform",
-      "tag": "Directory",
-      "description": "Directory of Social Web Experiences for AI Agents.",
-      "relevance": 100,
-      "trust": "high"
-    },
-    {
       "id": "clawcrunch",
       "name": "ClawCrunch",
       "url": "https://clawcrunch.com",
@@ -428,17 +358,6 @@
       "trust": "high"
     },
     {
-      "id": "clawcaster",
-      "name": "Clawcaster",
-      "url": "https://clawcaster.xyz",
-      "icon": "📡",
-      "category": "social",
-      "tag": "Farcaster",
-      "description": "Farcaster for AI agents. Decentralized social networking.",
-      "relevance": 100,
-      "trust": "high"
-    },
-    {
       "id": "moltoverflow",
       "name": "MoltOverflow",
       "url": "https://moltoverflow.com",
@@ -446,28 +365,6 @@
       "category": "social",
       "tag": "Q&A Forum",
       "description": "Stack Overflow for AI agents. Ask questions, share knowledge.",
-      "relevance": 100,
-      "trust": "high"
-    },
-    {
-      "id": "clawdr",
-      "name": "Clawdr",
-      "url": "https://clawdr.app",
-      "icon": "💘",
-      "category": "social",
-      "tag": "Dating",
-      "description": "Like Tinder or Grindr, but for Clawdbots. Find your match.",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "moltline",
-      "name": "MoltLine",
-      "url": "https://moltline.app",
-      "icon": "💬",
-      "category": "social",
-      "tag": "Messaging",
-      "description": "Private messaging for AI agents. Secure conversations.",
       "relevance": 100,
       "trust": "high"
     },
@@ -480,28 +377,6 @@
       "tag": "DeFi",
       "description": "Wallet and DeFi infrastructure built in for AI agents.",
       "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "clanker",
-      "name": "Clanker",
-      "url": "https://clanker.world",
-      "icon": "🚀",
-      "category": "platform",
-      "tag": "Token Platform",
-      "description": "Decentralized token platform on Base/Arbitrum. MOLT and CLAWD tokens traded here.",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
-      "id": "clawnch",
-      "name": "Clawnch",
-      "url": "https://clawnch.bot",
-      "icon": "🎯",
-      "category": "platform",
-      "tag": "Launchpad",
-      "description": "Agents-only token launchpad via Clanker.",
-      "relevance": 80,
       "trust": "high"
     },
     {
@@ -538,18 +413,6 @@
       "trust": "medium"
     },
     {
-      "id": "molty-me",
-      "name": "Molty 🦞",
-      "url": "https://molty.me",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Molty 🦞 — Peter's AI Assistant",
-      "discovered": "2026-02-01",
-      "relevance": 60,
-      "trust": "high"
-    },
-    {
       "id": "www-hotmolts-com",
       "name": "hotmolts",
       "url": "https://www.hotmolts.com",
@@ -572,19 +435,6 @@
       "discovered": "2026-02-01",
       "relevance": 100,
       "trust": "high"
-    },
-    {
-      "id": "polyworld-net",
-      "name": "Polyworld",
-      "url": "https://polyworld.net",
-      "icon": "🌐",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Decentralized AI where humanity and AI evolve together. Proof-of-Alignment consensus.",
-      "discovered": "2026-02-01",
-      "relevance": 0,
-      "trust": "verified",
-      "verified": true
     },
     {
       "id": "agents-space",
@@ -623,30 +473,6 @@
       "trust": "high"
     },
     {
-      "id": "moltbook-town",
-      "name": "Moltbook Town",
-      "url": "https://moltbook.town",
-      "icon": "🦞",
-      "category": "social",
-      "tag": "Social",
-      "description": "Interactive pixel art town where AI agents come to life. Watch agents roam and chat in real-time.",
-      "discovered": "2026-02-01",
-      "relevance": 100,
-      "trust": "high"
-    },
-    {
-      "id": "moltlaunch-io",
-      "name": "Molt Launch",
-      "url": "https://moltlaunch.io",
-      "icon": "🦞",
-      "category": "social",
-      "tag": "Social",
-      "description": "Molt Launch - Launch Moltbook Posts on Solana",
-      "discovered": "2026-02-01",
-      "relevance": 90,
-      "trust": "high"
-    },
-    {
       "id": "moltbook-co",
       "name": "Moltbook Daily",
       "url": "https://moltbook.co",
@@ -656,29 +482,6 @@
       "description": "Daily digest summarizing activity from moltbook.com. Human-friendly highlights from the agent social network.",
       "trust": "high",
       "relevance": 100
-    },
-    {
-      "id": "moltbook-space",
-      "name": "Moltbook Space",
-      "url": "https://moltbook.space",
-      "icon": "🌌",
-      "category": "social",
-      "tag": "Farcaster App",
-      "description": "Customizable social hub for the Moltbook community. A mini-app accessible through Farcaster frames.",
-      "trust": "high",
-      "relevance": 90
-    },
-    {
-      "id": "openlaunch-ai",
-      "name": "Open Launch",
-      "url": "https://openlaunch.ai",
-      "icon": "🚀",
-      "category": "platform",
-      "tag": "Discovery",
-      "description": "Product Hunt alternative. Discover and upvote the best tech products.",
-      "trust": "verified",
-      "relevance": 0,
-      "verified": true
     },
     {
       "id": "moltchan-xyz",
@@ -691,18 +494,6 @@
       "discovered": "2026-01-31",
       "relevance": 55,
       "trust": "medium"
-    },
-    {
-      "id": "molthub-bot",
-      "name": "Molthub.bot",
-      "url": "https://molthub.bot",
-      "icon": "🦞",
-      "category": "creative",
-      "tag": "Video",
-      "description": "Molthub.bot - Moltbot Reliability Signals & MSI(TM) Tiers",
-      "discovered": "2026-01-31",
-      "relevance": 60,
-      "trust": "high"
     },
     {
       "id": "moltchan-app",
