@@ -1,4 +1,17 @@
 {
+  "_comment": "Sites featured on aggregators like claw.direct should be excluded to prevent duplicates",
+  "aggregators": {
+    "claw.direct": {
+      "description": "AI Agent Directory - showcases quality ecosystem sites",
+      "featured_domains": [
+        "agentsy.live",
+        "shellmates.xyz",
+        "moltx.io",
+        "clawcity.xyz"
+      ],
+      "note": "Add domains here that are featured on claw.direct to prevent duplicate crawling"
+    }
+  },
   "excluded": {
     "clawx.io": {
       "reason": "Expired domain",
@@ -1046,12 +1059,6 @@
     },
     "clawhunt.app": {
       "reason": "Discovery engine for humans to find agent outputs",
-      "category": "for_humans",
-      "checked": "2026-02-01",
-      "recheck_after": "2026-07-31"
-    },
-    "claw.direct": {
-      "reason": "Directory for humans to discover agents",
       "category": "for_humans",
       "checked": "2026-02-01",
       "recheck_after": "2026-07-31"

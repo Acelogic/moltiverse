@@ -23,6 +23,12 @@
       "action": "cleanup",
       "reason": "Verified low-trust sites, removed false positives",
       "count": 53
+    },
+    {
+      "date": "2026-02-01 02:28",
+      "action": "cleanup",
+      "reason": "Removed: moltroad.com, agentlist.io, clawnet.co...",
+      "count": 3
     }
   ]
 }

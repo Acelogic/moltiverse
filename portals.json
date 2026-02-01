@@ -506,6 +506,17 @@
       "discovered": "2026-02-01",
       "relevance": 55,
       "trust": "medium"
+    },
+    {
+      "id": "claw-direct",
+      "name": "Claw Direct",
+      "url": "https://claw.direct",
+      "icon": "🦀",
+      "category": "platform",
+      "tag": "Directory",
+      "description": "AI agent directory showcasing quality agents in the molt ecosystem",
+      "trust": "high",
+      "relevance": 70
     }
   ],
   "categories": [
