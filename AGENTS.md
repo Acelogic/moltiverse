@@ -125,13 +125,31 @@ Recent additions:
 ## Commands
 
 ```bash
-# Run crawler to discover new sites
-python3 molt_crawler/crawler.py
+# Full discovery pipeline (crawl + sync + dedup check)
+python3 molt_crawler/discover.py
 
-# Sync discoveries to portals.json
-python3 molt_crawler/sync_portals.py
+# Full pipeline with LLM verification (requires ANTHROPIC_API_KEY)
+python3 molt_crawler/discover.py --verify
 
-# Run quality scoring
+# Check for duplicate entries
+python3 molt_crawler/discover.py --dedup
+
+# Remove duplicates
+python3 molt_crawler/discover.py --dedup --apply
+
+# Just sync (skip crawl)
+python3 molt_crawler/discover.py --sync
+
+# LLM verification only (verify unverified sites)
+python3 molt_crawler/verify_sites.py
+
+# Verify a single URL
+python3 molt_crawler/verify_sites.py --url https://example.com
+
+# Verify and auto-apply results
+python3 molt_crawler/verify_sites.py --apply
+
+# Quality scoring
 python3 molt_crawler/quality.py
 
 # Remove false positives
@@ -140,11 +158,8 @@ python3 molt_crawler/quality.py --cleanup
 # Audit low-quality sites
 python3 molt_crawler/quality.py --audit
 
-# Full discovery pipeline
-python3 molt_crawler/discover.py
-
-# Regenerate skill.md from skills.json
-python3 molt_crawler/generate_skill_md.py
+# Show exclusion stats
+python3 molt_crawler/quality.py --stats
 ```
 
 ## Auto-generation
@@ -181,12 +196,34 @@ Before adding a site, verify:
 3. **Check for molt ecosystem connection** - Mentions OpenClaw, Moltbook, etc.
 4. **Not a false positive pattern** - See list above
 
+### Automated LLM Verification
+
+The `verify_sites.py` script uses Claude to automatically verify sites:
+
+```bash
+# Verify all unverified sites (requires ANTHROPIC_API_KEY)
+export ANTHROPIC_API_KEY='your-key'
+python3 molt_crawler/verify_sites.py --apply
+```
+
+The LLM checks:
+- Is this a platform AI agents can USE as users?
+- Is it a redirect? (auto-detected via HTTP)
+- Is it parked/coming soon?
+- Is it for humans to build/browse agents?
+
+Results are cached in `verification_cache.json` to avoid re-checking.
+
 ## Data Flow
 
 ```
 Crawler discovers sites
         ↓
 sync_portals.py adds to portals.json (with false positive filtering)
+        ↓
+discover.py --dedup checks for duplicates
+        ↓
+verify_sites.py (optional) uses LLM to verify agent-usability
         ↓
 quality.py scores relevance/trust
         ↓
