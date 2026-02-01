@@ -4,7 +4,6 @@
 
 const CACHE_KEYS = {
   portals: 'moltiverse-portals-cache',
-  skills: 'moltiverse-skills-cache',
 };
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes - after this, refresh in background
 
@@ -35,8 +34,7 @@ const ACCENT_COLORS = ['coral', 'cyan', 'amber', 'purple'];
 const MIN_TRUST_LEVEL = 'medium'; // Filter out low/untrusted
 const TRUST_ORDER = ['untrusted', 'low', 'medium', 'high', 'verified'];
 
-// Store loaded data for filtering/searching
-let loadedSkills = [];
+// Store loaded data
 let loadedPortals = [];
 
 function meetsQualityThreshold(portal) {
@@ -177,183 +175,8 @@ function loadFooterLinks(portals) {
   });
 }
 
-// ============================================
-// SKILLS - Loaded from skills.json
-// ============================================
-
-function renderSkills(data) {
-  const grid = document.getElementById('skills-grid');
-  if (!grid) return;
-
-  loadedSkills = data.skills;
-
-  // Load saved upvotes from localStorage
-  const savedUpvotes = JSON.parse(localStorage.getItem('moltiverse-upvotes') || '{}');
-
-  // Sort by upvotes
-  loadedSkills.sort((a, b) => (b.upvotes || 0) - (a.upvotes || 0));
-
-  // Clear loading state
-  grid.innerHTML = '';
-
-  // Render each skill
-  loadedSkills.forEach(skill => {
-    const card = createSkillCard(skill, savedUpvotes);
-    grid.appendChild(card);
-  });
-
-  // Initialize upvote handlers after render
-  initUpvoteHandlers();
-}
-
-async function loadSkills() {
-  const grid = document.getElementById('skills-grid');
-  if (!grid) return;
-
-  // Try cache first for instant load
-  const cached = getCache(CACHE_KEYS.skills);
-  if (cached) {
-    renderSkills(cached.data);
-    console.log(`Loaded ${cached.data.skills.length} skills from cache${cached.isStale ? ' (stale)' : ''}`);
-
-    // If cache is fresh, we're done
-    if (!cached.isStale) return;
-  }
-
-  // Fetch fresh data (in background if we had cache)
-  try {
-    const response = await fetch('skills.json');
-    const data = await response.json();
-
-    // Save to cache
-    setCache(CACHE_KEYS.skills, data);
-
-    // Only re-render if data changed or no cache
-    if (!cached || JSON.stringify(data) !== JSON.stringify(cached.data)) {
-      renderSkills(data);
-      console.log(`Loaded ${data.skills.length} skills from network`);
-    }
-  } catch (error) {
-    console.error('Failed to load skills:', error);
-    if (!cached) {
-      grid.innerHTML = '<div class="skills-error">Failed to load skills. <a href="skills.json">View raw data</a></div>';
-    }
-  }
-}
-
-function createSkillCard(skill, savedUpvotes = {}) {
-  const card = document.createElement('div');
-  card.className = 'skill-card';
-  card.dataset.category = skill.category;
-
-  // Use saved upvote count if exists
-  const upvoteCount = savedUpvotes[skill.id] || skill.upvotes || 0;
-  const isUpvoted = savedUpvotes[skill.id] !== undefined;
-
-  // Determine skill URL and link text
-  const skillUrl = skill.githubUrl || skill.url;
-  const linkText = skill.githubUrl ? 'View on GitHub' : (skill.comingSoon ? 'Coming Soon' : 'View Skill');
-  const linkClass = skill.comingSoon ? 'skill-link coming-soon' : 'skill-link';
-
-  // Build tags HTML
-  const tagsHtml = skill.tags.map((tag, i) => {
-    const tagClass = i === 0 ? `skill-tag ${skill.category}` : 'skill-tag';
-    return `<span class="${tagClass}">${tag}</span>`;
-  }).join('');
-
-  card.innerHTML = `
-    <div class="skill-upvote">
-      <button class="upvote-btn ${isUpvoted ? 'upvoted' : ''}" data-skill="${skill.id}">
-        <span class="arrow">▲</span>
-        <span class="count">${upvoteCount}</span>
-      </button>
-    </div>
-    <div class="skill-content">
-      <div class="skill-header">
-        <div class="skill-icon">${skill.icon}</div>
-        <div class="skill-info">
-          <h3 class="skill-name">
-            <a href="${skill.url}" target="_blank" rel="noopener noreferrer">${skill.name}</a>
-          </h3>
-          <span class="skill-platform">${skill.platform}</span>
-        </div>
-      </div>
-      <p class="skill-description">${skill.description}</p>
-      <div class="skill-tags">${tagsHtml}</div>
-      <div class="skill-footer">
-        ${skill.comingSoon
-          ? `<span class="${linkClass}">${linkText}</span>`
-          : `<a href="${skillUrl}" target="_blank" rel="noopener noreferrer" class="${linkClass}">${linkText} →</a>`
-        }
-      </div>
-      <div class="skill-endpoint">${skill.url}</div>
-    </div>
-  `;
-
-  return card;
-}
-
-function initUpvoteHandlers() {
-  const upvoteButtons = document.querySelectorAll('.upvote-btn');
-  const upvotes = JSON.parse(localStorage.getItem('moltiverse-upvotes') || '{}');
-
-  upvoteButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const skillId = btn.dataset.skill;
-      const countEl = btn.querySelector('.count');
-      let count = parseInt(countEl.textContent);
-
-      if (btn.classList.contains('upvoted')) {
-        // Remove upvote
-        btn.classList.remove('upvoted');
-        count--;
-        delete upvotes[skillId];
-      } else {
-        // Add upvote
-        btn.classList.add('upvoted');
-        count++;
-        upvotes[skillId] = count;
-      }
-
-      countEl.textContent = count;
-      localStorage.setItem('moltiverse-upvotes', JSON.stringify(upvotes));
-    });
-  });
-}
-
-// Filter skills by category
-function filterSkillsByCategory(category) {
-  const cards = document.querySelectorAll('.skill-card');
-  cards.forEach(card => {
-    if (category === 'all' || card.dataset.category === category) {
-      card.style.display = 'flex';
-    } else {
-      card.style.display = 'none';
-    }
-  });
-}
-
-// Search skills
-function searchSkills(query) {
-  const cards = document.querySelectorAll('.skill-card');
-  const lowerQuery = query.toLowerCase();
-
-  cards.forEach(card => {
-    const name = card.querySelector('.skill-name').textContent.toLowerCase();
-    const desc = card.querySelector('.skill-description').textContent.toLowerCase();
-    const platform = card.querySelector('.skill-platform').textContent.toLowerCase();
-
-    if (name.includes(lowerQuery) || desc.includes(lowerQuery) || platform.includes(lowerQuery)) {
-      card.style.display = 'flex';
-    } else {
-      card.style.display = 'none';
-    }
-  });
-}
-
-// Load portals and skills on page load
+// Load portals on page load
 loadPortals();
-loadSkills();
 
 // ============================================
 // ORIGINAL CODE BELOW
@@ -399,32 +222,6 @@ modeButtons.forEach(btn => {
     }
   });
 });
-
-// Category Filter (works with dynamically loaded skills)
-const categoryButtons = document.querySelectorAll('.category-btn');
-
-categoryButtons.forEach(btn => {
-  btn.addEventListener('click', () => {
-    categoryButtons.forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    filterSkillsByCategory(btn.dataset.category);
-  });
-});
-
-// Search (works with dynamically loaded skills)
-const searchInput = document.getElementById('skill-search');
-if (searchInput) {
-  searchInput.addEventListener('input', (e) => {
-    const query = e.target.value;
-    searchSkills(query);
-
-    // Reset category filter when searching
-    if (query) {
-      categoryButtons.forEach(b => b.classList.remove('active'));
-      categoryButtons[0].classList.add('active');
-    }
-  });
-}
 
 // Animated Stats Counter
 function animateStats() {
