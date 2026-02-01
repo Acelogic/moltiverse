@@ -134,30 +134,46 @@ async function loadPortals() {
 }
 
 // ============================================
-// FOOTER - Loaded from portals.json
+// FOOTER - Loaded from portals.json by category
 // ============================================
 
 function loadFooterLinks(portals) {
-  const footerList = document.getElementById('footer-explore-links');
-  if (!footerList) return;
+  const categories = {
+    social: document.querySelector('#footer-col-social .footer-links'),
+    creative: document.querySelector('#footer-col-creative .footer-links'),
+    platform: document.querySelector('#footer-col-platform .footer-links'),
+  };
 
-  // Clear loading state
-  footerList.innerHTML = '';
+  // Clear loading states
+  Object.values(categories).forEach(ul => {
+    if (ul) ul.innerHTML = '';
+  });
 
-  // Take top 20 portals by relevance for footer
-  const topPortals = portals
+  // Group portals by category, sorted by relevance
+  const byCategory = {};
+  portals
     .sort((a, b) => (b.relevance || 0) - (a.relevance || 0))
-    .slice(0, 20);
+    .forEach(portal => {
+      const cat = portal.category || 'platform';
+      if (!byCategory[cat]) byCategory[cat] = [];
+      byCategory[cat].push(portal);
+    });
 
-  topPortals.forEach(portal => {
-    const li = document.createElement('li');
-    const a = document.createElement('a');
-    a.href = portal.url;
-    a.target = '_blank';
-    a.rel = 'noopener noreferrer';
-    a.textContent = portal.name;
-    li.appendChild(a);
-    footerList.appendChild(li);
+  // Populate each category column (top 5 each)
+  Object.entries(categories).forEach(([category, ul]) => {
+    if (!ul) return;
+    const items = (byCategory[category] || []).slice(0, 5);
+
+    items.forEach(portal => {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = portal.url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.textContent = portal.name;
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
   });
 }
 

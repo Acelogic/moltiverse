@@ -1894,7 +1894,8 @@ footer {
 
 .footer-links-section {
   display: flex;
-  gap: 4rem;
+  gap: 2.5rem;
+  flex-wrap: wrap;
 }
 
 .footer-col-title {
@@ -2123,8 +2124,12 @@ footer {
   }
 
   .footer-links-section {
-    flex-direction: row;
-    gap: 2rem;
+    flex-wrap: wrap;
+    gap: 1.5rem 2rem;
+  }
+
+  .footer-links-section .footer-col {
+    min-width: 120px;
   }
 }
 
