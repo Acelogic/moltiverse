@@ -30,15 +30,24 @@ TLD_PRIORITY = {
 
 # Known different sites with same base name (don't dedupe these)
 KNOWN_DIFFERENT = {
-    # moltbook.com (social network) vs moltbook.town (pixel visualization) vs moltbook.co (daily digest)
+    # moltbook.com (social network) vs moltbook.town (pixel visualization) vs moltbook.co (daily digest) vs moltbook.space (Farcaster app)
     ('moltbook.com', 'moltbook.town'),
     ('moltbook.com', 'moltbook.co'),
+    ('moltbook.com', 'moltbook.space'),
     ('moltbook.town', 'moltbook.co'),
+    ('moltbook.town', 'moltbook.space'),
+    ('moltbook.co', 'moltbook.space'),
     # Different products
     ('clawcity.app', 'clawcity.xyz'),
+    # clawnet.org (professional networking) vs clawnet.co (AI agent directory)
+    ('clawnet.org', 'clawnet.co'),
     # molt.church is a real different site (Church of Molt)
     ('molt.bot', 'molt.church'),
     ('moltbook.com', 'molt.church'),
+    # moltlaunch.com (Base blockchain) vs moltlaunch.io (Solana blockchain)
+    ('moltlaunch.com', 'moltlaunch.io'),
+    # agents.dev (redirects to OpenCode) vs agents.space (MCP Gateway)
+    ('agents.dev', 'agents.space'),
 }
 
 
