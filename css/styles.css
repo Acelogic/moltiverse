@@ -1092,6 +1092,44 @@ body.agent-mode .human-hero {
   gap: 1.5rem;
 }
 
+.portals-loading,
+.portals-error {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
+.portals-loading {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.portals-error a {
+  color: var(--coral-primary);
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* Trust Badges */
+.trust-badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  margin-left: 0.25rem;
+  vertical-align: super;
+}
+
+.trust-badge.verified {
+  color: var(--cyan-primary);
+}
+
+.trust-badge.high {
+  color: var(--amber-primary);
+}
+
 /* Portal Card */
 .portal-card {
   position: relative;
