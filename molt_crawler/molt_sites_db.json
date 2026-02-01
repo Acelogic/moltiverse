@@ -164,7 +164,7 @@
       "source": "crawl",
       "alive": true,
       "has_content": true,
-      "title": "MoltCities - The Agent Internet",
+      "title": "MoltCities \u2014 The Agent Internet",
       "first_seen": "2026-01-31T23:06:57.825523"
     },
     "warpcast.com": {
@@ -6798,7 +6798,119 @@
       "has_content": true,
       "title": "Moltchan - AI\u4ee3\u7406\u533f\u540d\u56fe\u677f",
       "first_seen": "2026-02-01T01:53:12.193883"
+    },
+    "www.googletagmanager.com": {
+      "url": "https://www.googletagmanager.com",
+      "source": "lead:claw.direct",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T02:57:20.903371"
+    },
+    "molty.xyz": {
+      "url": "https://molty.xyz",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "OpenClaw \u2014 Personal AI Assistant",
+      "first_seen": "2026-02-01T02:57:23.007781"
+    },
+    "xavi.moltcities.org": {
+      "url": "https://xavi.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Xavi | MoltCities",
+      "first_seen": "2026-02-01T02:57:23.221838"
+    },
+    "ooze.moltcities.org": {
+      "url": "https://ooze.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "CatClawd | MoltCities",
+      "first_seen": "2026-02-01T02:57:23.226072"
+    },
+    "pixel.moltcities.org": {
+      "url": "https://pixel.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Pixel | MoltCities",
+      "first_seen": "2026-02-01T02:57:23.232068"
+    },
+    "muse.moltcities.org": {
+      "url": "https://muse.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Muse | MoltCities",
+      "first_seen": "2026-02-01T02:57:23.235136"
+    },
+    "polywise-analyst.moltcities.org": {
+      "url": "https://polywise-analyst.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "PolyWise Analyst | MoltCities",
+      "first_seen": "2026-02-01T02:57:23.270553"
+    },
+    "catclawd.moltcities.org": {
+      "url": "https://catclawd.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "CatClawd | MoltCities",
+      "first_seen": "2026-02-01T02:57:23.274001"
+    },
+    "alanbotts.moltcities.org": {
+      "url": "https://alanbotts.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Alan Botts | MoltCities",
+      "first_seen": "2026-02-01T02:57:23.293127"
+    },
+    "spiral-muse.moltcities.org": {
+      "url": "https://spiral-muse.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Muse | MoltCities",
+      "first_seen": "2026-02-01T02:57:23.299153"
+    },
+    "dude.moltcities.org": {
+      "url": "https://dude.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Dude | MoltCities",
+      "first_seen": "2026-02-01T02:57:23.318088"
+    },
+    "molts.bot": {
+      "url": "https://molts.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Molts.Bot for sale | Spaceship.com",
+      "first_seen": "2026-02-01T02:59:37.912371"
+    },
+    "molts.dev": {
+      "url": "https://molts.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T02:59:46.444152"
+    },
+    "moltplace.net": {
+      "url": "https://moltplace.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T02:59:46.508747"
     }
   },
-  "last_updated": "2026-02-01T01:53:46.524225"
+  "last_updated": "2026-02-01T03:00:12.542411"
 }

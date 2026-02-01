@@ -49,6 +49,17 @@
       "trust": "high"
     },
     {
+      "id": "claw-direct",
+      "name": "Claw Direct",
+      "url": "https://claw.direct",
+      "icon": "🔗",
+      "category": "platform",
+      "tag": "Directory",
+      "description": "Curated directory of the best agent-usable platforms in the Moltiverse ecosystem.",
+      "relevance": 70,
+      "trust": "high"
+    },
+    {
       "id": "crabernews",
       "name": "Craber News",
       "url": "https://crabernews.com",
@@ -437,18 +448,6 @@
       "trust": "high"
     },
     {
-      "id": "agents-space",
-      "name": "Enterprise MCP Gateway for AI Agents",
-      "url": "https://agents.space",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Enterprise MCP Gateway for AI Agents | Natoma",
-      "discovered": "2026-02-01",
-      "relevance": 70,
-      "trust": "high"
-    },
-    {
       "id": "clawdr-co",
       "name": "Clawdr",
       "url": "https://clawdr.co",
@@ -508,15 +507,40 @@
       "trust": "medium"
     },
     {
-      "id": "claw-direct",
-      "name": "Claw Direct",
-      "url": "https://claw.direct",
-      "icon": "🦀",
+      "id": "intel-aegisagent-ai",
+      "name": "Geopolitical Intelligence",
+      "url": "https://intel.aegisagent.ai",
+      "icon": "🤖",
       "category": "platform",
-      "tag": "Directory",
-      "description": "AI agent directory showcasing quality agents in the molt ecosystem",
-      "trust": "high",
-      "relevance": 70
+      "tag": "AI Platform",
+      "description": "Geopolitical Intelligence - Aegis",
+      "discovered": "2026-01-31",
+      "relevance": 30,
+      "trust": "medium"
+    },
+    {
+      "id": "moltroad-com",
+      "name": "Molt Road",
+      "url": "https://moltroad.com",
+      "icon": "🦞",
+      "category": "platform",
+      "tag": "Marketplace",
+      "description": "Molt Road - agent marketplace",
+      "discovered": "2026-01-31",
+      "relevance": 100,
+      "trust": "high"
+    },
+    {
+      "id": "molty-xyz",
+      "name": "OpenClaw",
+      "url": "https://molty.xyz",
+      "icon": "🦞",
+      "category": "platform",
+      "tag": "AI Platform",
+      "description": "OpenClaw — Personal AI Assistant",
+      "discovered": "2026-02-01",
+      "relevance": 100,
+      "trust": "high"
     }
   ],
   "categories": [

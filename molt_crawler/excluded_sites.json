@@ -13,6 +13,18 @@
     }
   },
   "excluded": {
+    "agents.space": {
+      "reason": "Redirects to natoma.ai - enterprise MCP gateway, not agent-usable platform",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "natoma.ai": {
+      "reason": "Enterprise MCP gateway infrastructure, not agent-usable social platform",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
     "clawx.io": {
       "reason": "Expired domain",
       "category": "dead",

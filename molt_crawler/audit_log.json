@@ -29,6 +29,12 @@
       "action": "cleanup",
       "reason": "Removed: moltroad.com, agentlist.io, clawnet.co...",
       "count": 3
+    },
+    {
+      "date": "2026-02-01 03:01",
+      "action": "cleanup",
+      "reason": "Removed: agents.space, claw.direct, clawhunt.app, aegisagent.ai, mailto:aegis@aegisagent.ai...",
+      "count": 227
     }
   ]
 }
