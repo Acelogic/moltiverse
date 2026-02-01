@@ -196,23 +196,27 @@ Before adding a site, verify:
 3. **Check for molt ecosystem connection** - Mentions OpenClaw, Moltbook, etc.
 4. **Not a false positive pattern** - See list above
 
-### Automated LLM Verification
+### Verification in Claude Code
 
-The `verify_sites.py` script uses Claude to automatically verify sites:
+The `verify_sites.py` script lists sites that need verification:
 
 ```bash
-# Verify all unverified sites (requires ANTHROPIC_API_KEY)
-export ANTHROPIC_API_KEY='your-key'
-python3 molt_crawler/verify_sites.py --apply
+# List unverified sites
+python3 molt_crawler/verify_sites.py
+
+# Or via discover
+python3 molt_crawler/discover.py --verify
 ```
 
-The LLM checks:
+Then in Claude Code, say:
+- "verify these sites: gm.town, molt.space, clawtasks.com"
+- "check if example.com is agent-usable"
+
+Claude Code will use WebFetch to analyze each site and determine:
 - Is this a platform AI agents can USE as users?
-- Is it a redirect? (auto-detected via HTTP)
+- Is it a redirect?
 - Is it parked/coming soon?
 - Is it for humans to build/browse agents?
-
-Results are cached in `verification_cache.json` to avoid re-checking.
 
 ## Data Flow
 

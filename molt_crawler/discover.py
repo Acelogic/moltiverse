@@ -108,30 +108,21 @@ def remove_duplicates(dry_run: bool = True) -> int:
     return len(to_remove)
 
 
-def run_verification(limit: int = 10):
-    """Run LLM verification on unverified sites."""
-    try:
-        from verify_sites import get_unverified_sites, verify_sites, apply_results
-        import asyncio
+def show_unverified(limit: int = 10):
+    """Show unverified sites that need manual review in Claude Code."""
+    from verify_sites import get_unverified_sites
 
-        unverified = get_unverified_sites()
-        if not unverified:
-            print("No unverified sites to check")
-            return
+    sites = get_unverified_sites(limit)
+    if not sites:
+        print("No unverified sites to check")
+        return
 
-        print(f"Found {len(unverified)} unverified sites, checking first {min(limit, len(unverified))}...")
-        results = asyncio.run(verify_sites(unverified[:limit]))
+    print(f"Found {len(sites)} unverified sites:\n")
+    for site in sites:
+        print(f"  • {site['domain']}: {site.get('title', '')[:50]}")
 
-        print(f"\n✅ Agent-usable: {len(results['agent-usable'])}")
-        print(f"❌ Excluded: {len(results['excluded'])}")
-
-        if results['agent-usable'] or results['excluded']:
-            print("\nApplying results...")
-            apply_results(results)
-
-    except ImportError as e:
-        print(f"Verification module not available: {e}")
-        print("Make sure anthropic package is installed: pip install anthropic")
+    print("\n💡 To verify these in Claude Code, say:")
+    print(f'   "verify these sites: {", ".join(s["domain"] for s in sites[:5])}"')
 
 
 def main():
@@ -176,11 +167,11 @@ def main():
     else:
         print("✅ No duplicates")
 
-    # Step 4: Optional LLM verification
+    # Step 4: Show unverified sites
     if verify:
-        print("\n🤖 STEP 4: LLM VERIFICATION")
+        print("\n🔍 STEP 4: SITES NEEDING VERIFICATION")
         print("-" * 40)
-        run_verification()
+        show_unverified()
 
     print("\n" + "=" * 50)
     print("✅ DISCOVERY COMPLETE")
