@@ -240,6 +240,161 @@ function loadFooterLinks(portals) {
 loadPortals();
 
 // ============================================
+// SEARCH AND FILTER
+// ============================================
+
+let currentCategory = 'all';
+let currentSearch = '';
+
+function filterAndDisplayPortals() {
+  const grid = document.getElementById('portals-grid');
+  const noResults = document.getElementById('no-results');
+  const resultsCount = document.getElementById('portals-results');
+  if (!grid) return;
+
+  const searchLower = currentSearch.toLowerCase().trim();
+
+  // Filter portals
+  const filtered = loadedPortals.filter(portal => {
+    // Category filter
+    if (currentCategory !== 'all' && portal.category !== currentCategory) {
+      return false;
+    }
+
+    // Search filter
+    if (searchLower) {
+      const searchText = `${portal.name} ${portal.description} ${portal.tag} ${portal.category}`.toLowerCase();
+      return searchText.includes(searchLower);
+    }
+
+    return true;
+  });
+
+  // Sort: featured first, then by relevance
+  filtered.sort((a, b) => {
+    if (a.featured && !b.featured) return -1;
+    if (!a.featured && b.featured) return 1;
+    return (b.relevance || 0) - (a.relevance || 0);
+  });
+
+  // Clear grid
+  grid.innerHTML = '';
+
+  // Show/hide no results
+  if (filtered.length === 0) {
+    if (noResults) noResults.style.display = 'block';
+    if (resultsCount) resultsCount.textContent = '';
+  } else {
+    if (noResults) noResults.style.display = 'none';
+
+    // Show results count when filtering
+    if (resultsCount) {
+      if (searchLower || currentCategory !== 'all') {
+        resultsCount.textContent = `Showing ${filtered.length} of ${loadedPortals.length} portals`;
+      } else {
+        resultsCount.textContent = '';
+      }
+    }
+
+    // Render filtered portals
+    filtered.forEach((portal, index) => {
+      const accent = ACCENT_COLORS[index % ACCENT_COLORS.length];
+      const card = document.createElement('a');
+      card.href = portal.url;
+      card.target = '_blank';
+      card.rel = 'noopener noreferrer';
+      card.className = 'portal-card';
+      card.dataset.accent = accent;
+      card.dataset.category = portal.category;
+      if (portal.featured) card.dataset.featured = 'true';
+
+      const trustBadge = portal.trust === 'verified' ? '<span class="trust-badge verified">✓</span>' :
+                         portal.trust === 'high' ? '<span class="trust-badge high">★</span>' : '';
+
+      card.innerHTML = `
+        <div class="portal-glow"></div>
+        <div class="portal-content">
+          <div class="portal-icon">${portal.icon}${trustBadge}</div>
+          <div class="portal-tag">${portal.tag}</div>
+          <h3 class="portal-name">${portal.name}</h3>
+          <p class="portal-desc">${portal.description}</p>
+          <div class="portal-arrow">→</div>
+        </div>
+      `;
+
+      grid.appendChild(card);
+    });
+  }
+}
+
+// Initialize search and filter controls
+function initSearchAndFilter() {
+  const searchInput = document.getElementById('portal-search');
+  const clearBtn = document.getElementById('search-clear');
+  const categoryBtns = document.querySelectorAll('.category-btn');
+
+  if (searchInput) {
+    // Debounce search input
+    let searchTimeout;
+    searchInput.addEventListener('input', (e) => {
+      clearTimeout(searchTimeout);
+      const value = e.target.value;
+
+      // Show/hide clear button
+      if (clearBtn) {
+        clearBtn.style.display = value ? 'flex' : 'none';
+      }
+
+      searchTimeout = setTimeout(() => {
+        currentSearch = value;
+        filterAndDisplayPortals();
+      }, 150);
+    });
+
+    // Clear search on button click
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        currentSearch = '';
+        clearBtn.style.display = 'none';
+        filterAndDisplayPortals();
+        searchInput.focus();
+      });
+    }
+
+    // Clear on Escape key
+    searchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        searchInput.value = '';
+        currentSearch = '';
+        if (clearBtn) clearBtn.style.display = 'none';
+        filterAndDisplayPortals();
+      }
+    });
+  }
+
+  // Category filter buttons
+  categoryBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Update active state
+      categoryBtns.forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+      });
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+
+      // Update filter
+      currentCategory = btn.dataset.category;
+      filterAndDisplayPortals();
+    });
+  });
+}
+
+// Initialize after DOM is ready
+document.addEventListener('DOMContentLoaded', initSearchAndFilter);
+
+// ============================================
 // ORIGINAL CODE BELOW
 // ============================================
 
