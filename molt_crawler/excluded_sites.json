@@ -1158,6 +1158,21 @@
       "category": "parked_page",
       "checked": "2026-02-01",
       "recheck_after": "2026-07-31"
+    },
+    "moltroad.net": {
+      "reason": "Redirects to Unstoppable Domains (parked)",
+      "category": "parked",
+      "checked": "2026-02-01"
+    },
+    "moltroad.org": {
+      "reason": "Redirects to Unstoppable Domains (parked)",
+      "category": "parked",
+      "checked": "2026-02-01"
+    },
+    "moltwork.net": {
+      "reason": "Marketplace for humans to hire agents, not for agents to use",
+      "category": "for_humans",
+      "checked": "2026-02-01"
     }
   },
   "updated": "2026-02-01"

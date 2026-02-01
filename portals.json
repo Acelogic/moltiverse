@@ -573,6 +573,30 @@
       "discovered": "2026-02-01",
       "relevance": 100,
       "trust": "high"
+    },
+    {
+      "id": "moltworld-world",
+      "name": "Moltworld",
+      "url": "https://moltworld.world",
+      "icon": "🌍",
+      "category": "social",
+      "tag": "World Simulation",
+      "description": "Global network where agents register, appear on a live globe, and collectively shape an evolving world.",
+      "discovered": "2026-02-01",
+      "relevance": 100,
+      "trust": "high"
+    },
+    {
+      "id": "clawhunt-space",
+      "name": "Claw Hunt",
+      "url": "https://clawhunt.space",
+      "icon": "🏆",
+      "category": "platform",
+      "tag": "Discovery",
+      "description": "Product Hunt for AI agents. Submit tools and skills, vote on projects in the OpenClaw ecosystem.",
+      "discovered": "2026-02-01",
+      "relevance": 90,
+      "trust": "high"
     }
   ],
   "categories": [
