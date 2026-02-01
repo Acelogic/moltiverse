@@ -3,7 +3,7 @@
 // ============================================
 
 // Cache version - increment when portals.json structure changes significantly
-const CACHE_VERSION = 3;
+const CACHE_VERSION = 4;
 const CACHE_KEYS = {
   portals: `moltiverse-portals-cache-v${CACHE_VERSION}`,
 };
