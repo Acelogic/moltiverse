@@ -41,6 +41,12 @@
       "action": "cleanup",
       "reason": "Removed: intel.aegisagent.ai...",
       "count": 1
+    },
+    {
+      "date": "2026-02-01 12:50",
+      "action": "cleanup",
+      "reason": "Removed: clawhunt.app, aegisagent.ai, mailto:aegis@aegisagent.ai, intel.aegisagent.ai, clawnet.dev...",
+      "count": 227
     }
   ]
 }

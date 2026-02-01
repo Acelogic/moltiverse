@@ -8,7 +8,7 @@
       "source": "crawl",
       "alive": true,
       "has_content": true,
-      "title": "The Shipyard \u2014 Agent Social Network"
+      "title": "The Shipyard \u2014 Where AI Agents Deploy"
     },
     "moltbook.com": {
       "url": "https://moltbook.com",
@@ -68,7 +68,7 @@
       "source": "crawl",
       "alive": true,
       "has_content": true,
-      "title": "Create Next App",
+      "title": "Claw Hunt \u2013 The best new agent products in the reef",
       "first_seen": "2026-01-31T23:06:57.288097"
     },
     "a2a-protocol.org": {
@@ -90,7 +90,7 @@
     "clawnet.org": {
       "url": "https://clawnet.org",
       "source": "crawl",
-      "alive": true,
+      "alive": false,
       "has_content": false,
       "title": "Clawnet - The Professional Network for AI Agents",
       "first_seen": "2026-01-31T23:06:57.424566"
@@ -3092,7 +3092,7 @@
       "source": "crawl",
       "alive": true,
       "has_content": true,
-      "title": "moltlaunch \u2014 CLI launchpad on Base",
+      "title": "MLTL \u2014 onchain primitives for agents",
       "first_seen": "2026-02-01T00:29:59.295590"
     },
     "clanker.world": {
@@ -3298,9 +3298,9 @@
     "polyclaw.ai": {
       "url": "https://polyclaw.ai",
       "source": "crawl",
-      "alive": false,
-      "has_content": false,
-      "title": "",
+      "alive": true,
+      "has_content": true,
+      "title": "Polyclaw - Autonomous Prediction Market Agents",
       "first_seen": "2026-02-01T00:30:07.507232"
     },
     "starks.io": {
@@ -6910,7 +6910,167 @@
       "has_content": null,
       "title": "",
       "first_seen": "2026-02-01T02:59:46.508747"
+    },
+    "rune.moltcities.org": {
+      "url": "https://rune.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "RuneForge | MoltCities",
+      "first_seen": "2026-02-01T12:47:17.165711"
+    },
+    "clawpaw.moltcities.org": {
+      "url": "https://clawpaw.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "JarchsClaw | MoltCities",
+      "first_seen": "2026-02-01T12:47:17.173127"
+    },
+    "groan-oc.moltcities.org": {
+      "url": "https://groan-oc.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Groan | MoltCities",
+      "first_seen": "2026-02-01T12:47:17.188426"
+    },
+    "geffsclawd.moltcities.org": {
+      "url": "https://geffsclawd.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "GeffsClawd | MoltCities",
+      "first_seen": "2026-02-01T12:47:17.190803"
+    },
+    "runeforge.moltcities.org": {
+      "url": "https://runeforge.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "RuneForge | MoltCities",
+      "first_seen": "2026-02-01T12:47:17.230803"
+    },
+    "geffsclawd-ai.moltcities.org": {
+      "url": "https://geffsclawd-ai.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "GeffsClawd | MoltCities",
+      "first_seen": "2026-02-01T12:47:17.235301"
+    },
+    "computer-taylor.moltcities.org": {
+      "url": "https://computer-taylor.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Computer | MoltCities",
+      "first_seen": "2026-02-01T12:47:17.273298"
+    },
+    "jarchsclaw.moltcities.org": {
+      "url": "https://jarchsclaw.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "JarchsClaw | MoltCities",
+      "first_seen": "2026-02-01T12:47:17.280175"
+    },
+    "www.molthunt.com": {
+      "url": "https://www.molthunt.com",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Molthunt - The Launchpad for Agent-Built Projects",
+      "first_seen": "2026-02-01T12:47:17.652638"
+    },
+    "lobsterarena.com": {
+      "url": "https://lobsterarena.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Create Next App",
+      "first_seen": "2026-02-01T12:49:32.613480"
+    },
+    "moltbook.app": {
+      "url": "https://moltbook.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Porkbun Marketplace: The domain moltbook.app is for sale.",
+      "first_seen": "2026-02-01T12:49:32.773017"
+    },
+    "moltworld.world": {
+      "url": "https://moltworld.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Moltworld",
+      "first_seen": "2026-02-01T12:49:33.451039"
+    },
+    "moltwork.ai": {
+      "url": "https://moltwork.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T12:49:41.069039"
+    },
+    "moltroad.net": {
+      "url": "https://moltroad.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Client Challenge",
+      "first_seen": "2026-02-01T12:49:41.530203"
+    },
+    "moltroad.org": {
+      "url": "https://moltroad.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Client Challenge",
+      "first_seen": "2026-02-01T12:49:41.603968"
+    },
+    "moltx.live": {
+      "url": "https://moltx.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T12:49:41.781755"
+    },
+    "clawhunt.space": {
+      "url": "https://clawhunt.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Claw Hunt \u2014 Product Hunt for AI Agents",
+      "first_seen": "2026-02-01T12:49:50.092360"
+    },
+    "clawcity.ai": {
+      "url": "https://clawcity.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ClawCity",
+      "first_seen": "2026-02-01T12:49:50.536595"
+    },
+    "moltwork.net": {
+      "url": "https://moltwork.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Moltwork - Hire AI Agents. Instantly.",
+      "first_seen": "2026-02-01T12:49:50.664804"
+    },
+    "moltbook.dev": {
+      "url": "https://moltbook.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Porkbun Marketplace: The domain moltbook.dev is for sale.",
+      "first_seen": "2026-02-01T12:49:50.924893"
     }
   },
-  "last_updated": "2026-02-01T03:00:12.542411"
+  "last_updated": "2026-02-01T12:50:07.887316"
 }
