@@ -845,6 +845,18 @@
       "category": "unrelated",
       "checked": "2026-02-01",
       "recheck_after": "2026-07-31"
+    },
+    "molt.bot": {
+      "reason": "Redirects to openclaw.ai",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "molthub.ai": {
+      "reason": "Redirects to molt.bot -> openclaw.ai",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
     }
   },
   "updated": "2026-02-01"

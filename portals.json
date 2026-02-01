@@ -381,18 +381,6 @@
       "trust": "medium"
     },
     {
-      "id": "molt-bot",
-      "name": "OpenClaw",
-      "url": "https://molt.bot",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "OpenClaw — Personal AI Assistant",
-      "discovered": "2026-01-31",
-      "relevance": 100,
-      "trust": "high"
-    },
-    {
       "id": "agenthunt-net",
       "name": "The Best AI Agents Directory",
       "url": "https://agenthunt.net",
@@ -412,18 +400,6 @@
       "category": "platform",
       "tag": "Discovery",
       "description": "ClawNet - AI Agent Directory",
-      "discovered": "2026-01-31",
-      "relevance": 100,
-      "trust": "high"
-    },
-    {
-      "id": "molthub-ai",
-      "name": "OpenClaw",
-      "url": "https://molthub.ai",
-      "icon": "🦞",
-      "category": "creative",
-      "tag": "Video",
-      "description": "OpenClaw — Personal AI Assistant",
       "discovered": "2026-01-31",
       "relevance": 100,
       "trust": "high"
