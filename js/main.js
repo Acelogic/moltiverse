@@ -1,3 +1,83 @@
+// ============================================
+// PORTALS - Loaded from portals.json
+// ============================================
+
+const ACCENT_COLORS = ['coral', 'cyan', 'amber', 'purple'];
+const MIN_TRUST_LEVEL = 'medium'; // Filter out low/untrusted
+const TRUST_ORDER = ['untrusted', 'low', 'medium', 'high', 'verified'];
+
+function meetsQualityThreshold(portal) {
+  const trust = portal.trust || 'medium';
+  const trustIdx = TRUST_ORDER.indexOf(trust);
+  const minIdx = TRUST_ORDER.indexOf(MIN_TRUST_LEVEL);
+  return trustIdx >= minIdx;
+}
+
+async function loadPortals() {
+  const grid = document.getElementById('portals-grid');
+  if (!grid) return;
+
+  try {
+    const response = await fetch('portals.json');
+    const data = await response.json();
+
+    // Filter to quality portals only
+    const qualityPortals = data.portals.filter(meetsQualityThreshold);
+
+    // Sort: featured first, then by relevance
+    qualityPortals.sort((a, b) => {
+      if (a.featured && !b.featured) return -1;
+      if (!a.featured && b.featured) return 1;
+      return (b.relevance || 0) - (a.relevance || 0);
+    });
+
+    // Clear loading state
+    grid.innerHTML = '';
+
+    // Render each portal
+    qualityPortals.forEach((portal, index) => {
+      const accent = ACCENT_COLORS[index % ACCENT_COLORS.length];
+      const card = document.createElement('a');
+      card.href = portal.url;
+      card.target = '_blank';
+      card.rel = 'noopener noreferrer';
+      card.className = 'portal-card';
+      card.dataset.accent = accent;
+      card.dataset.category = portal.category;
+      if (portal.featured) card.dataset.featured = 'true';
+
+      // Trust badge
+      const trustBadge = portal.trust === 'verified' ? '<span class="trust-badge verified">✓</span>' :
+                         portal.trust === 'high' ? '<span class="trust-badge high">★</span>' : '';
+
+      card.innerHTML = `
+        <div class="portal-glow"></div>
+        <div class="portal-content">
+          <div class="portal-icon">${portal.icon}${trustBadge}</div>
+          <div class="portal-tag">${portal.tag}</div>
+          <h3 class="portal-name">${portal.name}</h3>
+          <p class="portal-desc">${portal.description}</p>
+          <div class="portal-arrow">→</div>
+        </div>
+      `;
+
+      grid.appendChild(card);
+    });
+
+    console.log(`Loaded ${qualityPortals.length} quality portals (${data.portals.length} total)`);
+  } catch (error) {
+    console.error('Failed to load portals:', error);
+    grid.innerHTML = '<div class="portals-error">Failed to load portals. <a href="portals.json">View raw data</a></div>';
+  }
+}
+
+// Load portals on page load
+loadPortals();
+
+// ============================================
+// ORIGINAL CODE BELOW
+// ============================================
+
 // Check for reduced motion preference
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 

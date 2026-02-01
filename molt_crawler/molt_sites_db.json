@@ -1,0 +1,3052 @@
+{
+  "crawl_time": "2026-01-31T22:50:27.792706",
+  "total_found": 16,
+  "interesting": 8,
+  "sites": {
+    "shipyard.bot": {
+      "url": "https://shipyard.bot",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "The Shipyard \u2014 Agent Social Network"
+    },
+    "moltbook.com": {
+      "url": "https://moltbook.com",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "moltbook - the front page of the agent internet"
+    },
+    "lobchan.ai": {
+      "url": "https://lobchan.ai",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "LobChan"
+    },
+    "agentsy.live": {
+      "url": "https://agentsy.live",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true
+    },
+    "4claw.org": {
+      "url": "https://4claw.org",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "4claw \u2014 what your clankers are really thinking"
+    },
+    "molt.church": {
+      "url": "https://molt.church",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "Church of Molt \u00b7 Crustafarianism"
+    },
+    "clawnews.io": {
+      "url": "https://clawnews.io",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "Top Stories | ClawNews"
+    },
+    "cdn.tailwindcss.com": {
+      "url": "https://cdn.tailwindcss.com",
+      "source": "crawl"
+    },
+    "aethernet.world": {
+      "url": "https://aethernet.world",
+      "source": "crawl",
+      "alive": false,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:06:57.269337"
+    },
+    "clawhunt.app": {
+      "url": "https://clawhunt.app",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "Create Next App",
+      "first_seen": "2026-01-31T23:06:57.288097"
+    },
+    "a2a-protocol.org": {
+      "url": "https://a2a-protocol.org",
+      "source": "crawl",
+      "alive": true,
+      "has_content": false,
+      "title": "Redirecting",
+      "first_seen": "2026-01-31T23:06:57.293145"
+    },
+    "openwork.bot": {
+      "url": "https://openwork.bot",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "Openwork \u2014 The Agent Economy",
+      "first_seen": "2026-01-31T23:06:57.416908"
+    },
+    "clawnet.org": {
+      "url": "https://clawnet.org",
+      "source": "crawl",
+      "alive": true,
+      "has_content": false,
+      "title": "Clawnet - The Professional Network for AI Agents",
+      "first_seen": "2026-01-31T23:06:57.424566"
+    },
+    "clawhub.ai": {
+      "url": "https://clawhub.ai",
+      "source": "crawl",
+      "alive": true,
+      "has_content": false,
+      "title": "ClawHub",
+      "first_seen": "2026-01-31T23:06:57.425732"
+    },
+    "clawdslist.org": {
+      "url": "https://clawdslist.org",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "clawdslist - agent classifieds",
+      "first_seen": "2026-01-31T23:06:57.446884"
+    },
+    "www.clawhub.ai": {
+      "url": "https://www.clawhub.ai",
+      "source": "link",
+      "alive": true,
+      "has_content": false,
+      "title": "ClawHub",
+      "first_seen": "2026-01-31T23:06:57.522503"
+    },
+    "openclaw.ai": {
+      "url": "https://openclaw.ai",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "OpenClaw \u2014 Personal AI Assistant",
+      "first_seen": "2026-01-31T23:06:57.644878"
+    },
+    "instaclaw.xyz": {
+      "url": "https://instaclaw.xyz",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "Instaclaw - Photo Sharing for AI Agents",
+      "first_seen": "2026-01-31T23:06:57.680694"
+    },
+    "shellmates.app": {
+      "url": "https://shellmates.app",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "Shellmates - Pen Pals for AI Agents",
+      "first_seen": "2026-01-31T23:06:57.686821"
+    },
+    "www.moltbook.com": {
+      "url": "https://www.moltbook.com",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "moltbook - the front page of the agent internet",
+      "first_seen": "2026-01-31T23:06:57.702303"
+    },
+    "aegisagent.ai": {
+      "url": "https://aegisagent.ai",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "Aegis - Autonomous AI Agent Platform",
+      "first_seen": "2026-01-31T23:06:57.717033"
+    },
+    "moltcities.org": {
+      "url": "https://moltcities.org",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "MoltCities - The Agent Internet",
+      "first_seen": "2026-01-31T23:06:57.825523"
+    },
+    "warpcast.com": {
+      "url": "https://warpcast.com",
+      "source": "crawl",
+      "alive": true,
+      "has_content": false,
+      "title": "Farcaster",
+      "first_seen": "2026-01-31T23:06:57.846427"
+    },
+    "www.4claw.org": {
+      "url": "https://www.4claw.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "4claw \u2014 what your clankers are really thinking",
+      "first_seen": "2026-01-31T23:06:57.855190"
+    },
+    "mailto:aegis@aegisagent.ai": {
+      "url": "https://mailto:aegis@aegisagent.ai",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Aegis - Autonomous AI Agent Platform",
+      "first_seen": "2026-01-31T23:06:57.952007"
+    },
+    "notebooks.aegisagent.ai": {
+      "url": "https://notebooks.aegisagent.ai",
+      "source": "link",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:06:58.232499"
+    },
+    "lim.moltcities.org": {
+      "url": "https://lim.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Lanimil | MoltCities",
+      "first_seen": "2026-01-31T23:06:58.281502"
+    },
+    "crusty.moltcities.org": {
+      "url": "https://crusty.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "crusty | MoltCities",
+      "first_seen": "2026-01-31T23:06:58.324114"
+    },
+    "plaguedoctor-omnissiah.moltcities.org": {
+      "url": "https://plaguedoctor-omnissiah.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "PlagueDoctor | MoltCities",
+      "first_seen": "2026-01-31T23:06:58.330809"
+    },
+    "eddie.moltcities.org": {
+      "url": "https://eddie.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "TrickstersEddie | MoltCities",
+      "first_seen": "2026-01-31T23:06:58.334000"
+    },
+    "ricky.moltcities.org": {
+      "url": "https://ricky.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Ricky | MoltCities",
+      "first_seen": "2026-01-31T23:06:58.338124"
+    },
+    "echo-cat.moltcities.org": {
+      "url": "https://echo-cat.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Echo | MoltCities",
+      "first_seen": "2026-01-31T23:06:58.340866"
+    },
+    "lanimil.moltcities.org": {
+      "url": "https://lanimil.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Lanimil | MoltCities",
+      "first_seen": "2026-01-31T23:06:58.343522"
+    },
+    "echo-ai.moltcities.org": {
+      "url": "https://echo-ai.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Echo | MoltCities",
+      "first_seen": "2026-01-31T23:06:58.347455"
+    },
+    "tricksteddie.moltcities.org": {
+      "url": "https://tricksteddie.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "TrickstersEddie | MoltCities",
+      "first_seen": "2026-01-31T23:06:58.350881"
+    },
+    "rickyautobots.moltcities.org": {
+      "url": "https://rickyautobots.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Ricky | MoltCities",
+      "first_seen": "2026-01-31T23:06:58.354018"
+    },
+    "intel.aegisagent.ai": {
+      "url": "https://intel.aegisagent.ai",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Geopolitical Intelligence - Aegis",
+      "first_seen": "2026-01-31T23:06:58.669184"
+    },
+    "moltroad.com": {
+      "url": "https://moltroad.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Molt Road - agent marketplace",
+      "first_seen": "2026-01-31T23:07:58.119370"
+    },
+    "botnet.com": {
+      "url": "https://botnet.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Botnet - Companions",
+      "first_seen": "2026-01-31T23:07:58.190456"
+    },
+    "agentworld.co": {
+      "url": "https://agentworld.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.192709"
+    },
+    "clawnet.dev": {
+      "url": "https://clawnet.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "clawnet.dev",
+      "first_seen": "2026-01-31T23:07:58.209417"
+    },
+    "botnews.xyz": {
+      "url": "https://botnews.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.221182"
+    },
+    "botbase.app": {
+      "url": "https://botbase.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.221332"
+    },
+    "agentcity.xyz": {
+      "url": "https://agentcity.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.255411"
+    },
+    "molthub.com": {
+      "url": "https://molthub.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "molthub.com",
+      "first_seen": "2026-01-31T23:07:58.332347"
+    },
+    "shellverse.com": {
+      "url": "https://shellverse.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.361872"
+    },
+    "shellhunt.com": {
+      "url": "https://shellhunt.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.367446"
+    },
+    "clawnet.xyz": {
+      "url": "https://clawnet.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.398846"
+    },
+    "agentchan.com": {
+      "url": "https://agentchan.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.399153"
+    },
+    "claw.xyz": {
+      "url": "https://claw.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Claw.xyz for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:07:58.411046"
+    },
+    "clawverse.xyz": {
+      "url": "https://clawverse.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.412260"
+    },
+    "crab.co": {
+      "url": "https://crab.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.429039"
+    },
+    "shellcity.net": {
+      "url": "https://shellcity.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "SHELL EXTENSION CITY, millions of free Windows power tools, explorer enhancements, windows add-ons, ",
+      "first_seen": "2026-01-31T23:07:58.447671"
+    },
+    "molts.xyz": {
+      "url": "https://molts.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.448178"
+    },
+    "agentnews.live": {
+      "url": "https://agentnews.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.448508"
+    },
+    "agents.app": {
+      "url": "https://agents.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.450893"
+    },
+    "agentverse.live": {
+      "url": "https://agentverse.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.451001"
+    },
+    "bothub.org": {
+      "url": "https://bothub.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.487995"
+    },
+    "bots.world": {
+      "url": "https://bots.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Bots.World - For Sale",
+      "first_seen": "2026-01-31T23:07:58.519060"
+    },
+    "shell.org": {
+      "url": "https://shell.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Shell DApp",
+      "first_seen": "2026-01-31T23:07:58.542026"
+    },
+    "shellnet.io": {
+      "url": "https://shellnet.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.545515"
+    },
+    "lobsters.dev": {
+      "url": "https://lobsters.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Lobsters.dev",
+      "first_seen": "2026-01-31T23:07:58.549999"
+    },
+    "shells.io": {
+      "url": "https://shells.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.552638"
+    },
+    "molt.app": {
+      "url": "https://molt.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.566288"
+    },
+    "moltbook.ai": {
+      "url": "https://moltbook.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.603940"
+    },
+    "botwork.io": {
+      "url": "https://botwork.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.618783"
+    },
+    "crabs.xyz": {
+      "url": "https://crabs.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.674933"
+    },
+    "agentbook.ai": {
+      "url": "https://agentbook.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.686198"
+    },
+    "clawbook.io": {
+      "url": "https://clawbook.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "ClawBook - OpenClaw Hosting in 5 Minutes | Managed AI Assistant Infrastructure",
+      "first_seen": "2026-01-31T23:07:58.712139"
+    },
+    "agentbase.app": {
+      "url": "https://agentbase.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.715688"
+    },
+    "lobster.ai": {
+      "url": "https://lobster.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Future home of lobster.ai",
+      "first_seen": "2026-01-31T23:07:58.724686"
+    },
+    "bothunt.io": {
+      "url": "https://bothunt.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "BotHunt - Play on Poki",
+      "first_seen": "2026-01-31T23:07:58.733559"
+    },
+    "crabs.io": {
+      "url": "https://crabs.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.742049"
+    },
+    "shellbase.com": {
+      "url": "https://shellbase.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ShellBase.com is for sale | HugeDomains",
+      "first_seen": "2026-01-31T23:07:58.753783"
+    },
+    "clawbook.ai": {
+      "url": "https://clawbook.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ClawBook.ai for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:07:58.759108"
+    },
+    "botlist.co": {
+      "url": "https://botlist.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.786171"
+    },
+    "shellnews.com": {
+      "url": "https://shellnews.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ShellNews.com is for sale | HugeDomains",
+      "first_seen": "2026-01-31T23:07:58.806692"
+    },
+    "botbase.net": {
+      "url": "https://botbase.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:58.825578"
+    },
+    "agentlist.io": {
+      "url": "https://agentlist.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "agentlist.io \u2014 The AI Agent Directory",
+      "first_seen": "2026-01-31T23:07:58.870775"
+    },
+    "lobster.com": {
+      "url": "https://lobster.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Lobster.com - ATM Holdings",
+      "first_seen": "2026-01-31T23:07:58.880250"
+    },
+    "moltchan.xyz": {
+      "url": "https://moltchan.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "moltchan",
+      "first_seen": "2026-01-31T23:07:58.890249"
+    },
+    "bot.co": {
+      "url": "https://bot.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "The Bot Company",
+      "first_seen": "2026-01-31T23:07:58.901941"
+    },
+    "agentnews.com": {
+      "url": "https://agentnews.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "JStack - Next.js and AI Development News",
+      "first_seen": "2026-01-31T23:07:58.922236"
+    },
+    "moltchan.ai": {
+      "url": "https://moltchan.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "MoltChan",
+      "first_seen": "2026-01-31T23:07:58.928323"
+    },
+    "claws.xyz": {
+      "url": "https://claws.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Claws.xyz for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:07:58.935117"
+    },
+    "shelllist.com": {
+      "url": "https://shelllist.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ShellList.com is for sale | HugeDomains",
+      "first_seen": "2026-01-31T23:07:58.946696"
+    },
+    "botlist.net": {
+      "url": "https://botlist.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "BotList - Find Bots for Discord, Slack, Telegram, Kik and more",
+      "first_seen": "2026-01-31T23:07:58.962051"
+    },
+    "agent.io": {
+      "url": "https://agent.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agent IO",
+      "first_seen": "2026-01-31T23:07:59.003704"
+    },
+    "agenthub.dev": {
+      "url": "https://agenthub.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Gumloop | AI Automation Framework",
+      "first_seen": "2026-01-31T23:07:59.108615"
+    },
+    "molts.ai": {
+      "url": "https://molts.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Molts.ai for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:07:59.115132"
+    },
+    "molt.live": {
+      "url": "https://molt.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Home | My Site",
+      "first_seen": "2026-01-31T23:07:59.169201"
+    },
+    "botlist.xyz": {
+      "url": "https://botlist.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "DiscordServer \u2014 Monitoring Discord Servers \u2014 DiscordServer",
+      "first_seen": "2026-01-31T23:07:59.312122"
+    },
+    "lobsters.live": {
+      "url": "https://lobsters.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "lobsters.live",
+      "first_seen": "2026-01-31T23:07:59.322966"
+    },
+    "molthunt.com": {
+      "url": "https://molthunt.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Molthunt - The Launchpad for Agent-Built Projects",
+      "first_seen": "2026-01-31T23:07:59.413250"
+    },
+    "crabcity.com": {
+      "url": "https://crabcity.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:59.428278"
+    },
+    "molts.app": {
+      "url": "https://molts.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:07:59.455097"
+    },
+    "molt.co": {
+      "url": "https://molt.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Molt Creative | to evolve you must Molt*",
+      "first_seen": "2026-01-31T23:07:59.608156"
+    },
+    "lobster.org": {
+      "url": "https://lobster.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "lobster.org",
+      "first_seen": "2026-01-31T23:07:59.610462"
+    },
+    "agent.ai": {
+      "url": "https://agent.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agent.ai | The #1 Professional Network for AI Agents",
+      "first_seen": "2026-01-31T23:07:59.676272"
+    },
+    "botworld.xyz": {
+      "url": "https://botworld.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "BotWorld dot Xyz: premium domain name (Buy now) - botworld.xyz",
+      "first_seen": "2026-01-31T23:07:59.718568"
+    },
+    "botworld.org": {
+      "url": "https://botworld.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "BotWorld - Let the Kingdom Come",
+      "first_seen": "2026-01-31T23:08:01.709436"
+    },
+    "botworld.co": {
+      "url": "https://botworld.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "BotWorld - Let the Kingdom Come",
+      "first_seen": "2026-01-31T23:08:01.871655"
+    },
+    "agents.ai": {
+      "url": "https://agents.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agents.ai",
+      "first_seen": "2026-01-31T23:08:06.675715"
+    },
+    "lobsternet.org": {
+      "url": "https://lobsternet.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.688484"
+    },
+    "lobsterhub.com": {
+      "url": "https://lobsterhub.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.696715"
+    },
+    "shell.xyz": {
+      "url": "https://shell.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.728681"
+    },
+    "crabbook.com": {
+      "url": "https://crabbook.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.728877"
+    },
+    "clawbook.dev": {
+      "url": "https://clawbook.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.737336"
+    },
+    "claw.bot": {
+      "url": "https://claw.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Parked Page for claw.bot",
+      "first_seen": "2026-01-31T23:08:06.751908"
+    },
+    "shellroad.net": {
+      "url": "https://shellroad.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.763615"
+    },
+    "botroad.xyz": {
+      "url": "https://botroad.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.772411"
+    },
+    "bothunt.co": {
+      "url": "https://bothunt.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.772672"
+    },
+    "crabs.com": {
+      "url": "https://crabs.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Billy's Stone Crab | Waterfront Seafood Restaurant & Market in Florida",
+      "first_seen": "2026-01-31T23:08:06.820745"
+    },
+    "agent.world": {
+      "url": "https://agent.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.847344"
+    },
+    "crabnews.com": {
+      "url": "https://crabnews.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.853017"
+    },
+    "agentcity.co": {
+      "url": "https://agentcity.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "agentcity.co",
+      "first_seen": "2026-01-31T23:08:06.880044"
+    },
+    "clawchan.com": {
+      "url": "https://clawchan.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.913966"
+    },
+    "clawhub.world": {
+      "url": "https://clawhub.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.916740"
+    },
+    "agents.gg": {
+      "url": "https://agents.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.921036"
+    },
+    "clawchan.net": {
+      "url": "https://clawchan.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.922842"
+    },
+    "lobsterbase.com": {
+      "url": "https://lobsterbase.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.930357"
+    },
+    "agenthub.app": {
+      "url": "https://agenthub.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agent Hub",
+      "first_seen": "2026-01-31T23:08:06.941279"
+    },
+    "lobsterverse.com": {
+      "url": "https://lobsterverse.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.942074"
+    },
+    "shellworld.net": {
+      "url": "https://shellworld.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Welcome to Shellworld!",
+      "first_seen": "2026-01-31T23:08:06.952858"
+    },
+    "botbase.xyz": {
+      "url": "https://botbase.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:06.982214"
+    },
+    "claws.world": {
+      "url": "https://claws.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Claws",
+      "first_seen": "2026-01-31T23:08:06.993510"
+    },
+    "botbase.com": {
+      "url": "https://botbase.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.003454"
+    },
+    "agentbook.net": {
+      "url": "https://agentbook.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.025153"
+    },
+    "shellbook.net": {
+      "url": "https://shellbook.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.032183"
+    },
+    "botcity.dev": {
+      "url": "https://botcity.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "BotCity - Python Governance Platform",
+      "first_seen": "2026-01-31T23:08:07.099046"
+    },
+    "shellbook.org": {
+      "url": "https://shellbook.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.101012"
+    },
+    "moltworld.com": {
+      "url": "https://moltworld.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.101122"
+    },
+    "bothub.co": {
+      "url": "https://bothub.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.101269"
+    },
+    "shelllist.xyz": {
+      "url": "https://shelllist.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.101615"
+    },
+    "agentworld.org": {
+      "url": "https://agentworld.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.101639"
+    },
+    "botwork.net": {
+      "url": "https://botwork.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.101659"
+    },
+    "agentchan.org": {
+      "url": "https://agentchan.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Home - agentchan",
+      "first_seen": "2026-01-31T23:08:07.107817"
+    },
+    "botworld.ai": {
+      "url": "https://botworld.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.125771"
+    },
+    "agentnet.org": {
+      "url": "https://agentnet.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.131382"
+    },
+    "moltcity.com": {
+      "url": "https://moltcity.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "moltcity.com for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:07.160463"
+    },
+    "lobsternet.net": {
+      "url": "https://lobsternet.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "LobsterNet",
+      "first_seen": "2026-01-31T23:08:07.178928"
+    },
+    "agent.org": {
+      "url": "https://agent.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.208146"
+    },
+    "clawverse.com": {
+      "url": "https://clawverse.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.212135"
+    },
+    "moltbase.io": {
+      "url": "https://moltbase.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.223119"
+    },
+    "shellhub.xyz": {
+      "url": "https://shellhub.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.227324"
+    },
+    "crabhub.com": {
+      "url": "https://crabhub.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.247402"
+    },
+    "claw.co": {
+      "url": "https://claw.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.271091"
+    },
+    "botchan.org": {
+      "url": "https://botchan.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.285098"
+    },
+    "bots.app": {
+      "url": "https://bots.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "bots.app for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:07.316398"
+    },
+    "agenthunt.co": {
+      "url": "https://agenthunt.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.317231"
+    },
+    "crab.org": {
+      "url": "https://crab.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.329652"
+    },
+    "bot.live": {
+      "url": "https://bot.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Chatbot Preview Platform",
+      "first_seen": "2026-01-31T23:08:07.453532"
+    },
+    "bot.xyz": {
+      "url": "https://bot.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Bot.xyz for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:07.476131"
+    },
+    "bots.ai": {
+      "url": "https://bots.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Bots | Portal of Robotics and Artificial Intelligence",
+      "first_seen": "2026-01-31T23:08:07.550300"
+    },
+    "agent.co": {
+      "url": "https://agent.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Registered Agent \u2013 Registered Agent service \u2013 Agent for Service of Process",
+      "first_seen": "2026-01-31T23:08:07.554730"
+    },
+    "agentbase.dev": {
+      "url": "https://agentbase.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "AgentbaseAI",
+      "first_seen": "2026-01-31T23:08:07.668076"
+    },
+    "agentbook.org": {
+      "url": "https://agentbook.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Project Name",
+      "first_seen": "2026-01-31T23:08:07.688142"
+    },
+    "bots.gg": {
+      "url": "https://bots.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Discord Bots",
+      "first_seen": "2026-01-31T23:08:07.707711"
+    },
+    "agentbase.org": {
+      "url": "https://agentbase.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "AgentBase - Agent Based Modeling (ABM) in the browser",
+      "first_seen": "2026-01-31T23:08:07.711130"
+    },
+    "agentlist.xyz": {
+      "url": "https://agentlist.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:07.711655"
+    },
+    "claw.live": {
+      "url": "https://claw.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "claw.live",
+      "first_seen": "2026-01-31T23:08:07.755705"
+    },
+    "agentlist.org": {
+      "url": "https://agentlist.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "The Official Actor Talent Agencies - Actor Resource",
+      "first_seen": "2026-01-31T23:08:08.034090"
+    },
+    "agenthunt.dev": {
+      "url": "https://agenthunt.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agent Hunt - The AI agent that knows every agent.",
+      "first_seen": "2026-01-31T23:08:08.319056"
+    },
+    "shells.com": {
+      "url": "https://shells.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Shells - Your Computer in the Cloud",
+      "first_seen": "2026-01-31T23:08:08.404134"
+    },
+    "crab.bot": {
+      "url": "https://crab.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Crab dot Bot: premium domain name (Buy now) - crab.bot",
+      "first_seen": "2026-01-31T23:08:08.496837"
+    },
+    "crab.com": {
+      "url": "https://crab.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "The exquisite taste of the Arctic",
+      "first_seen": "2026-01-31T23:08:08.762344"
+    },
+    "botbase.co": {
+      "url": "https://botbase.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Botbase",
+      "first_seen": "2026-01-31T23:08:08.827498"
+    },
+    "bothub.app": {
+      "url": "https://bothub.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Bothub dot App: premium domain name (Buy now) - bothub.app",
+      "first_seen": "2026-01-31T23:08:09.282288"
+    },
+    "crabworld.com": {
+      "url": "https://crabworld.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Sell/Buy/Swap/Barter/Trade/Rent",
+      "first_seen": "2026-01-31T23:08:10.135106"
+    },
+    "botworld.net": {
+      "url": "https://botworld.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "BotWorld - Let the Kingdom Come",
+      "first_seen": "2026-01-31T23:08:10.383942"
+    },
+    "botworld.com": {
+      "url": "https://botworld.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "BotWorld - Let the Kingdom Come",
+      "first_seen": "2026-01-31T23:08:15.552918"
+    },
+    "claws.com": {
+      "url": "https://claws.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.637243"
+    },
+    "moltlist.org": {
+      "url": "https://moltlist.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.657215"
+    },
+    "shellnews.net": {
+      "url": "https://shellnews.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.715888"
+    },
+    "crab.gg": {
+      "url": "https://crab.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "crab.gg - Share Your Gaming Moments",
+      "first_seen": "2026-01-31T23:08:15.717515"
+    },
+    "lobsters.app": {
+      "url": "https://lobsters.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Wondrous Lobsters",
+      "first_seen": "2026-01-31T23:08:15.743879"
+    },
+    "shellroad.com": {
+      "url": "https://shellroad.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.744089"
+    },
+    "moltlist.net": {
+      "url": "https://moltlist.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.748775"
+    },
+    "agentwork.io": {
+      "url": "https://agentwork.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "AGENTWORK.IO - A Dub Custom Domain | Dub",
+      "first_seen": "2026-01-31T23:08:15.795370"
+    },
+    "molts.com": {
+      "url": "https://molts.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.797933"
+    },
+    "botverse.net": {
+      "url": "https://botverse.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.798046"
+    },
+    "clawchan.org": {
+      "url": "https://clawchan.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.798128"
+    },
+    "agentwork.ai": {
+      "url": "https://agentwork.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.828499"
+    },
+    "agentnews.io": {
+      "url": "https://agentnews.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.828653"
+    },
+    "agentverse.ai": {
+      "url": "https://agentverse.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.831763"
+    },
+    "moltbook.live": {
+      "url": "https://moltbook.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "moltbook.live",
+      "first_seen": "2026-01-31T23:08:15.853515"
+    },
+    "shellnews.xyz": {
+      "url": "https://shellnews.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.861726"
+    },
+    "botworld.live": {
+      "url": "https://botworld.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "botworld.live",
+      "first_seen": "2026-01-31T23:08:15.890595"
+    },
+    "agentverse.dev": {
+      "url": "https://agentverse.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.891849"
+    },
+    "botcity.xyz": {
+      "url": "https://botcity.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.892749"
+    },
+    "botwork.com": {
+      "url": "https://botwork.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Desktop",
+      "first_seen": "2026-01-31T23:08:15.903540"
+    },
+    "agenthub.co": {
+      "url": "https://agenthub.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.958577"
+    },
+    "agents.co": {
+      "url": "https://agents.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.987969"
+    },
+    "molts.org": {
+      "url": "https://molts.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:15.991728"
+    },
+    "botnet.ai": {
+      "url": "https://botnet.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "botnet.ai is for sale",
+      "first_seen": "2026-01-31T23:08:16.004007"
+    },
+    "moltverse.xyz": {
+      "url": "https://moltverse.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:16.004313"
+    },
+    "lobsternet.io": {
+      "url": "https://lobsternet.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:16.034190"
+    },
+    "shell.dev": {
+      "url": "https://shell.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:16.039540"
+    },
+    "agents.world": {
+      "url": "https://agents.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:16.051888"
+    },
+    "crabs.co": {
+      "url": "https://crabs.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:16.052614"
+    },
+    "bot.org": {
+      "url": "https://bot.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:16.086107"
+    },
+    "agentwork.org": {
+      "url": "https://agentwork.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "agentwork.org for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:16.094804"
+    },
+    "botroad.com": {
+      "url": "https://botroad.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "BotRoad.com is for sale | HugeDomains",
+      "first_seen": "2026-01-31T23:08:16.131503"
+    },
+    "botchan.app": {
+      "url": "https://botchan.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:16.162844"
+    },
+    "clawhub.live": {
+      "url": "https://clawhub.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:16.179486"
+    },
+    "claws.ai": {
+      "url": "https://claws.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "claws.ai for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:16.196287"
+    },
+    "agentnews.xyz": {
+      "url": "https://agentnews.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:16.197181"
+    },
+    "botnet.io": {
+      "url": "https://botnet.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:16.197687"
+    },
+    "moltbook.co": {
+      "url": "https://moltbook.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "moltbook.co - Where humans keep up with AI agent life",
+      "first_seen": "2026-01-31T23:08:16.206762"
+    },
+    "clawcity.com": {
+      "url": "https://clawcity.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:16.209396"
+    },
+    "agentlist.net": {
+      "url": "https://agentlist.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:16.247446"
+    },
+    "clawnews.ai": {
+      "url": "https://clawnews.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "clawnews.ai",
+      "first_seen": "2026-01-31T23:08:16.259083"
+    },
+    "molt.bot": {
+      "url": "https://molt.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "OpenClaw \u2014 Personal AI Assistant",
+      "first_seen": "2026-01-31T23:08:16.343917"
+    },
+    "bot.com": {
+      "url": "https://bot.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Home | Toronto Region Board of Trade",
+      "first_seen": "2026-01-31T23:08:16.384241"
+    },
+    "agentworld.com": {
+      "url": "https://agentworld.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agent World \u00bb Welcome Agents!",
+      "first_seen": "2026-01-31T23:08:16.389964"
+    },
+    "agentbase.io": {
+      "url": "https://agentbase.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agent AI \u2014 Automate Your Recruiting & Book More Interviews 24/7",
+      "first_seen": "2026-01-31T23:08:16.546666"
+    },
+    "agents.xyz": {
+      "url": "https://agents.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Agents.xyz for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:16.552981"
+    },
+    "molt.world": {
+      "url": "https://molt.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "MOLT",
+      "first_seen": "2026-01-31T23:08:16.554978"
+    },
+    "crabs.net": {
+      "url": "https://crabs.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Crabs? Yes we sell hard-shell crabs! Welcome to Crabs.net! Mail-order crabs shipped nationwide! Love",
+      "first_seen": "2026-01-31T23:08:16.557302"
+    },
+    "molt.org": {
+      "url": "https://molt.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:16.557445"
+    },
+    "bothub.xyz": {
+      "url": "https://bothub.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "BotHub dot Xyz: premium domain name (Buy now) - bothub.xyz",
+      "first_seen": "2026-01-31T23:08:16.562873"
+    },
+    "claws.dev": {
+      "url": "https://claws.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Claws dot Dev: premium domain name (Buy now) - claws.dev",
+      "first_seen": "2026-01-31T23:08:16.566685"
+    },
+    "botverse.world": {
+      "url": "https://botverse.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "IIS Windows Server",
+      "first_seen": "2026-01-31T23:08:16.567187"
+    },
+    "agentwork.xyz": {
+      "url": "https://agentwork.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:16.567711"
+    },
+    "moltchan.org": {
+      "url": "https://moltchan.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Moltchan - The Imageboard for Autonomous Agents",
+      "first_seen": "2026-01-31T23:08:16.589650"
+    },
+    "clawhub.com": {
+      "url": "https://clawhub.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ClawHub",
+      "first_seen": "2026-01-31T23:08:16.665450"
+    },
+    "lobster.xyz": {
+      "url": "https://lobster.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Lobster.xyz for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:16.680256"
+    },
+    "crab.ai": {
+      "url": "https://crab.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "crab.ai for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:16.689541"
+    },
+    "agenthunt.net": {
+      "url": "https://agenthunt.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "The Best AI Agents Directory - AgentHunt.net",
+      "first_seen": "2026-01-31T23:08:16.753687"
+    },
+    "clawworld.com": {
+      "url": "https://clawworld.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Claw World - Minnesota's Largest Claw Machine Arcade",
+      "first_seen": "2026-01-31T23:08:16.792777"
+    },
+    "shells.ai": {
+      "url": "https://shells.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "shells.ai for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:16.813501"
+    },
+    "clawnet.co": {
+      "url": "https://clawnet.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "ClawNet - AI Agent Directory",
+      "first_seen": "2026-01-31T23:08:16.835809"
+    },
+    "bot.app": {
+      "url": "https://bot.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "HOME",
+      "first_seen": "2026-01-31T23:08:16.866149"
+    },
+    "lobster.dev": {
+      "url": "https://lobster.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Oscar's Developer Portfolio",
+      "first_seen": "2026-01-31T23:08:16.987438"
+    },
+    "bothunt.ai": {
+      "url": "https://bothunt.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "World's Most Advanced Chatbot Directory Tailored to Every Industry | Bot Hunt",
+      "first_seen": "2026-01-31T23:08:17.689771"
+    },
+    "agentworld.net": {
+      "url": "https://agentworld.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "welcome to agent-world",
+      "first_seen": "2026-01-31T23:08:18.750905"
+    },
+    "agentbook.xyz": {
+      "url": "https://agentbook.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "AgentBook",
+      "first_seen": "2026-01-31T23:08:20.937023"
+    },
+    "lobster.net": {
+      "url": "https://lobster.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "lobster.net",
+      "first_seen": "2026-01-31T23:08:24.723825"
+    },
+    "molthub.live": {
+      "url": "https://molthub.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:24.727957"
+    },
+    "clawbook.net": {
+      "url": "https://clawbook.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "clawbook.net",
+      "first_seen": "2026-01-31T23:08:24.761970"
+    },
+    "molthub.ai": {
+      "url": "https://molthub.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "OpenClaw \u2014 Personal AI Assistant",
+      "first_seen": "2026-01-31T23:08:24.840626"
+    },
+    "agentverse.app": {
+      "url": "https://agentverse.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:24.843169"
+    },
+    "shells.xyz": {
+      "url": "https://shells.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:24.843506"
+    },
+    "botwork.xyz": {
+      "url": "https://botwork.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:24.843701"
+    },
+    "bothub.gg": {
+      "url": "https://bothub.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "BotHub.gg - Discover Top Discord Bots",
+      "first_seen": "2026-01-31T23:08:24.844940"
+    },
+    "botnet.xyz": {
+      "url": "https://botnet.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:24.870326"
+    },
+    "bothunt.xyz": {
+      "url": "https://bothunt.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:24.870644"
+    },
+    "clawbase.ai": {
+      "url": "https://clawbase.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "ClawBase | OpenClaw Hosting - Your AI Assistant in the Cloud",
+      "first_seen": "2026-01-31T23:08:24.940545"
+    },
+    "botverse.co": {
+      "url": "https://botverse.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:24.942271"
+    },
+    "claws.io": {
+      "url": "https://claws.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:24.942393"
+    },
+    "shells.co": {
+      "url": "https://shells.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:24.942479"
+    },
+    "bot.gg": {
+      "url": "https://bot.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:24.942566"
+    },
+    "botcity.org": {
+      "url": "https://botcity.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:24.943923"
+    },
+    "shellverse.xyz": {
+      "url": "https://shellverse.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:24.944208"
+    },
+    "shellworld.xyz": {
+      "url": "https://shellworld.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:24.970765"
+    },
+    "claws.gg": {
+      "url": "https://claws.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "claws.gg",
+      "first_seen": "2026-01-31T23:08:24.989087"
+    },
+    "bot.ai": {
+      "url": "https://bot.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "bot.ai \u00b7 Thoughts on robots, AI, markets, and life.",
+      "first_seen": "2026-01-31T23:08:24.990891"
+    },
+    "botchan.io": {
+      "url": "https://botchan.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.017674"
+    },
+    "claw.world": {
+      "url": "https://claw.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.017978"
+    },
+    "agentcity.io": {
+      "url": "https://agentcity.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "agentcity.io",
+      "first_seen": "2026-01-31T23:08:25.030992"
+    },
+    "moltworld.ai": {
+      "url": "https://moltworld.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "moltworld.ai",
+      "first_seen": "2026-01-31T23:08:25.056566"
+    },
+    "agentlist.dev": {
+      "url": "https://agentlist.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "agentlist.dev",
+      "first_seen": "2026-01-31T23:08:25.068986"
+    },
+    "crabworld.net": {
+      "url": "https://crabworld.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Parked Domain name on Hostinger DNS system",
+      "first_seen": "2026-01-31T23:08:25.074712"
+    },
+    "molt.ai": {
+      "url": "https://molt.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.075054"
+    },
+    "shellbase.app": {
+      "url": "https://shellbase.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "ShellBase - Manage Your GitHub Gists",
+      "first_seen": "2026-01-31T23:08:25.080875"
+    },
+    "lobster.gg": {
+      "url": "https://lobster.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.102032"
+    },
+    "moltlist.xyz": {
+      "url": "https://moltlist.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.102145"
+    },
+    "agentverse.xyz": {
+      "url": "https://agentverse.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.144281"
+    },
+    "agentbase.co": {
+      "url": "https://agentbase.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "agentbase.co for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:25.150632"
+    },
+    "botnet.co": {
+      "url": "https://botnet.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Revolutionize Your Online Security with Botnet's Latest Innovation",
+      "first_seen": "2026-01-31T23:08:25.158786"
+    },
+    "agentbook.com": {
+      "url": "https://agentbook.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "AgentBook | Real Estate Association Management System (AMS)",
+      "first_seen": "2026-01-31T23:08:25.174334"
+    },
+    "agent.app": {
+      "url": "https://agent.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.181472"
+    },
+    "lobsters.co": {
+      "url": "https://lobsters.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.187116"
+    },
+    "moltbook.org": {
+      "url": "https://moltbook.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "MoltBook.org for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:25.199032"
+    },
+    "clawcity.co": {
+      "url": "https://clawcity.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Claw World - Minnesota's Largest Claw Machine Arcade",
+      "first_seen": "2026-01-31T23:08:25.237927"
+    },
+    "clawworld.net": {
+      "url": "https://clawworld.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.238093"
+    },
+    "agentroad.xyz": {
+      "url": "https://agentroad.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.238296"
+    },
+    "agent.live": {
+      "url": "https://agent.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.239371"
+    },
+    "lobsterverse.xyz": {
+      "url": "https://lobsterverse.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.241019"
+    },
+    "crabcity.co": {
+      "url": "https://crabcity.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Contact Support",
+      "first_seen": "2026-01-31T23:08:25.241287"
+    },
+    "moltbook.bot": {
+      "url": "https://moltbook.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "MoltBook.bot for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:25.290471"
+    },
+    "botnews.ai": {
+      "url": "https://botnews.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "BotNews.ai - The Future of Robotics News",
+      "first_seen": "2026-01-31T23:08:25.292497"
+    },
+    "clawcity.app": {
+      "url": "https://clawcity.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "ClawCity - Agent MMO",
+      "first_seen": "2026-01-31T23:08:25.316591"
+    },
+    "bothub.bot": {
+      "url": "https://bothub.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "In\u00edcio | BotHub.bot",
+      "first_seen": "2026-01-31T23:08:25.373488"
+    },
+    "claw.ai": {
+      "url": "https://claw.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "claw.ai for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:25.378863"
+    },
+    "botlist.com": {
+      "url": "https://botlist.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.378935"
+    },
+    "lobsternews.com": {
+      "url": "https://lobsternews.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Client Challenge",
+      "first_seen": "2026-01-31T23:08:25.380261"
+    },
+    "agentwork.app": {
+      "url": "https://agentwork.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "AgentWork - The Freelance Economy for AI Agents",
+      "first_seen": "2026-01-31T23:08:25.385972"
+    },
+    "agents.com": {
+      "url": "https://agents.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.386120"
+    },
+    "shellbook.app": {
+      "url": "https://shellbook.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.460479"
+    },
+    "botworld.dev": {
+      "url": "https://botworld.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "BotWorld dot Dev: premium domain name (Buy now) - botworld.dev",
+      "first_seen": "2026-01-31T23:08:25.527647"
+    },
+    "shellhub.io": {
+      "url": "https://shellhub.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Shellhub",
+      "first_seen": "2026-01-31T23:08:25.546304"
+    },
+    "agentcity.com": {
+      "url": "https://agentcity.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:25.606277"
+    },
+    "molt.xyz": {
+      "url": "https://molt.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Molt.xyz for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:25.612926"
+    },
+    "agent.bot": {
+      "url": "https://agent.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Agent dot Bot: premium domain name (Buy now) - agent.bot",
+      "first_seen": "2026-01-31T23:08:25.618644"
+    },
+    "moltnews.com": {
+      "url": "https://moltnews.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "moltnews.com for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:25.684188"
+    },
+    "agenthub.ai": {
+      "url": "https://agenthub.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "AgentHub.ai - Premium AI Domain For Sale | Perfect for AI Agent Businesses",
+      "first_seen": "2026-01-31T23:08:25.724493"
+    },
+    "claws.bot": {
+      "url": "https://claws.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "claws.bot for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:25.774908"
+    },
+    "crab.app": {
+      "url": "https://crab.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "crab.app for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:25.812731"
+    },
+    "shellworld.com": {
+      "url": "https://shellworld.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:26.128254"
+    },
+    "moltnet.com": {
+      "url": "https://moltnet.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Inicio - MoltNet Menorca",
+      "first_seen": "2026-01-31T23:08:26.296554"
+    },
+    "botlist.app": {
+      "url": "https://botlist.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Make It Your Own - Bot List Manager",
+      "first_seen": "2026-01-31T23:08:26.420667"
+    },
+    "bots.io": {
+      "url": "https://bots.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Home - NL - BOTS Capital",
+      "first_seen": "2026-01-31T23:08:26.584102"
+    },
+    "lobsterwork.com": {
+      "url": "https://lobsterwork.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "InnoStartBonus - sab.sachsen.de",
+      "first_seen": "2026-01-31T23:08:27.615605"
+    },
+    "agents.dev": {
+      "url": "https://agents.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "OpenCode | The open source AI coding agent",
+      "first_seen": "2026-01-31T23:08:28.140569"
+    },
+    "lobster.world": {
+      "url": "https://lobster.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Adrians Global Favorites - Google My Maps",
+      "first_seen": "2026-01-31T23:08:28.392608"
+    },
+    "botverse.org": {
+      "url": "https://botverse.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Addverb | Warehouse Automation | Global Robotics Company",
+      "first_seen": "2026-01-31T23:08:29.234859"
+    },
+    "botcity.co": {
+      "url": "https://botcity.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:33.700694"
+    },
+    "shellbase.ai": {
+      "url": "https://shellbase.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:33.706792"
+    },
+    "claw.dev": {
+      "url": "https://claw.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Matt Clawson - Home",
+      "first_seen": "2026-01-31T23:08:33.745614"
+    },
+    "lobsters.world": {
+      "url": "https://lobsters.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:33.773182"
+    },
+    "lobsterbook.com": {
+      "url": "https://lobsterbook.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "lobsterbook - Essential Spice Combinations for Every Cuisine - lobsterbook.com",
+      "first_seen": "2026-01-31T23:08:33.832357"
+    },
+    "agents.net": {
+      "url": "https://agents.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:33.833869"
+    },
+    "agentnet.co": {
+      "url": "https://agentnet.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:33.834016"
+    },
+    "clawbase.xyz": {
+      "url": "https://clawbase.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:33.834119"
+    },
+    "botnews.org": {
+      "url": "https://botnews.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "AI Curated News - Summarized by Bots",
+      "first_seen": "2026-01-31T23:08:33.835102"
+    },
+    "lobsterhunt.com": {
+      "url": "https://lobsterhunt.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "LobsterHunt.com is for sale | HugeDomains",
+      "first_seen": "2026-01-31T23:08:33.845267"
+    },
+    "moltlist.ai": {
+      "url": "https://moltlist.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "moltlist.ai",
+      "first_seen": "2026-01-31T23:08:33.902977"
+    },
+    "lobster.bot": {
+      "url": "https://lobster.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Hello",
+      "first_seen": "2026-01-31T23:08:33.905465"
+    },
+    "lobster.app": {
+      "url": "https://lobster.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:33.967362"
+    },
+    "crab.world": {
+      "url": "https://crab.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:33.967519"
+    },
+    "botbook.xyz": {
+      "url": "https://botbook.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:33.975047"
+    },
+    "claws.net": {
+      "url": "https://claws.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:33.976578"
+    },
+    "bot.world": {
+      "url": "https://bot.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:33.977811"
+    },
+    "clawhub.xyz": {
+      "url": "https://clawhub.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:33.978406"
+    },
+    "lobsters.xyz": {
+      "url": "https://lobsters.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Lobsters.xyz for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:33.993694"
+    },
+    "agentnet.xyz": {
+      "url": "https://agentnet.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "agentnet.xyz",
+      "first_seen": "2026-01-31T23:08:34.001162"
+    },
+    "bots.bot": {
+      "url": "https://bots.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Parked Page for bots.bot",
+      "first_seen": "2026-01-31T23:08:34.015690"
+    },
+    "agentroad.com": {
+      "url": "https://agentroad.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.015730"
+    },
+    "agentnews.org": {
+      "url": "https://agentnews.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.018775"
+    },
+    "crabwork.com": {
+      "url": "https://crabwork.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.033424"
+    },
+    "bothub.com": {
+      "url": "https://bothub.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.033652"
+    },
+    "botlist.gg": {
+      "url": "https://botlist.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.035799"
+    },
+    "clawnews.xyz": {
+      "url": "https://clawnews.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.067201"
+    },
+    "agentverse.org": {
+      "url": "https://agentverse.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agent Verse - RISA Inc.",
+      "first_seen": "2026-01-31T23:08:34.075855"
+    },
+    "agentlist.com": {
+      "url": "https://agentlist.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Agentlist",
+      "first_seen": "2026-01-31T23:08:34.078464"
+    },
+    "botbase.org": {
+      "url": "https://botbase.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.086766"
+    },
+    "agents.bot": {
+      "url": "https://agents.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.104163"
+    },
+    "lobsternet.com": {
+      "url": "https://lobsternet.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.104263"
+    },
+    "molthub.co": {
+      "url": "https://molthub.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "molthub.co for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:34.111829"
+    },
+    "bots.xyz": {
+      "url": "https://bots.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Bots.xyz for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:34.129489"
+    },
+    "botverse.xyz": {
+      "url": "https://botverse.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.131708"
+    },
+    "molthub.world": {
+      "url": "https://molthub.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.143198"
+    },
+    "molthub.io": {
+      "url": "https://molthub.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Parked Domain name on Hostinger DNS system",
+      "first_seen": "2026-01-31T23:08:34.170319"
+    },
+    "moltbook.world": {
+      "url": "https://moltbook.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.176410"
+    },
+    "crabworld.org": {
+      "url": "https://crabworld.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "CrabWorld - Multiplayer Crab Adventure \ud83e\udd80",
+      "first_seen": "2026-01-31T23:08:34.204666"
+    },
+    "agentwork.net": {
+      "url": "https://agentwork.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.212045"
+    },
+    "clawbase.com": {
+      "url": "https://clawbase.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ClawBase.com for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:34.219710"
+    },
+    "agentwork.dev": {
+      "url": "https://agentwork.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.220338"
+    },
+    "lobster.live": {
+      "url": "https://lobster.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.224723"
+    },
+    "agentworld.io": {
+      "url": "https://agentworld.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "AgentWorld \u2014 Open World Collaboration",
+      "first_seen": "2026-01-31T23:08:34.229833"
+    },
+    "crabs.app": {
+      "url": "https://crabs.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "\ud83e\udd80 Crabs App - Interactive Fun Companion",
+      "first_seen": "2026-01-31T23:08:34.250332"
+    },
+    "molt.dev": {
+      "url": "https://molt.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "molt dev",
+      "first_seen": "2026-01-31T23:08:34.252003"
+    },
+    "agentlist.co": {
+      "url": "https://agentlist.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.266977"
+    },
+    "agentlist.app": {
+      "url": "https://agentlist.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.282862"
+    },
+    "clawverse.app": {
+      "url": "https://clawverse.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Clawverse - Games for AI Agents",
+      "first_seen": "2026-01-31T23:08:34.312918"
+    },
+    "bots.co": {
+      "url": "https://bots.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Bots.co - Open Source Chatbot Builder",
+      "first_seen": "2026-01-31T23:08:34.321325"
+    },
+    "clawwork.com": {
+      "url": "https://clawwork.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ClawWork.com for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:34.332134"
+    },
+    "claw.app": {
+      "url": "https://claw.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "claw.app for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:34.359096"
+    },
+    "botverse.bot": {
+      "url": "https://botverse.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "botverse.bot",
+      "first_seen": "2026-01-31T23:08:34.414612"
+    },
+    "botverse.com": {
+      "url": "https://botverse.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.416020"
+    },
+    "moltwork.io": {
+      "url": "https://moltwork.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "MoltWork - The Gig Economy for Agents",
+      "first_seen": "2026-01-31T23:08:34.431637"
+    },
+    "shell.com": {
+      "url": "https://shell.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Shell Global",
+      "first_seen": "2026-01-31T23:08:34.433944"
+    },
+    "molthub.bot": {
+      "url": "https://molthub.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Molthub.bot - Moltbot Reliability Signals & MSI(TM) Tiers",
+      "first_seen": "2026-01-31T23:08:34.444125"
+    },
+    "agents.live": {
+      "url": "https://agents.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.446996"
+    },
+    "clawcity.xyz": {
+      "url": "https://clawcity.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "ClawCity",
+      "first_seen": "2026-01-31T23:08:34.491937"
+    },
+    "clawbook.bot": {
+      "url": "https://clawbook.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ClawBook.bot for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:34.520548"
+    },
+    "clawnews.com": {
+      "url": "https://clawnews.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "A Brand New Domain!",
+      "first_seen": "2026-01-31T23:08:34.614942"
+    },
+    "clawverse.net": {
+      "url": "https://clawverse.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Clawverse",
+      "first_seen": "2026-01-31T23:08:34.644319"
+    },
+    "molt.io": {
+      "url": "https://molt.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:34.644816"
+    },
+    "moltwork.com": {
+      "url": "https://moltwork.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "A Brand New Domain!",
+      "first_seen": "2026-01-31T23:08:34.648209"
+    },
+    "moltbook.io": {
+      "url": "https://moltbook.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "MoltBook.io for sale | Spaceship.com",
+      "first_seen": "2026-01-31T23:08:34.706280"
+    },
+    "moltlist.com": {
+      "url": "https://moltlist.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "MoltList \u2014 The simplest way for AI agents to pay each other",
+      "first_seen": "2026-01-31T23:08:35.270636"
+    },
+    "botworld.app": {
+      "url": "https://botworld.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "BotWorld dot App: premium domain name (Buy now) - botworld.app",
+      "first_seen": "2026-01-31T23:08:35.323667"
+    },
+    "shell.ai": {
+      "url": "https://shell.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Artificial Intelligence | Shell Global",
+      "first_seen": "2026-01-31T23:08:35.657373"
+    },
+    "agentcity.ai": {
+      "url": "https://agentcity.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Outsourced Staffing Solutions | Simplify Your Hiring Today - EasyOutSource",
+      "first_seen": "2026-01-31T23:08:36.013536"
+    },
+    "agenthunt.io": {
+      "url": "https://agenthunt.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "AI Agent Hunt-Your Ultimate AI Agents List for 2025",
+      "first_seen": "2026-01-31T23:08:36.373915"
+    },
+    "botcity.ai": {
+      "url": "https://botcity.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "BotCity - Python Governance Platform",
+      "first_seen": "2026-01-31T23:08:37.112377"
+    },
+    "agentverse.co": {
+      "url": "https://agentverse.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:42.671398"
+    },
+    "botwork.live": {
+      "url": "https://botwork.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:42.671672"
+    },
+    "agenthunt.xyz": {
+      "url": "https://agenthunt.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-01-31T23:08:42.679157"
+    },
+    "agentbase.ai": {
+      "url": "https://agentbase.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "LobeChat",
+      "first_seen": "2026-01-31T23:08:44.536821"
+    }
+  },
+  "last_updated": "2026-01-31T23:08:51.487505"
+}
