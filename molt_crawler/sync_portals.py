@@ -12,6 +12,16 @@ from datetime import datetime
 CRAWLER_DB = Path(__file__).parent / "molt_sites_db.json"
 PORTALS_JSON = Path(__file__).parent.parent / "portals.json"
 
+# Import quality checks
+try:
+    from quality import is_false_positive, FALSE_POSITIVE_PHRASES, EXCLUDE_DOMAINS
+except ImportError:
+    # Fallback if quality module not available
+    EXCLUDE_DOMAINS = []
+    FALSE_POSITIVE_PHRASES = []
+    def is_false_positive(domain, title, desc):
+        return False
+
 # Category detection based on keywords in domain/title
 CATEGORY_RULES = [
     # (keywords, category, tag, icon)
@@ -130,6 +140,8 @@ def sync():
 
     # Filter and convert new sites
     new_portals = []
+    skipped_false_positives = []
+
     for domain, info in crawler_data['sites'].items():
         # Skip if not alive or no content
         if not info.get('alive') or not info.get('has_content'):
@@ -148,6 +160,12 @@ def sync():
 
         # Detect category
         title = info.get('title', '')
+
+        # Skip false positives using quality checks
+        if is_false_positive(domain, title, title):
+            skipped_false_positives.append(domain)
+            continue
+
         category, tag, icon = detect_category(domain, title)
 
         # Create portal entry
@@ -164,6 +182,13 @@ def sync():
 
         new_portals.append(portal)
         print(f"  + {domain}: {portal['name']} ({category})")
+
+    if skipped_false_positives:
+        print(f"\n⚠️  Skipped {len(skipped_false_positives)} false positives:")
+        for fp in skipped_false_positives[:5]:
+            print(f"    - {fp}")
+        if len(skipped_false_positives) > 5:
+            print(f"    ... and {len(skipped_false_positives) - 5} more")
 
     if not new_portals:
         print("No new portals to add")

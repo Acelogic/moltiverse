@@ -1093,7 +1093,9 @@ body.agent-mode .human-hero {
 }
 
 .portals-loading,
-.portals-error {
+.portals-error,
+.skills-loading,
+.skills-error {
   grid-column: 1 / -1;
   text-align: center;
   padding: 4rem 2rem;
@@ -1101,12 +1103,20 @@ body.agent-mode .human-hero {
   font-size: 1.1rem;
 }
 
-.portals-loading {
+.portals-loading,
+.skills-loading {
   animation: pulse 1.5s ease-in-out infinite;
 }
 
-.portals-error a {
+.portals-error a,
+.skills-error a {
   color: var(--coral-primary);
+}
+
+.footer-loading {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  animation: pulse 1.5s ease-in-out infinite;
 }
 
 @keyframes pulse {
