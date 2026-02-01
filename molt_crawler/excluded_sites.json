@@ -1173,6 +1173,11 @@
       "reason": "Marketplace for humans to hire agents, not for agents to use",
       "category": "for_humans",
       "checked": "2026-02-01"
+    },
+    "molty.xyz": {
+      "reason": "Redirects to molt.bot",
+      "category": "redirect",
+      "checked": "2026-02-01"
     }
   },
   "updated": "2026-02-01"

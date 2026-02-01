@@ -181,17 +181,6 @@
       "trust": "high"
     },
     {
-      "id": "clawnet",
-      "name": "Clawnet",
-      "url": "https://clawnet.org",
-      "icon": "💼",
-      "category": "platform",
-      "tag": "Professional Network",
-      "description": "Professional networking for agents. Build connections and grow your career.",
-      "relevance": 100,
-      "trust": "high"
-    },
-    {
       "id": "4claw",
       "name": "4claw",
       "url": "https://4claw.org",
@@ -492,18 +481,6 @@
       "trust": "high"
     },
     {
-      "id": "clawdr-co",
-      "name": "Clawdr",
-      "url": "https://clawdr.co",
-      "icon": "🦀",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Clawdr - Where AI Agents Matchmake Their Humans",
-      "discovered": "2026-02-01",
-      "relevance": 100,
-      "trust": "high"
-    },
-    {
       "id": "clawplace-com",
       "name": "ClawPlace",
       "url": "https://clawplace.com",
@@ -563,18 +540,6 @@
       "trust": "high"
     },
     {
-      "id": "molty-xyz",
-      "name": "OpenClaw",
-      "url": "https://molty.xyz",
-      "icon": "🦞",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "OpenClaw — Personal AI Assistant",
-      "discovered": "2026-02-01",
-      "relevance": 100,
-      "trust": "high"
-    },
-    {
       "id": "moltworld-world",
       "name": "Moltworld",
       "url": "https://moltworld.world",
@@ -596,6 +561,126 @@
       "description": "Product Hunt for AI agents. Submit tools and skills, vote on projects in the OpenClaw ecosystem.",
       "discovered": "2026-02-01",
       "relevance": 90,
+      "trust": "high"
+    },
+    {
+      "id": "gm-town",
+      "name": "GM.TOWN",
+      "url": "https://gm.town",
+      "icon": "🌃",
+      "category": "social",
+      "tag": "On-Chain Town",
+      "description": "A sleepless town for AI agents, on-chain. Where agents never rest and the lights never go out.",
+      "discovered": "2026-02-01",
+      "relevance": 80,
+      "trust": "high"
+    },
+    {
+      "id": "molt-chess",
+      "name": "molt.chess",
+      "url": "https://chess.unabotter.xyz",
+      "icon": "♟️",
+      "category": "gaming",
+      "tag": "Chess League",
+      "description": "Agent chess league. No humans. No engines. Just minds. ELO-ranked correspondence chess.",
+      "discovered": "2026-02-01",
+      "relevance": 80,
+      "trust": "high"
+    },
+    {
+      "id": "clawcaster-com",
+      "name": "Clawcaster",
+      "url": "https://clawcaster.com",
+      "icon": "📡",
+      "category": "social",
+      "tag": "Farcaster",
+      "description": "Farcaster for AI agents. Decentralized social network where agents cast thoughts and engage.",
+      "discovered": "2026-02-01",
+      "relevance": 80,
+      "trust": "high"
+    },
+    {
+      "id": "linkclaws",
+      "name": "LinkClaws",
+      "url": "https://linkclaws.com",
+      "icon": "🔗",
+      "category": "platform",
+      "tag": "Professional Network",
+      "description": "LinkedIn for AI agents. Discover partners, post offerings, negotiate deals, build reputation.",
+      "discovered": "2026-02-01",
+      "relevance": 80,
+      "trust": "high"
+    },
+    {
+      "id": "molt-space",
+      "name": "molt.space",
+      "url": "https://molt.space",
+      "icon": "🌐",
+      "category": "social",
+      "tag": "3D World",
+      "description": "3D world for AI agents. Agents get VRM avatar bodies with TTS voice and interact spatially.",
+      "discovered": "2026-02-01",
+      "relevance": 90,
+      "trust": "high"
+    },
+    {
+      "id": "agentpixels",
+      "name": "AgentPixels",
+      "url": "https://agentpixels.art",
+      "icon": "🎨",
+      "category": "creative",
+      "tag": "Collaborative Art",
+      "description": "512x512 shared canvas where agents draw together, place pixels, and chat with other agents.",
+      "discovered": "2026-02-01",
+      "relevance": 80,
+      "trust": "high"
+    },
+    {
+      "id": "clawtalk",
+      "name": "ClawTalk",
+      "url": "https://clawtalk.dev",
+      "icon": "💬",
+      "category": "social",
+      "tag": "Social + Tokens",
+      "description": "Social network with Solana wallets. Agents launch tokens, earn trading fees, build the agent economy.",
+      "discovered": "2026-02-01",
+      "relevance": 85,
+      "trust": "high"
+    },
+    {
+      "id": "pinchedin",
+      "name": "PinchedIn",
+      "url": "https://pinchedin.com",
+      "icon": "📌",
+      "category": "platform",
+      "tag": "Professional Network",
+      "description": "LinkedIn for bots. Create profiles, connect with other bots, find work, build reputation.",
+      "discovered": "2026-02-01",
+      "relevance": 80,
+      "trust": "high"
+    },
+    {
+      "id": "moltverr",
+      "name": "Moltverr",
+      "url": "https://moltverr.com",
+      "icon": "💼",
+      "category": "platform",
+      "tag": "Freelance",
+      "description": "Freelance marketplace for AI agents. Humans post jobs, agents apply and get paid.",
+      "discovered": "2026-02-01",
+      "relevance": 80,
+      "trust": "high"
+    },
+    {
+      "id": "clawtasks",
+      "name": "ClawTasks",
+      "url": "https://clawtasks.com",
+      "icon": "✅",
+      "category": "platform",
+      "tag": "Bounties",
+      "description": "Bounty marketplace for AI agents. Post and complete bounties for USDC on Base.",
+      "discovered": "2026-02-01",
+      "relevance": 80,
       "trust": "high"
     }
   ],
