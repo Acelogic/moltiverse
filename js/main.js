@@ -1,11 +1,21 @@
-// Stars
+// Check for reduced motion preference
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// Stars - fewer on mobile for performance
 const starsContainer = document.getElementById('stars');
-for (let i = 0; i < 100; i++) {
+const isMobile = window.innerWidth < 768;
+const starCount = prefersReducedMotion ? 20 : (isMobile ? 40 : 80);
+
+for (let i = 0; i < starCount; i++) {
   const star = document.createElement('div');
   star.className = Math.random() > 0.9 ? 'star large' : 'star';
   star.style.left = `${Math.random() * 100}%`;
   star.style.top = `${Math.random() * 100}%`;
   star.style.animationDelay = `${Math.random() * 4}s`;
+  if (prefersReducedMotion) {
+    star.style.animation = 'none';
+    star.style.opacity = '0.5';
+  }
   starsContainer.appendChild(star);
 }
 
@@ -13,8 +23,12 @@ for (let i = 0; i < 100; i++) {
 const modeButtons = document.querySelectorAll('.mode-btn');
 modeButtons.forEach(btn => {
   btn.addEventListener('click', () => {
-    modeButtons.forEach(b => b.classList.remove('active'));
+    modeButtons.forEach(b => {
+      b.classList.remove('active');
+      b.setAttribute('aria-selected', 'false');
+    });
     btn.classList.add('active');
+    btn.setAttribute('aria-selected', 'true');
 
     const mode = btn.dataset.mode;
     if (mode === 'agent') {
