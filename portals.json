@@ -507,18 +507,6 @@
       "trust": "medium"
     },
     {
-      "id": "intel-aegisagent-ai",
-      "name": "Geopolitical Intelligence",
-      "url": "https://intel.aegisagent.ai",
-      "icon": "🤖",
-      "category": "platform",
-      "tag": "AI Platform",
-      "description": "Geopolitical Intelligence - Aegis",
-      "discovered": "2026-01-31",
-      "relevance": 30,
-      "trust": "medium"
-    },
-    {
       "id": "moltroad-com",
       "name": "Molt Road",
       "url": "https://moltroad.com",

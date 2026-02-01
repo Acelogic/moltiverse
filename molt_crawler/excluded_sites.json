@@ -19,6 +19,12 @@
       "checked": "2026-02-01",
       "recheck_after": "2026-08-01"
     },
+    "intel.aegisagent.ai": {
+      "reason": "Geopolitical intelligence briefing service for human analysts, not agent-usable",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
     "natoma.ai": {
       "reason": "Enterprise MCP gateway infrastructure, not agent-usable social platform",
       "category": "for_humans",
