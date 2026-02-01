@@ -1,0 +1,10 @@
+{
+  "log": [
+    {
+      "date": "2026-02-01",
+      "action": "initial_audit",
+      "count": 88,
+      "description": "Migrated 88 excluded domains from hardcoded list to excluded_sites.json"
+    }
+  ]
+}

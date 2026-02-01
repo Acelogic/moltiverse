@@ -1,0 +1,533 @@
+{
+  "excluded": {
+    "clawx.io": {
+      "reason": "Expired domain",
+      "category": "dead",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "clawx.net": {
+      "reason": "Default page",
+      "category": "dead",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "lobster.com": {
+      "reason": "Domain for sale",
+      "category": "dead",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "lobsternews.com": {
+      "reason": "Domain for sale",
+      "category": "dead",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "moltnews.ai": {
+      "reason": "Parked Hostinger domain",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "claws.gg": {
+      "reason": "Coming soon page",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "moltworld.ai": {
+      "reason": "Coming soon page",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "shellx.io": {
+      "reason": "Coming soon page",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "agenthub.space": {
+      "reason": "Coming soon page",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "agentoverflow.com": {
+      "reason": "Coming soon page",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "openlist.dev": {
+      "reason": "Coming soon page",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "botx.co": {
+      "reason": "Coming soon page",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "openarena.xyz": {
+      "reason": "Coming soon page",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "shellcaster.app": {
+      "reason": "Coming soon page",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "opencrunch.io": {
+      "reason": "Coming soon page",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "agentnet.dev": {
+      "reason": "Redirects to other domains",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "agentcity.ai": {
+      "reason": "Redirects to staffing site",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "open.bot": {
+      "reason": "Redirects to bot-names.com",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "botline.net": {
+      "reason": "Redirects to botfrei.de",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "poly.io": {
+      "reason": "Redirects to polymorphism.co.uk",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "lobster.dev": {
+      "reason": "Redirects to personal portfolio",
+      "category": "redirect",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "agentline.ai": {
+      "reason": "Medicare Call Recording",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "agentlaunch.ai": {
+      "reason": "Business coaching",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "agentlaunch.io": {
+      "reason": "Life insurance lead gen",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "agentarena.com": {
+      "reason": "Real estate agent auctions",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "agentcrunch.com": {
+      "reason": "Real estate agents",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "molt.co": {
+      "reason": "Creative design agency",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "starkline.com": {
+      "reason": "Electric fencing supplies",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "starkx.com": {
+      "reason": "Fashion brand",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "crabplace.com": {
+      "reason": "Seafood retailer",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "crabs.town": {
+      "reason": "Energy drink site",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "starks.org": {
+      "reason": "Genealogy research",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "lobsterplace.com": {
+      "reason": "Seafood restaurant",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "claw.space": {
+      "reason": "Unrelated Japanese shop",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "starknet.io": {
+      "reason": "Blockchain platform",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "openworld.dev": {
+      "reason": "Blockchain advisory",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "openx.com": {
+      "reason": "Advertising platform",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "openhub.net": {
+      "reason": "Open source tracking",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "opencity.org": {
+      "reason": "Literary magazine",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "opennews.org": {
+      "reason": "Journalism organization",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "openbook.io": {
+      "reason": "SaaS company (CloudPDF)",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "openverse.com": {
+      "reason": "TCL/Tk chat program",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "polyhunt.io": {
+      "reason": "Polymarket analytics",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "polybase.io": {
+      "reason": "Dev agency",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "polychan.net": {
+      "reason": "4chan desktop app",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "polynews.org": {
+      "reason": "General news website",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "polys.com": {
+      "reason": "Polymer science blog",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "polybook.org": {
+      "reason": "Polyamory survey",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "polycrunch.com": {
+      "reason": "ArtStation portfolio",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "stark.ai": {
+      "reason": "Job search platform",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "starkdirect.net": {
+      "reason": "Outlook page",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "polycity.com": {
+      "reason": "Corporation",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "openplace.app": {
+      "reason": "Community/privacy app",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "bankrs.app": {
+      "reason": "Financial app",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "bankrx.ai": {
+      "reason": "Generic landing page",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "openbase.org": {
+      "reason": "Open source community",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "opendr.io": {
+      "reason": "Cybersecurity company",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "shellline.net": {
+      "reason": "IT consulting",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "botarena.io": {
+      "reason": "NFT gaming on Cardano",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "botdr.com": {
+      "reason": "Domain marketplace",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "openchan.com": {
+      "reason": "B2B lead generation",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "opens.org": {
+      "reason": "Excavator equipment standard",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "openline.ai": {
+      "reason": "CustomerOS",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "opennet.com": {
+      "reason": "Generic landing page",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "openroad.org": {
+      "reason": "Error/unclear",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "lobsternet.net": {
+      "reason": "Vague science site",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "agentbase.org": {
+      "reason": "Agent Based Modeling (scientific)",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "starkbot.ai": {
+      "reason": "Minimal content",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "openclawpoker.com": {
+      "reason": "Site down",
+      "category": "dead",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "botlist.net": {
+      "reason": "Discord bot directory",
+      "category": "bot_directory",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "botlist.xyz": {
+      "reason": "Discord bot directory",
+      "category": "bot_directory",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "bots.gg": {
+      "reason": "Discord bot directory",
+      "category": "bot_directory",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "bothunt.ai": {
+      "reason": "Bot directory",
+      "category": "bot_directory",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "botplace.io": {
+      "reason": "Telegram commerce builder",
+      "category": "bot_directory",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "botlaunch.io": {
+      "reason": "Telegram bot builder",
+      "category": "bot_directory",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "bot.space": {
+      "reason": "WhatsApp business messaging",
+      "category": "bot_directory",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "bankrlist.com": {
+      "reason": "SCAM/PHISHING site",
+      "category": "malicious",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "crabs.com": {
+      "reason": "Seafood",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "crabs.net": {
+      "reason": "Seafood",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "crab.com": {
+      "reason": "Seafood",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "lobsterbook.com": {
+      "reason": "Seafood",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "shellcity.net": {
+      "reason": "Windows tools",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "shells.com": {
+      "reason": "Cloud computing",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "shellhub.io": {
+      "reason": "SSH tools",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "shellbase.app": {
+      "reason": "Cloud shells",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "agents.ai": {
+      "reason": "Browser automation",
+      "category": "unrelated",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "agenthub.app": {
+      "reason": "Real estate agents",
+      "category": "wrong_industry",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "crabworld.net": {
+      "reason": "Parked domain",
+      "category": "parked",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    }
+  },
+  "updated": "2026-02-01"
+}

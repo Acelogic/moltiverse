@@ -2,14 +2,18 @@
 """
 Quality scoring for molt ecosystem sites.
 Adds relevance scores, trust levels, and status tracking.
+Now uses JSON files for exclusions instead of hardcoded lists.
 """
 
 import json
 import re
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 
+# File paths
 PORTALS_JSON = Path(__file__).parent.parent / "portals.json"
+EXCLUDED_JSON = Path(__file__).parent / "excluded_sites.json"
+AUDIT_LOG_JSON = Path(__file__).parent / "audit_log.json"
 
 # Relevance keywords - higher weight = more relevant
 RELEVANCE_KEYWORDS = {
@@ -26,172 +30,40 @@ RELEVANCE_KEYWORDS = {
     'agent social': 2, 'agent marketplace': 2,
 }
 
-# FALSE POSITIVES - phrases that indicate the site is NOT part of the molt ecosystem
-# These should immediately disqualify a site
-FALSE_POSITIVE_PHRASES = [
-    # Seafood/Restaurant
-    'stone crab', 'seafood restaurant', 'waterfront restaurant',
-    'arctic taste', 'spice combination', 'mail-order crabs',
-    'hard-shell crabs', 'we sell', 'shipped nationwide',
-
-    # Discord/Telegram bot directories (not molt-specific)
-    'discord bots', 'find bots for discord', 'discord, slack, telegram',
-    'telegram, kik', 'monitoring discord servers', 'chatbot directory',
-    'chatbot builder', 'open source chatbot',
-
-    # Windows/System tools
-    'windows power tools', 'shell extension', 'explorer enhancement',
-    'windows add-on', 'github gists',
-
-    # Cloud computing (non-agent)
-    'your computer in the cloud',
-
-    # Legal/Business services
-    'registered agent service', 'service of process',
-    'board of trade',
-
-    # Entertainment industry (talent agents)
-    'actor talent', 'talent agencies', 'actor resource',
-
-    # Real estate
-    'real estate', 'property',
-
-    # RPA/Automation (non-molt)
-    'python governance platform', 'warehouse automation',
-    'rpa', 'robotic process automation',
-
-    # Physical arcades
-    'claw machine arcade', "minnesota's largest",
-
-    # Investment/Trading (non-agent)
-    'bots capital',
-
-    # Generic religious/game site
-    'let the kingdom come',
-
-    # Recruiting/HR (non-agent)
-    'automate your recruiting', 'book more interviews',
-
-    # Generic AI tools (not molt ecosystem)
-    'ai automation framework',
-]
-
-# Domains to always exclude (known false positives)
-EXCLUDE_DOMAINS = [
-    # Seafood
-    'crabs.com', 'crabs.net', 'crab.com', 'lobsterbook.com',
-
-    # Discord bot directories
-    'botlist.net', 'botlist.xyz', 'bots.gg', 'bothunt.ai',
-
-    # Windows tools
-    'shellcity.net', 'shells.com', 'shellhub.io', 'shellbase.app',
-
-    # Unrelated businesses
-    'bot.com', 'agent.co', 'agentlist.org', 'agentworld.com',
-    'botcity.dev', 'botcity.ai', 'botverse.org', 'moltnet.com',
-    'clawworld.com', 'clawcity.co', 'lobster.world', 'lobsterwork.com',
-
-    # BotWorld religious/game site (5 TLDs)
-    'botworld.org', 'botworld.co', 'botworld.net', 'botworld.com', 'botworld.live',
-
-    # Other false positives
-    'bots.ai', 'bots.io', 'bot.ai', 'botbase.co', 'botnet.co',
-    'bothub.bot', 'bots.co', 'shellworld.net', 'shellworld.com',
-
-    # Generic/unrelated agent/bot sites (not molt ecosystem)
-    'bot.co', 'botlist.app', 'shellnews.net', 'agentbook.org',
-    'agentcity.co', 'agentcity.com', 'agentcity.io',
-    'agentlist.dev', 'agentnet.xyz', 'agent.io',
-
-    # Verified not molt ecosystem (checked actual site content)
-    'agents.ai',  # Browser automation "browse-to-earn", not AI agents
-    'agenthub.app',  # Real estate/insurance agents, not AI
-
-    # More verified false positives (2026-02-01)
-    'lobster.com',  # Domain for sale
-    'lobsterplace.com',  # Seafood restaurant NYC
-    'claw.space',  # Unrelated Japanese shop
-    'clawx.io',  # Expired domain
-    'clawx.net',  # Default page
-
-    # Verified false positives - not AI agents (2026-02-01 batch 2)
-    'agentline.ai',  # Medicare Call Recording Solution
-    'molt.co',  # Creative design agency, not AI
-    'agentlaunch.ai',  # Business coaching/sales funnel
-    'agentlaunch.io',  # Life insurance lead generation
-    'agentbase.org',  # Agent Based Modeling (scientific simulations), not AI agents
-    'botplace.io',  # Telegram commerce builder for Russian market, not molt ecosystem
-    'moltnews.ai',  # Parked Hostinger domain
-    'agentarena.com',  # Real estate agent auction platform, not AI
-
-    # Verified false positives (2026-02-01 batch 3)
-    'agentnet.dev',  # Redirects to other domains
-    'crabworld.net',  # Parked domain
-    'crabs.town',  # Energy drink site, not crabs
-    'stark.ai',  # Job search platform
-    'starkdirect.net',  # Outlook page
-    'polycity.com',  # Corporation, not AI
-    'openline.ai',  # CustomerOS, not AI agents
-    'bot.space',  # WhatsApp business messaging, not molt ecosystem
-    'botlaunch.io',  # Telegram bot builder, not molt ecosystem
-
-    # Verified false positives (2026-02-01 batch 4 - full audit)
-    'openplace.app',  # Community/privacy app
-    'polyhunt.io',  # Polymarket analytics
-    'openbook.io',  # SaaS company (CloudPDF)
-    'opennews.org',  # Journalism organization
-    'polycrunch.com',  # ArtStation portfolio
-    'openverse.com',  # TCL/Tk chat program
-    'bankrs.app',  # Financial app
-    'agentoverflow.com',  # Coming soon page
-    'shellx.io',  # Coming soon page
-    'polybook.org',  # Polyamory survey
-    'polynews.org',  # General news website
-    'polys.com',  # Polymer science blog
-    'agenthub.space',  # Coming soon page
-    'openworld.dev',  # Blockchain advisory
-    'polybase.io',  # Dev agency
-    'opencrunch.io',  # Coming soon page
-    'botarena.io',  # NFT gaming on Cardano
-    'shellline.net',  # IT consulting
-    'openx.com',  # Advertising platform
-    'polychan.net',  # 4chan desktop app
-    'openbase.org',  # Open source community
-    'openlist.dev',  # Coming soon page
-    'botx.co',  # Coming soon page
-    'starkline.com',  # Electric fencing supplies
-    'openhub.net',  # Open source tracking
-    'opennet.com',  # Generic landing page
-    'starkx.com',  # Fashion brand
-    'open.bot',  # Redirects to bot-names.com
-    'openarena.xyz',  # Coming soon page
-    'opendr.io',  # Cybersecurity company
-    'shellcaster.app',  # Coming soon page
-    'opencity.org',  # Literary magazine
-    'botline.net',  # Redirects to botfrei.de
-    'openroad.org',  # Error/unclear
-    'botdr.com',  # Domain marketplace
-    'bankrlist.com',  # SCAM/PHISHING site
-    'bankrx.ai',  # Generic landing page
-    'poly.io',  # Redirects to polymorphism.co.uk
-    'openchan.com',  # B2B lead generation
-    'starks.org',  # Genealogy research
-    'crabplace.com',  # Seafood retailer
-    'starknet.io',  # Blockchain platform
-    'opens.org',  # Excavator equipment standard
-    'starkbot.ai',  # Minimal content, unclear product
-
-    # Verified false positives (2026-02-01 batch 5 - description audit)
-    'agentcity.ai',  # Redirects to staffing/outsourcing site
-    'agentcrunch.com',  # Real estate agents site
-    'lobsternews.com',  # Domain for sale
-    'claws.gg',  # Coming soon page
-    'moltworld.ai',  # Coming soon page
-    'lobsternet.net',  # Vague "science and technology" site
-    'lobster.dev',  # Redirects to personal portfolio
-    'openclawpoker.com',  # Site down
-]
+# Auto-detection patterns for bad sites
+AUTO_DETECT_BAD = {
+    'parked_page': [
+        'launching soon', 'coming soon', 'bald geht\'s los',
+        'we\'re getting things ready', 'under construction',
+        'future home of', 'parked domain', 'domain for sale',
+        'hostinger dns system', 'godaddy', 'this domain is for sale',
+    ],
+    'wrong_industry': [
+        # Seafood
+        'stone crab', 'seafood restaurant', 'waterfront restaurant',
+        'mail-order crabs', 'hard-shell crabs', 'shipped nationwide',
+        # Real estate
+        'real estate', 'property listing', 'agents who sell',
+        'realtors', 'home buying',
+        # Insurance/Medicare
+        'medicare', 'insurance agent', 'life insurance',
+        # Talent/HR
+        'talent agencies', 'actor resource', 'recruiting',
+        # Physical products
+        'electric fencing', 'poultry supplies', 'excavator',
+        # Fashion
+        'clothing brand', 'fashion retail',
+    ],
+    'generic_platform': [
+        'discord bots', 'telegram bot builder', 'whatsapp business',
+        'chatbot directory', 'open source chatbot',
+        'prediction market', 'polymarket',
+        'genealogy', 'family history', 'surname research',
+    ],
+    'malicious': [
+        'scam', 'phishing', 'malware', 'compromised',
+    ],
+}
 
 # Red flags - reduce trust
 RED_FLAGS = [
@@ -214,23 +86,106 @@ TRUST_LEVELS = {
 STATUS_VALUES = ['active', 'inactive', 'down', 'compromised', 'parked']
 
 
+def load_excluded_domains() -> dict:
+    """Load excluded domains from JSON file."""
+    if EXCLUDED_JSON.exists():
+        with open(EXCLUDED_JSON) as f:
+            data = json.load(f)
+            return data.get('excluded', {})
+    return {}
+
+
+def save_excluded_domains(excluded: dict):
+    """Save excluded domains to JSON file."""
+    data = {
+        'excluded': excluded,
+        'updated': datetime.now().strftime('%Y-%m-%d')
+    }
+    with open(EXCLUDED_JSON, 'w') as f:
+        json.dump(data, f, indent=2)
+
+
+def log_audit(action: str, site: str = None, reason: str = None, count: int = None):
+    """Log an audit action."""
+    if AUDIT_LOG_JSON.exists():
+        with open(AUDIT_LOG_JSON) as f:
+            data = json.load(f)
+    else:
+        data = {'log': []}
+
+    entry = {
+        'date': datetime.now().strftime('%Y-%m-%d %H:%M'),
+        'action': action,
+    }
+    if site:
+        entry['site'] = site
+    if reason:
+        entry['reason'] = reason
+    if count is not None:
+        entry['count'] = count
+
+    data['log'].append(entry)
+
+    with open(AUDIT_LOG_JSON, 'w') as f:
+        json.dump(data, f, indent=2)
+
+
+def exclude_site(domain: str, reason: str, category: str = 'other'):
+    """Add a site to the exclusion list."""
+    excluded = load_excluded_domains()
+
+    excluded[domain] = {
+        'reason': reason,
+        'category': category,
+        'checked': datetime.now().strftime('%Y-%m-%d'),
+        'recheck_after': (datetime.now() + timedelta(days=180)).strftime('%Y-%m-%d')
+    }
+
+    save_excluded_domains(excluded)
+    log_audit('exclude', site=domain, reason=reason)
+    print(f"  ❌ Excluded: {domain} ({reason})")
+
+
+def auto_detect_bad_site(domain: str, title: str, description: str) -> tuple:
+    """
+    Automatically detect if a site is bad based on content patterns.
+    Returns (is_bad, category, reason) tuple.
+    """
+    text = f"{title} {description}".lower()
+
+    for category, patterns in AUTO_DETECT_BAD.items():
+        for pattern in patterns:
+            if pattern in text:
+                return (True, category, f"Auto-detected: '{pattern}'")
+
+    # Check for minimal content (description is just domain or very short)
+    if description.lower().strip() == domain.lower().strip():
+        return (True, 'minimal_content', 'Description same as domain')
+
+    if len(description) < 15 and 'molt' not in domain.lower() and 'claw' not in domain.lower():
+        return (True, 'minimal_content', 'Very short description, not molt domain')
+
+    return (False, None, None)
+
+
 def is_false_positive(domain: str, title: str, description: str) -> bool:
     """Check if site matches false positive patterns."""
     text = f"{title} {description}".lower()
-    domain_lower = domain.lower()
+    domain_lower = domain.lower().replace('www.', '')
 
-    # Check excluded domains
-    if domain_lower in EXCLUDE_DOMAINS:
+    # Check excluded domains from JSON
+    excluded = load_excluded_domains()
+    if domain_lower in excluded:
         return True
 
     # Check for mailto: or invalid URLs
     if domain_lower.startswith('mailto:'):
         return True
 
-    # Check false positive phrases
-    for phrase in FALSE_POSITIVE_PHRASES:
-        if phrase in text:
-            return True
+    # Auto-detect bad sites
+    is_bad, category, reason = auto_detect_bad_site(domain_lower, title, description)
+    if is_bad:
+        return True
 
     return False
 
@@ -373,7 +328,7 @@ def cleanup_false_positives():
     # Filter out false positives
     cleaned_portals = []
     for portal in data['portals']:
-        domain = portal.get('url', '').replace('https://', '').replace('http://', '').split('/')[0]
+        domain = portal.get('url', '').replace('https://', '').replace('http://', '').split('/')[0].replace('www.', '')
         title = portal.get('name', '')
         description = portal.get('description', '')
 
@@ -393,9 +348,49 @@ def cleanup_false_positives():
     print(f"   Remaining: {len(cleaned_portals)} portals")
 
     if removed:
+        log_audit('cleanup', count=len(removed), reason=f"Removed: {', '.join(removed[:5])}...")
         print(f"\n🚫 Removed sites:")
         for domain in removed:
             print(f"    - {domain}")
+
+
+def show_excluded():
+    """Show all excluded domains with reasons."""
+    excluded = load_excluded_domains()
+
+    print(f"📋 Excluded Sites ({len(excluded)} total)\n")
+
+    # Group by category
+    by_category = {}
+    for domain, info in excluded.items():
+        cat = info.get('category', 'other')
+        if cat not in by_category:
+            by_category[cat] = []
+        by_category[cat].append((domain, info))
+
+    for category, sites in sorted(by_category.items()):
+        print(f"\n{category.upper()} ({len(sites)}):")
+        for domain, info in sorted(sites):
+            print(f"  {domain:35} | {info.get('reason', 'Unknown')[:40]}")
+
+
+def needs_recheck():
+    """Show sites that need re-verification."""
+    excluded = load_excluded_domains()
+    today = datetime.now().strftime('%Y-%m-%d')
+
+    needs_check = []
+    for domain, info in excluded.items():
+        recheck = info.get('recheck_after', '2099-12-31')
+        if recheck <= today:
+            needs_check.append((domain, info))
+
+    if needs_check:
+        print(f"🔄 {len(needs_check)} sites need re-verification:\n")
+        for domain, info in needs_check:
+            print(f"  {domain} (last checked: {info.get('checked', 'Unknown')})")
+    else:
+        print("✅ No sites need re-verification")
 
 
 def filter_quality(min_trust: str = 'medium', min_relevance: int = 30):
@@ -461,45 +456,71 @@ def audit_low_quality():
     print('  "trust": "medium"  or  "verified": true')
 
 
-def export_audit_csv():
-    """Export low-quality sites to CSV for spreadsheet review."""
-    import csv
+def show_stats():
+    """Show overall statistics."""
+    excluded = load_excluded_domains()
+
     with open(PORTALS_JSON) as f:
         data = json.load(f)
 
-    csv_path = Path(__file__).parent / "audit_queue.csv"
-    with open(csv_path, 'w', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(['domain', 'name', 'trust', 'relevance', 'description', 'action'])
+    portals = data['portals']
 
-        for p in data['portals']:
-            if p.get('trust') in ['low', 'untrusted']:
-                domain = p['url'].replace('https://', '').replace('http://', '').split('/')[0]
-                writer.writerow([
-                    domain,
-                    p.get('name', ''),
-                    p.get('trust', ''),
-                    p.get('relevance', 0),
-                    p.get('description', '')[:100],
-                    ''  # action column for manual input
-                ])
+    print("📊 MOLT ECOSYSTEM STATS\n")
+    print(f"Total portals: {len(portals)}")
+    print(f"Excluded sites: {len(excluded)}")
 
-    print(f"📄 Exported to {csv_path}")
+    # Trust distribution
+    by_trust = {}
+    for p in portals:
+        t = p.get('trust', 'unknown')
+        by_trust[t] = by_trust.get(t, 0) + 1
+
+    print(f"\nTrust Distribution:")
+    for t in ['verified', 'high', 'medium', 'low', 'untrusted']:
+        print(f"  {t:12}: {by_trust.get(t, 0)}")
+
+    # Exclusion categories
+    by_cat = {}
+    for domain, info in excluded.items():
+        cat = info.get('category', 'other')
+        by_cat[cat] = by_cat.get(cat, 0) + 1
+
+    print(f"\nExclusion Categories:")
+    for cat, count in sorted(by_cat.items(), key=lambda x: -x[1]):
+        print(f"  {cat:20}: {count}")
 
 
 if __name__ == "__main__":
     import sys
     if len(sys.argv) > 1:
-        if sys.argv[1] == '--featured':
+        cmd = sys.argv[1]
+        if cmd == '--featured':
             score_portals()
             mark_featured()
-        elif sys.argv[1] == '--audit':
+        elif cmd == '--audit':
             audit_low_quality()
-        elif sys.argv[1] == '--export':
-            export_audit_csv()
-        elif sys.argv[1] == '--cleanup':
+        elif cmd == '--cleanup':
             cleanup_false_positives()
+        elif cmd == '--excluded':
+            show_excluded()
+        elif cmd == '--recheck':
+            needs_recheck()
+        elif cmd == '--stats':
+            show_stats()
+        elif cmd == '--exclude' and len(sys.argv) >= 4:
+            domain = sys.argv[2]
+            reason = ' '.join(sys.argv[3:])
+            exclude_site(domain, reason)
         else:
-            print("Usage: quality.py [--featured|--audit|--export|--cleanup]")
+            print("Usage: quality.py [command]")
+            print("Commands:")
+            print("  (none)      - Score all portals")
+            print("  --cleanup   - Remove false positives")
+            print("  --featured  - Mark high-quality as featured")
+            print("  --audit     - Show low-quality sites for review")
+            print("  --excluded  - Show all excluded domains")
+            print("  --recheck   - Show sites needing re-verification")
+            print("  --stats     - Show overall statistics")
+            print("  --exclude DOMAIN REASON - Add site to exclusion list")
     else:
         score_portals()
