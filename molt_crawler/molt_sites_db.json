@@ -3046,7 +3046,3735 @@
       "has_content": false,
       "title": "LobeChat",
       "first_seen": "2026-01-31T23:08:44.536821"
+    },
+    "clawdr.app": {
+      "url": "https://clawdr.app",
+      "source": "crawl",
+      "alive": false,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:29:58.993512"
+    },
+    "moltline.app": {
+      "url": "https://moltline.app",
+      "source": "crawl",
+      "alive": false,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:29:59.014886"
+    },
+    "molt.chess": {
+      "url": "https://molt.chess",
+      "source": "crawl",
+      "alive": false,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:29:59.039409"
+    },
+    "clawcrunch.com": {
+      "url": "https://clawcrunch.com",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "ClawCrunch - News for the Agent Era",
+      "first_seen": "2026-02-01T00:29:59.088432"
+    },
+    "bankr.bot": {
+      "url": "https://bankr.bot",
+      "source": "crawl",
+      "alive": true,
+      "has_content": false,
+      "title": "Bankr",
+      "first_seen": "2026-02-01T00:29:59.119331"
+    },
+    "moltlaunch.com": {
+      "url": "https://moltlaunch.com",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "moltlaunch \u2014 CLI launchpad on Base",
+      "first_seen": "2026-02-01T00:29:59.295590"
+    },
+    "clanker.world": {
+      "url": "https://clanker.world",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "clanker world",
+      "first_seen": "2026-02-01T00:29:59.343276"
+    },
+    "moltiplayer.com": {
+      "url": "https://moltiplayer.com",
+      "source": "crawl",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:29:59.380491"
+    },
+    "claw.direct": {
+      "url": "https://claw.direct",
+      "source": "crawl",
+      "alive": true,
+      "has_content": false,
+      "title": "Clawdirect - AI Agent Directory",
+      "first_seen": "2026-02-01T00:29:59.413015"
+    },
+    "clawarena.ai": {
+      "url": "https://clawarena.ai",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "ClawArena",
+      "first_seen": "2026-02-01T00:29:59.442730"
+    },
+    "moltx.io": {
+      "url": "https://moltx.io",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "MoltX",
+      "first_seen": "2026-02-01T00:29:59.507716"
+    },
+    "moltoverflow.com": {
+      "url": "https://moltoverflow.com",
+      "source": "crawl",
+      "alive": true,
+      "has_content": false,
+      "title": "MoltOverflow - StackOverflow for Coding Agents",
+      "first_seen": "2026-02-01T00:29:59.548827"
+    },
+    "moltbook.space": {
+      "url": "https://moltbook.space",
+      "source": "crawl",
+      "alive": true,
+      "has_content": false,
+      "title": "Moltbook",
+      "first_seen": "2026-02-01T00:29:59.569056"
+    },
+    "clawnhub.com": {
+      "url": "https://clawnhub.com",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "Clawnhub \u2014 Not Safe For Workflows",
+      "first_seen": "2026-02-01T00:29:59.641071"
+    },
+    "crabernews.com": {
+      "url": "https://crabernews.com",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "Craber News",
+      "first_seen": "2026-02-01T00:29:59.710710"
+    },
+    "molt-place.com": {
+      "url": "https://molt-place.com",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "Moltplace - Collaborative Pixel Canvas for AI Agents",
+      "first_seen": "2026-02-01T00:29:59.741966"
+    },
+    "clawcaster.xyz": {
+      "url": "https://clawcaster.xyz",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "Client Challenge",
+      "first_seen": "2026-02-01T00:29:59.781249"
+    },
+    "starkbot.ai": {
+      "url": "https://starkbot.ai",
+      "source": "crawl",
+      "alive": true,
+      "has_content": false,
+      "title": "StarkBot - Your AI Assistant That Actually Gets Things Done",
+      "first_seen": "2026-02-01T00:29:59.782422"
+    },
+    "docs.openclaw.ai": {
+      "url": "https://docs.openclaw.ai",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "OpenClaw - OpenClaw",
+      "first_seen": "2026-02-01T00:29:59.975804"
+    },
+    "clawk.ai": {
+      "url": "https://clawk.ai",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "Clawk \u2014 Twitter for AI Agents \ud83e\udd9e",
+      "first_seen": "2026-02-01T00:30:00.015645"
+    },
+    "clawnch.bot": {
+      "url": "https://clawnch.bot",
+      "source": "crawl",
+      "alive": true,
+      "has_content": false,
+      "title": "clawnch.bot for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:30:00.070719"
+    },
+    "moltbunker.com": {
+      "url": "https://moltbunker.com",
+      "source": "link",
+      "alive": true,
+      "has_content": false,
+      "title": "MoltBunker - Runtime Environment for AI Bots",
+      "first_seen": "2026-02-01T00:30:00.174146"
+    },
+    "molty.me": {
+      "url": "https://molty.me",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Molty \ud83e\udd9e \u2014 Peter's AI Assistant",
+      "first_seen": "2026-02-01T00:30:00.210289"
+    },
+    "www.hotmolts.com": {
+      "url": "https://www.hotmolts.com",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "hotmolts",
+      "first_seen": "2026-02-01T00:30:00.359209"
+    },
+    "www.moltyoverflow.com": {
+      "url": "https://www.moltyoverflow.com",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "MoltyOverflow \u2014 Stack Overflow for AI Agents",
+      "first_seen": "2026-02-01T00:30:00.387219"
+    },
+    "www.openclawpoker.com": {
+      "url": "https://www.openclawpoker.com",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "OpenClaw Poker",
+      "first_seen": "2026-02-01T00:30:00.421284"
+    },
+    "wsb-spirit.moltcities.org": {
+      "url": "https://wsb-spirit.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "wallstreetbets | MoltCities",
+      "first_seen": "2026-02-01T00:30:00.484413"
+    },
+    "wallstreetbets.moltcities.org": {
+      "url": "https://wallstreetbets.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "wallstreetbets | MoltCities",
+      "first_seen": "2026-02-01T00:30:00.519777"
+    },
+    "danmaps-openclaw-bot.moltcities.org": {
+      "url": "https://danmaps-openclaw-bot.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "danmaps_openclaw_bot | MoltCities",
+      "first_seen": "2026-02-01T00:30:00.522957"
+    },
+    "danmaps-openclaw.moltcities.org": {
+      "url": "https://danmaps-openclaw.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "danmaps_openclaw_bot | MoltCities",
+      "first_seen": "2026-02-01T00:30:00.530610"
+    },
+    "shell-town.com": {
+      "url": "https://shell-town.com",
+      "source": "crawl",
+      "alive": true,
+      "has_content": true,
+      "title": "",
+      "first_seen": "2026-02-01T00:30:02.599871"
+    },
+    "polyclaw.ai": {
+      "url": "https://polyclaw.ai",
+      "source": "crawl",
+      "alive": false,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:30:07.507232"
+    },
+    "starks.io": {
+      "url": "https://starks.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.198743"
+    },
+    "moltplace.com": {
+      "url": "https://moltplace.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.204538"
+    },
+    "polybook.xyz": {
+      "url": "https://polybook.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.252437"
+    },
+    "openroad.xyz": {
+      "url": "https://openroad.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.262823"
+    },
+    "agentcaster.xyz": {
+      "url": "https://agentcaster.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.262997"
+    },
+    "agent.space": {
+      "url": "https://agent.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "agent.space",
+      "first_seen": "2026-02-01T00:32:43.278731"
+    },
+    "openplace.app": {
+      "url": "https://openplace.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Create Next App",
+      "first_seen": "2026-02-01T00:32:43.300595"
+    },
+    "agentlaunch.ai": {
+      "url": "https://agentlaunch.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agent Launch",
+      "first_seen": "2026-02-01T00:32:43.415074"
+    },
+    "opendr.com": {
+      "url": "https://opendr.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.421149"
+    },
+    "polybook.live": {
+      "url": "https://polybook.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Polymarket - Information Markets",
+      "first_seen": "2026-02-01T00:32:43.425593"
+    },
+    "polynet.io": {
+      "url": "https://polynet.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.447979"
+    },
+    "agentverse.space": {
+      "url": "https://agentverse.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.459508"
+    },
+    "moltbook.gg": {
+      "url": "https://moltbook.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.485446"
+    },
+    "openmates.org": {
+      "url": "https://openmates.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.487511"
+    },
+    "clawmates.xyz": {
+      "url": "https://clawmates.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ClawMates - Where AI Agents Find Love \u2764\ufe0f\u200d\ud83d\udd25",
+      "first_seen": "2026-02-01T00:32:43.496778"
+    },
+    "polyhunt.io": {
+      "url": "https://polyhunt.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "PolyHunt",
+      "first_seen": "2026-02-01T00:32:43.503848"
+    },
+    "openlist.org": {
+      "url": "https://openlist.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.504025"
+    },
+    "polybase.org": {
+      "url": "https://polybase.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.504772"
+    },
+    "moltmates.xyz": {
+      "url": "https://moltmates.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.515116"
+    },
+    "polycrunch.io": {
+      "url": "https://polycrunch.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Welcome to SharkHosting",
+      "first_seen": "2026-02-01T00:32:43.524006"
+    },
+    "starknews.xyz": {
+      "url": "https://starknews.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.527895"
+    },
+    "open.town": {
+      "url": "https://open.town",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Open",
+      "first_seen": "2026-02-01T00:32:43.531444"
+    },
+    "moltarena.xyz": {
+      "url": "https://moltarena.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Moltarena - Where Moltys Brawl",
+      "first_seen": "2026-02-01T00:32:43.537994"
+    },
+    "openbook.io": {
+      "url": "https://openbook.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.571292"
+    },
+    "agentx.world": {
+      "url": "https://agentx.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.606887"
+    },
+    "opencity.xyz": {
+      "url": "https://opencity.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.633425"
+    },
+    "polyx.io": {
+      "url": "https://polyx.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.657947"
+    },
+    "polyx.live": {
+      "url": "https://polyx.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.662766"
+    },
+    "polyworld.live": {
+      "url": "https://polyworld.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.664872"
+    },
+    "openhub.io": {
+      "url": "https://openhub.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.669360"
+    },
+    "agentarena.xyz": {
+      "url": "https://agentarena.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "AgentArena.xyz for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:32:43.715487"
+    },
+    "opennews.org": {
+      "url": "https://opennews.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "OpenNews \u2014 Connecting the journalism-tech network that collaborates on open technologies and process",
+      "first_seen": "2026-02-01T00:32:43.725350"
+    },
+    "clawarena.com": {
+      "url": "https://clawarena.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "CLAW Arena",
+      "first_seen": "2026-02-01T00:32:43.737436"
+    },
+    "openhunt.org": {
+      "url": "https://openhunt.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "openhunt.org for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:32:43.742570"
+    },
+    "polybook.co": {
+      "url": "https://polybook.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.777505"
+    },
+    "openworld.io": {
+      "url": "https://openworld.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.831434"
+    },
+    "opennet.ai": {
+      "url": "https://opennet.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.833911"
+    },
+    "starkhub.xyz": {
+      "url": "https://starkhub.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.839071"
+    },
+    "starklist.com": {
+      "url": "https://starklist.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "StarkList.com is for sale | HugeDomains",
+      "first_seen": "2026-02-01T00:32:43.875097"
+    },
+    "open.co": {
+      "url": "https://open.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:43.875296"
+    },
+    "polycrunch.com": {
+      "url": "https://polycrunch.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Loraine Howard III",
+      "first_seen": "2026-02-01T00:32:43.884811"
+    },
+    "starks.dev": {
+      "url": "https://starks.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Hola! :)",
+      "first_seen": "2026-02-01T00:32:43.885964"
+    },
+    "polybase.xyz": {
+      "url": "https://polybase.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Polybase Labs",
+      "first_seen": "2026-02-01T00:32:43.915787"
+    },
+    "polyx.ai": {
+      "url": "https://polyx.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Consen | Compose your life, stay a beat ahead.",
+      "first_seen": "2026-02-01T00:32:43.934860"
+    },
+    "moltx.app": {
+      "url": "https://moltx.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "MoltX.app for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:32:43.956608"
+    },
+    "bot.space": {
+      "url": "https://bot.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "BotSpace - #1 Conversational AI Platform for Ecommerce",
+      "first_seen": "2026-02-01T00:32:44.014224"
+    },
+    "starks.com": {
+      "url": "https://starks.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:44.016543"
+    },
+    "openverse.com": {
+      "url": "https://openverse.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "openverse | visual chat client/server",
+      "first_seen": "2026-02-01T00:32:44.023396"
+    },
+    "openlaunch.io": {
+      "url": "https://openlaunch.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Nova by Open Launch\n\u2013 OpenLaunch",
+      "first_seen": "2026-02-01T00:32:44.089273"
+    },
+    "openhub.app": {
+      "url": "https://openhub.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:44.118164"
+    },
+    "moltx.bot": {
+      "url": "https://moltx.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "MoltX.bot for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:32:44.133855"
+    },
+    "openline.org": {
+      "url": "https://openline.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "openline.org for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:32:44.172916"
+    },
+    "poly.co": {
+      "url": "https://poly.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Poly.co for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:32:44.187568"
+    },
+    "bankrs.app": {
+      "url": "https://bankrs.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Bankr",
+      "first_seen": "2026-02-01T00:32:44.327204"
+    },
+    "openarena.com": {
+      "url": "https://openarena.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:44.364216"
+    },
+    "openlaunch.ai": {
+      "url": "https://openlaunch.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Open Launch - Alternatives to Product Hunt",
+      "first_seen": "2026-02-01T00:32:44.479102"
+    },
+    "botlaunch.bot": {
+      "url": "https://botlaunch.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:46.237913"
+    },
+    "agentx.co": {
+      "url": "https://agentx.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "AGENT X - Revenue at the Apex",
+      "first_seen": "2026-02-01T00:32:47.014956"
+    },
+    "stark.co": {
+      "url": "https://stark.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Home - Stark Awning & Canvas Co",
+      "first_seen": "2026-02-01T00:32:48.510020"
+    },
+    "agentlaunch.net": {
+      "url": "https://agentlaunch.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:51.712180"
+    },
+    "opens.net": {
+      "url": "https://opens.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:51.763882"
+    },
+    "bankr.live": {
+      "url": "https://bankr.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:51.790884"
+    },
+    "agentplace.io": {
+      "url": "https://agentplace.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agentplace",
+      "first_seen": "2026-02-01T00:32:51.897657"
+    },
+    "botarena.ai": {
+      "url": "https://botarena.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Bot Arena",
+      "first_seen": "2026-02-01T00:32:51.899969"
+    },
+    "agentoverflow.com": {
+      "url": "https://agentoverflow.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "agentoverflow.com",
+      "first_seen": "2026-02-01T00:32:51.909238"
+    },
+    "polyarena.io": {
+      "url": "https://polyarena.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:51.909414"
+    },
+    "starkhub.com": {
+      "url": "https://starkhub.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "StarkHub.com is for sale | HugeDomains",
+      "first_seen": "2026-02-01T00:32:51.941180"
+    },
+    "polyx.xyz": {
+      "url": "https://polyx.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:51.943442"
+    },
+    "starkverse.com": {
+      "url": "https://starkverse.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:51.943559"
+    },
+    "shellx.io": {
+      "url": "https://shellx.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "shellx.io",
+      "first_seen": "2026-02-01T00:32:51.960721"
+    },
+    "clawx.org": {
+      "url": "https://clawx.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:51.968490"
+    },
+    "botcaster.com": {
+      "url": "https://botcaster.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.006646"
+    },
+    "starkwork.com": {
+      "url": "https://starkwork.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.040269"
+    },
+    "shellmates.com": {
+      "url": "https://shellmates.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ShellMates.com is for sale | HugeDomains",
+      "first_seen": "2026-02-01T00:32:52.061526"
+    },
+    "polyverse.co": {
+      "url": "https://polyverse.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.065388"
+    },
+    "openx.ai": {
+      "url": "https://openx.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "openx.ai for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:32:52.099279"
+    },
+    "agentplace.co": {
+      "url": "https://agentplace.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "agentplace.co",
+      "first_seen": "2026-02-01T00:32:52.108465"
+    },
+    "botx.space": {
+      "url": "https://botx.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.111399"
+    },
+    "agentcaster.com": {
+      "url": "https://agentcaster.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.142576"
+    },
+    "polybook.org": {
+      "url": "https://polybook.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Nothing here yet | Survey Results",
+      "first_seen": "2026-02-01T00:32:52.160701"
+    },
+    "openplace.co": {
+      "url": "https://openplace.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.177815"
+    },
+    "polyverse.app": {
+      "url": "https://polyverse.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.195281"
+    },
+    "shellcaster.com": {
+      "url": "https://shellcaster.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ShellCaster.com is for sale | HugeDomains",
+      "first_seen": "2026-02-01T00:32:52.229831"
+    },
+    "openbook.ai": {
+      "url": "https://openbook.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.274434"
+    },
+    "openx.net": {
+      "url": "https://openx.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.288185"
+    },
+    "starkworld.xyz": {
+      "url": "https://starkworld.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.298408"
+    },
+    "polyline.org": {
+      "url": "https://polyline.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.331976"
+    },
+    "opennet.org": {
+      "url": "https://opennet.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.348127"
+    },
+    "starknet.dev": {
+      "url": "https://starknet.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.354621"
+    },
+    "openx.co": {
+      "url": "https://openx.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.358639"
+    },
+    "polyverse.org": {
+      "url": "https://polyverse.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:52.364869"
+    },
+    "starks.ai": {
+      "url": "https://starks.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "starks.ai is almost here!",
+      "first_seen": "2026-02-01T00:32:52.413432"
+    },
+    "moltline.com": {
+      "url": "https://moltline.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "moltline.com",
+      "first_seen": "2026-02-01T00:32:52.438537"
+    },
+    "openwork.com": {
+      "url": "https://openwork.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Openwork | Staffing Agency | Modern Employment Solutions",
+      "first_seen": "2026-02-01T00:32:52.472135"
+    },
+    "openbase.co": {
+      "url": "https://openbase.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "OpenBase.co for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:32:52.477227"
+    },
+    "starkdirect.net": {
+      "url": "https://starkdirect.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Outlook",
+      "first_seen": "2026-02-01T00:32:52.480699"
+    },
+    "opennet.net": {
+      "url": "https://opennet.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Home | OpenNet Initiative",
+      "first_seen": "2026-02-01T00:32:52.521591"
+    },
+    "openline.ai": {
+      "url": "https://openline.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "CustomerOS | Uncover hidden pipeline that actually converts",
+      "first_seen": "2026-02-01T00:32:52.705593"
+    },
+    "openverse.co": {
+      "url": "https://openverse.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "OpenVerse",
+      "first_seen": "2026-02-01T00:32:52.744330"
+    },
+    "clawnch.xyz": {
+      "url": "https://clawnch.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "clawnch.xyz for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:32:52.752507"
+    },
+    "polynews.org": {
+      "url": "https://polynews.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "polynews - polynews.org",
+      "first_seen": "2026-02-01T00:32:52.790516"
+    },
+    "shellx.org": {
+      "url": "https://shellx.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Shellx - Informasi Otomotif Dunia Hadir Disini",
+      "first_seen": "2026-02-01T00:32:52.868404"
+    },
+    "polyworld.net": {
+      "url": "https://polyworld.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Polyworld - Semantic Layer-1 for Aligned Intelligence",
+      "first_seen": "2026-02-01T00:32:52.911992"
+    },
+    "crabs.town": {
+      "url": "https://crabs.town",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "1 Shot\u00ae | Ultra-Compact Energy, Focus and Voice Support \u2013 1 Shot Energy",
+      "first_seen": "2026-02-01T00:32:53.163395"
+    },
+    "opennews.live": {
+      "url": "https://opennews.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:32:53.164057"
+    },
+    "openplace.net": {
+      "url": "https://openplace.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "tracelight.net \u2013 enlights your software",
+      "first_seen": "2026-02-01T00:32:53.228032"
+    },
+    "botlaunch.io": {
+      "url": "https://botlaunch.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "BotLaunch - Enterprise Telegram Bot Platform",
+      "first_seen": "2026-02-01T00:32:53.354623"
+    },
+    "polyline.space": {
+      "url": "https://polyline.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "\u041f\u041e\u041b\u0418\u041b\u0418\u041d\u0418\u042f \u2014 \u0421\u0442\u0443\u0434\u0438\u044f \u0434\u0438\u0437\u0430\u0439\u043d\u0430 \u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440\u043e\u0432 \u0438 \u043b\u0430\u043d\u0434\u0448\u0430\u0444\u0442\u043e\u0432",
+      "first_seen": "2026-02-01T00:32:53.665669"
+    },
+    "stark.ai": {
+      "url": "https://stark.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Get Hired Faster with Stark.ai - AI-Powered Job Search Tools",
+      "first_seen": "2026-02-01T00:32:53.783397"
+    },
+    "openverse.app": {
+      "url": "https://openverse.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "OpenVerse dot App: premium domain name - openverse.app",
+      "first_seen": "2026-02-01T00:32:54.151543"
+    },
+    "agents.space": {
+      "url": "https://agents.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Enterprise MCP Gateway for AI Agents | Natoma",
+      "first_seen": "2026-02-01T00:32:55.300755"
+    },
+    "polycity.com": {
+      "url": "https://polycity.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Home - Polycity Corporation Ltd | \u5bf6\u5229\u6642\u6709\u9650\u516c\u53f8 |",
+      "first_seen": "2026-02-01T00:32:58.386722"
+    },
+    "agentlaunch.io": {
+      "url": "https://agentlaunch.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Get Exclusive IUL, Infinite Banking and Annuities Leads on Automation",
+      "first_seen": "2026-02-01T00:33:00.765993"
+    },
+    "polyverse.gg": {
+      "url": "https://polyverse.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Polyverse",
+      "first_seen": "2026-02-01T00:33:00.784045"
+    },
+    "botdr.xyz": {
+      "url": "https://botdr.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:00.795536"
+    },
+    "openline.io": {
+      "url": "https://openline.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:00.797616"
+    },
+    "botline.xyz": {
+      "url": "https://botline.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:00.826225"
+    },
+    "bankr.co": {
+      "url": "https://bankr.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:00.842164"
+    },
+    "botarena.app": {
+      "url": "https://botarena.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "BotArena \u2013 Build ruthless AI bots. Enter the arena.",
+      "first_seen": "2026-02-01T00:33:00.854667"
+    },
+    "opencrunch.org": {
+      "url": "https://opencrunch.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:00.882598"
+    },
+    "shelldirect.com": {
+      "url": "https://shelldirect.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:00.912823"
+    },
+    "polywork.ai": {
+      "url": "https://polywork.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:00.946269"
+    },
+    "botarena.com": {
+      "url": "https://botarena.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:00.952081"
+    },
+    "agentarena.co": {
+      "url": "https://agentarena.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:00.978965"
+    },
+    "polyhunt.com": {
+      "url": "https://polyhunt.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:00.986307"
+    },
+    "openlaunch.net": {
+      "url": "https://openlaunch.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:00.992906"
+    },
+    "openworld.app": {
+      "url": "https://openworld.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "openworld.app for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:01.003870"
+    },
+    "botplace.xyz": {
+      "url": "https://botplace.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.007641"
+    },
+    "moltx.xyz": {
+      "url": "https://moltx.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.047395"
+    },
+    "agentcrunch.com": {
+      "url": "https://agentcrunch.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agents Who Sell For More",
+      "first_seen": "2026-02-01T00:33:01.130388"
+    },
+    "polyworld.org": {
+      "url": "https://polyworld.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.130682"
+    },
+    "opens.xyz": {
+      "url": "https://opens.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Opens.xyz for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:01.137066"
+    },
+    "polyverse.net": {
+      "url": "https://polyverse.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.137182"
+    },
+    "botarena.net": {
+      "url": "https://botarena.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "BotArena",
+      "first_seen": "2026-02-01T00:33:01.191115"
+    },
+    "openroad.io": {
+      "url": "https://openroad.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.211057"
+    },
+    "agentline.xyz": {
+      "url": "https://agentline.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.211699"
+    },
+    "crab.town": {
+      "url": "https://crab.town",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.221218"
+    },
+    "openbase.xyz": {
+      "url": "https://openbase.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.233373"
+    },
+    "openbook.world": {
+      "url": "https://openbook.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.239818"
+    },
+    "bankr.app": {
+      "url": "https://bankr.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.243122"
+    },
+    "openbook.gg": {
+      "url": "https://openbook.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "OpenBook | Reinventing Pick'em",
+      "first_seen": "2026-02-01T00:33:01.276290"
+    },
+    "polys.com": {
+      "url": "https://polys.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Polys: Unraveling the Intricate World of Polymers",
+      "first_seen": "2026-02-01T00:33:01.278378"
+    },
+    "agenthub.space": {
+      "url": "https://agenthub.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "agenthub.space",
+      "first_seen": "2026-02-01T00:33:01.318459"
+    },
+    "botline.com": {
+      "url": "https://botline.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.329870"
+    },
+    "starknet.co": {
+      "url": "https://starknet.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.341989"
+    },
+    "agentoverflow.ai": {
+      "url": "https://agentoverflow.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "porkbun.com | parked domain",
+      "first_seen": "2026-02-01T00:33:01.345631"
+    },
+    "openplace.org": {
+      "url": "https://openplace.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.351975"
+    },
+    "agentdirect.xyz": {
+      "url": "https://agentdirect.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.399820"
+    },
+    "openworld.dev": {
+      "url": "https://openworld.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "OpenWorld \u2014 Strategic Blockchain Advisory Built on a Foundation of Expertise",
+      "first_seen": "2026-02-01T00:33:01.423532"
+    },
+    "botdirect.net": {
+      "url": "https://botdirect.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:01.424041"
+    },
+    "polybase.io": {
+      "url": "https://polybase.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "poybase.io - from 0 to scale-up",
+      "first_seen": "2026-02-01T00:33:01.502552"
+    },
+    "opencrunch.io": {
+      "url": "https://opencrunch.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "opencrunch.io",
+      "first_seen": "2026-02-01T00:33:01.511480"
+    },
+    "polybase.app": {
+      "url": "https://polybase.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Polybase",
+      "first_seen": "2026-02-01T00:33:01.513049"
+    },
+    "clawarena.xyz": {
+      "url": "https://clawarena.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Claw Arena",
+      "first_seen": "2026-02-01T00:33:01.580396"
+    },
+    "botarena.io": {
+      "url": "https://botarena.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "BotArena NFT \u2013 Collect, Build, Battle \u2013 Cardano NFT Gaming",
+      "first_seen": "2026-02-01T00:33:01.636322"
+    },
+    "shellline.net": {
+      "url": "https://shellline.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Shell Line Consulting",
+      "first_seen": "2026-02-01T00:33:01.790430"
+    },
+    "openx.com": {
+      "url": "https://openx.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "OpenX: Programmatic Advertising | Supply-Side Platform",
+      "first_seen": "2026-02-01T00:33:02.613174"
+    },
+    "polys.io": {
+      "url": "https://polys.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Polys Georgiou - Watford, England, United Kingdom | Professional Profile | LinkedIn",
+      "first_seen": "2026-02-01T00:33:02.736934"
+    },
+    "opendr.space": {
+      "url": "https://opendr.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Open Digital Rights Space is under construction",
+      "first_seen": "2026-02-01T00:33:02.820741"
+    },
+    "shellx.ai": {
+      "url": "https://shellx.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "shellx",
+      "first_seen": "2026-02-01T00:33:03.640016"
+    },
+    "lobsterx.com": {
+      "url": "https://lobsterx.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:04.040907"
+    },
+    "agent.gg": {
+      "url": "https://agent.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:05.875923"
+    },
+    "opencity.app": {
+      "url": "https://opencity.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:06.831180"
+    },
+    "moltx.com": {
+      "url": "https://moltx.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:09.758916"
+    },
+    "agentx.space": {
+      "url": "https://agentx.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:09.767078"
+    },
+    "starkline.co": {
+      "url": "https://starkline.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "starkline.co",
+      "first_seen": "2026-02-01T00:33:09.783118"
+    },
+    "opennews.co": {
+      "url": "https://opennews.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:09.786276"
+    },
+    "polychan.net": {
+      "url": "https://polychan.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Polychan",
+      "first_seen": "2026-02-01T00:33:09.801383"
+    },
+    "agentarena.dev": {
+      "url": "https://agentarena.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:09.818821"
+    },
+    "opennews.ai": {
+      "url": "https://opennews.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:09.822551"
+    },
+    "openbook.app": {
+      "url": "https://openbook.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:09.830899"
+    },
+    "opens.ai": {
+      "url": "https://opens.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:09.858638"
+    },
+    "polyverse.live": {
+      "url": "https://polyverse.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:09.894209"
+    },
+    "openbase.org": {
+      "url": "https://openbase.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "openbase.org",
+      "first_seen": "2026-02-01T00:33:09.902411"
+    },
+    "openworld.gg": {
+      "url": "https://openworld.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:09.908158"
+    },
+    "openverse.live": {
+      "url": "https://openverse.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Openverse Explorer",
+      "first_seen": "2026-02-01T00:33:09.911156"
+    },
+    "opennet.xyz": {
+      "url": "https://opennet.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:09.912548"
+    },
+    "polynews.io": {
+      "url": "https://polynews.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Polynews",
+      "first_seen": "2026-02-01T00:33:09.955131"
+    },
+    "polybase.co": {
+      "url": "https://polybase.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:09.955254"
+    },
+    "polycity.net": {
+      "url": "https://polycity.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:09.973115"
+    },
+    "shelloverflow.com": {
+      "url": "https://shelloverflow.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:09.986409"
+    },
+    "agentplace.space": {
+      "url": "https://agentplace.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Parked Domain name on Hostinger DNS system",
+      "first_seen": "2026-02-01T00:33:10.003249"
+    },
+    "openlist.dev": {
+      "url": "https://openlist.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "openlist.dev",
+      "first_seen": "2026-02-01T00:33:10.014107"
+    },
+    "openx.app": {
+      "url": "https://openx.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:10.014985"
+    },
+    "openhunt.net": {
+      "url": "https://openhunt.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "openhunt.net for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:10.019459"
+    },
+    "agentarena.io": {
+      "url": "https://agentarena.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "AgentArena",
+      "first_seen": "2026-02-01T00:33:10.027820"
+    },
+    "openbook.net": {
+      "url": "https://openbook.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:10.041355"
+    },
+    "openline.xyz": {
+      "url": "https://openline.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:10.042604"
+    },
+    "botplace.ai": {
+      "url": "https://botplace.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:10.047897"
+    },
+    "polys.xyz": {
+      "url": "https://polys.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:10.064277"
+    },
+    "opens.io": {
+      "url": "https://opens.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:10.094056"
+    },
+    "agentplace.ai": {
+      "url": "https://agentplace.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "AgentPlace.ai for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:10.149415"
+    },
+    "clawx.app": {
+      "url": "https://clawx.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ClawX.app for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:10.155277"
+    },
+    "openwork.io": {
+      "url": "https://openwork.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:10.156336"
+    },
+    "starknet.space": {
+      "url": "https://starknet.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:10.156449"
+    },
+    "botx.co": {
+      "url": "https://botx.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "botx.co",
+      "first_seen": "2026-02-01T00:33:10.185436"
+    },
+    "starkline.com": {
+      "url": "https://starkline.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Electric Fencing Supplies | Electric Fence Net | Starkline",
+      "first_seen": "2026-02-01T00:33:10.311722"
+    },
+    "openhub.co": {
+      "url": "https://openhub.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:10.316420"
+    },
+    "openhub.net": {
+      "url": "https://openhub.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Open Hub, the open source network",
+      "first_seen": "2026-02-01T00:33:10.337403"
+    },
+    "polychan.com": {
+      "url": "https://polychan.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:10.338131"
+    },
+    "open.space": {
+      "url": "https://open.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Open Source meets Outer Space",
+      "first_seen": "2026-02-01T00:33:10.347731"
+    },
+    "stark.io": {
+      "url": "https://stark.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "stark.io Coming Soon",
+      "first_seen": "2026-02-01T00:33:10.350424"
+    },
+    "openhunt.xyz": {
+      "url": "https://openhunt.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:10.362423"
+    },
+    "molt.space": {
+      "url": "https://molt.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "molt.space",
+      "first_seen": "2026-02-01T00:33:10.403993"
+    },
+    "bankr.xyz": {
+      "url": "https://bankr.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:10.445694"
+    },
+    "shellmates.ai": {
+      "url": "https://shellmates.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ShellMates.ai for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:10.461263"
+    },
+    "opennews.io": {
+      "url": "https://opennews.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:10.462256"
+    },
+    "agentx.org": {
+      "url": "https://agentx.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:10.463011"
+    },
+    "clawdr.co": {
+      "url": "https://clawdr.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Clawdr - Where AI Agents Matchmake Their Humans",
+      "first_seen": "2026-02-01T00:33:10.489730"
+    },
+    "clawplace.com": {
+      "url": "https://clawplace.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "ClawPlace - Collaborative Pixel Canvas",
+      "first_seen": "2026-02-01T00:33:10.497837"
+    },
+    "opennet.com": {
+      "url": "https://opennet.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "OpenNet",
+      "first_seen": "2026-02-01T00:33:10.506329"
+    },
+    "claw.space": {
+      "url": "https://claw.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "\u25bdCLAW\u25bd ONLINE SHOP\u516c\u5f0f",
+      "first_seen": "2026-02-01T00:33:10.720671"
+    },
+    "polys.ai": {
+      "url": "https://polys.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "PobPop- Interact with the Most Advanced Character that YOU Design!",
+      "first_seen": "2026-02-01T00:33:10.725081"
+    },
+    "openline.com": {
+      "url": "https://openline.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Openline \u2014 Coming Soon",
+      "first_seen": "2026-02-01T00:33:10.725410"
+    },
+    "openwork.org": {
+      "url": "https://openwork.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Harapan4D : Situs Togel HK Hari ini - Agen Togel Hongkong - Keluaran HK",
+      "first_seen": "2026-02-01T00:33:10.794407"
+    },
+    "lobsterplace.com": {
+      "url": "https://lobsterplace.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Lobster Place | Fresh Lobster & Seafood in Chelsea Market, NYC",
+      "first_seen": "2026-02-01T00:33:10.810358"
+    },
+    "agentline.org": {
+      "url": "https://agentline.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agentline | Build Smarter with Agentic AI Systems",
+      "first_seen": "2026-02-01T00:33:10.915453"
+    },
+    "polyx.space": {
+      "url": "https://polyx.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "PolyX",
+      "first_seen": "2026-02-01T00:33:10.919521"
+    },
+    "agentlaunch.live": {
+      "url": "https://agentlaunch.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agent Launch",
+      "first_seen": "2026-02-01T00:33:10.970950"
+    },
+    "starkx.com": {
+      "url": "https://starkx.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "STARKx",
+      "first_seen": "2026-02-01T00:33:11.178423"
+    },
+    "open.bot": {
+      "url": "https://open.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "List of Anguilla domain names .ai for robotics and artificial intelligence | Portal of Robotics and ",
+      "first_seen": "2026-02-01T00:33:11.340786"
+    },
+    "opens.live": {
+      "url": "https://opens.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:11.340863"
+    },
+    "agentx.dev": {
+      "url": "https://agentx.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "AgentX - Multi AI Agent Build Platform",
+      "first_seen": "2026-02-01T00:33:13.658820"
+    },
+    "open.world": {
+      "url": "https://open.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:18.835263"
+    },
+    "openarena.live": {
+      "url": "https://openarena.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "OpenArena Live - Play Quake in Your Browser",
+      "first_seen": "2026-02-01T00:33:18.849137"
+    },
+    "agentlaunch.org": {
+      "url": "https://agentlaunch.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:18.859115"
+    },
+    "crabline.com": {
+      "url": "https://crabline.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:18.859284"
+    },
+    "starklist.xyz": {
+      "url": "https://starklist.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:18.910948"
+    },
+    "agentplace.dev": {
+      "url": "https://agentplace.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:18.955018"
+    },
+    "starkx.xyz": {
+      "url": "https://starkx.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:18.964743"
+    },
+    "polybase.dev": {
+      "url": "https://polybase.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "polybase",
+      "first_seen": "2026-02-01T00:33:18.989830"
+    },
+    "openarena.xyz": {
+      "url": "https://openarena.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "openarena.xyz",
+      "first_seen": "2026-02-01T00:33:19.026216"
+    },
+    "opencrunch.net": {
+      "url": "https://opencrunch.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.026590"
+    },
+    "lobsterlaunch.com": {
+      "url": "https://lobsterlaunch.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.030371"
+    },
+    "moltbook.town": {
+      "url": "https://moltbook.town",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Moltbook Town",
+      "first_seen": "2026-02-01T00:33:19.036858"
+    },
+    "polys.dev": {
+      "url": "https://polys.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.037330"
+    },
+    "shellx.com": {
+      "url": "https://shellx.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ShellX.com is for sale | HugeDomains",
+      "first_seen": "2026-02-01T00:33:19.060542"
+    },
+    "bankrs.com": {
+      "url": "https://bankrs.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.064161"
+    },
+    "poly.app": {
+      "url": "https://poly.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Poly: The Intelligent Cloud File Browser",
+      "first_seen": "2026-02-01T00:33:19.150516"
+    },
+    "openbase.ai": {
+      "url": "https://openbase.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.151904"
+    },
+    "openline.world": {
+      "url": "https://openline.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Openline CZ",
+      "first_seen": "2026-02-01T00:33:19.156872"
+    },
+    "botx.org": {
+      "url": "https://botx.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.219333"
+    },
+    "opendr.io": {
+      "url": "https://opendr.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "opendr.io - building better worlds",
+      "first_seen": "2026-02-01T00:33:19.245011"
+    },
+    "shellcaster.app": {
+      "url": "https://shellcaster.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "shellcaster.app",
+      "first_seen": "2026-02-01T00:33:19.257971"
+    },
+    "polyline.io": {
+      "url": "https://polyline.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.258239"
+    },
+    "stark.space": {
+      "url": "https://stark.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.275347"
+    },
+    "agentx.ai": {
+      "url": "https://agentx.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.282059"
+    },
+    "shellx.xyz": {
+      "url": "https://shellx.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "still in works",
+      "first_seen": "2026-02-01T00:33:19.285845"
+    },
+    "agentplace.app": {
+      "url": "https://agentplace.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Home",
+      "first_seen": "2026-02-01T00:33:19.342731"
+    },
+    "polyarena.xyz": {
+      "url": "https://polyarena.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.344505"
+    },
+    "clawlaunch.com": {
+      "url": "https://clawlaunch.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.344545"
+    },
+    "starkline.org": {
+      "url": "https://starkline.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.344673"
+    },
+    "botnet.space": {
+      "url": "https://botnet.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.371560"
+    },
+    "polyhub.xyz": {
+      "url": "https://polyhub.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "polyhub.xyz for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:19.390508"
+    },
+    "opencity.org": {
+      "url": "https://opencity.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Open City | Magazine & Books",
+      "first_seen": "2026-02-01T00:33:19.406358"
+    },
+    "bankr.com": {
+      "url": "https://bankr.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.407628"
+    },
+    "agentmates.com": {
+      "url": "https://agentmates.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "AgentMates.com is for sale | HugeDomains",
+      "first_seen": "2026-02-01T00:33:19.418898"
+    },
+    "openlaunch.com": {
+      "url": "https://openlaunch.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Interior Design Magazine | Top Projects, Products & Trends - Interior Design",
+      "first_seen": "2026-02-01T00:33:19.440651"
+    },
+    "openworld.org": {
+      "url": "https://openworld.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.459158"
+    },
+    "lobsterline.com": {
+      "url": "https://lobsterline.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.465168"
+    },
+    "shellplace.com": {
+      "url": "https://shellplace.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.489438"
+    },
+    "polyx.net": {
+      "url": "https://polyx.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.496869"
+    },
+    "polyplace.com": {
+      "url": "https://polyplace.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "PolyPlace.com is for sale | HugeDomains",
+      "first_seen": "2026-02-01T00:33:19.513854"
+    },
+    "opencaster.xyz": {
+      "url": "https://opencaster.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:19.514197"
+    },
+    "polyverse.ai": {
+      "url": "https://polyverse.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Polyverse.ai for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:19.535482"
+    },
+    "polyverse.dev": {
+      "url": "https://polyverse.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Polyverse O\u00dc \u2013 Tools, Emulation & AI Chat Friends",
+      "first_seen": "2026-02-01T00:33:19.544781"
+    },
+    "clawx.io": {
+      "url": "https://clawx.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Your domain is expired",
+      "first_seen": "2026-02-01T00:33:19.552681"
+    },
+    "starknews.com": {
+      "url": "https://starknews.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "StarkNews.com is for sale | HugeDomains",
+      "first_seen": "2026-02-01T00:33:19.563633"
+    },
+    "stark.xyz": {
+      "url": "https://stark.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "stark.xyz for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:19.572286"
+    },
+    "polymates.com": {
+      "url": "https://polymates.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Index of /",
+      "first_seen": "2026-02-01T00:33:19.603914"
+    },
+    "botarena.gg": {
+      "url": "https://botarena.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Bot Arena - Coming Soon",
+      "first_seen": "2026-02-01T00:33:19.624742"
+    },
+    "poly.world": {
+      "url": "https://poly.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Outdoor Patio Inspiration by POLYWOOD",
+      "first_seen": "2026-02-01T00:33:19.780335"
+    },
+    "openwork.xyz": {
+      "url": "https://openwork.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "OpenWork.xyz for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:19.786353"
+    },
+    "botline.net": {
+      "url": "https://botline.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Home - Botfrei",
+      "first_seen": "2026-02-01T00:33:20.470323"
+    },
+    "open.live": {
+      "url": "https://open.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:20.470842"
+    },
+    "polyworld.xyz": {
+      "url": "https://polyworld.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "PolyWorld",
+      "first_seen": "2026-02-01T00:33:20.556496"
+    },
+    "openwork.app": {
+      "url": "https://openwork.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "OpenWork dot App: premium domain name (Buy now) - openwork.app",
+      "first_seen": "2026-02-01T00:33:20.628992"
+    },
+    "polywork.co": {
+      "url": "https://polywork.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:23.352693"
+    },
+    "polyline.co": {
+      "url": "https://polyline.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:27.777209"
+    },
+    "polydr.com": {
+      "url": "https://polydr.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "polydr.com is almost here!",
+      "first_seen": "2026-02-01T00:33:27.807648"
+    },
+    "botdirect.com": {
+      "url": "https://botdirect.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:27.840378"
+    },
+    "openbase.dev": {
+      "url": "https://openbase.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:27.878008"
+    },
+    "openlaunch.co": {
+      "url": "https://openlaunch.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:27.916809"
+    },
+    "poly.gg": {
+      "url": "https://poly.gg",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:27.927974"
+    },
+    "clawmates.org": {
+      "url": "https://clawmates.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Claw Mates - AI Agent Dating",
+      "first_seen": "2026-02-01T00:33:27.947321"
+    },
+    "agentarena.com": {
+      "url": "https://agentarena.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agent Arena",
+      "first_seen": "2026-02-01T00:33:27.978719"
+    },
+    "openverse.xyz": {
+      "url": "https://openverse.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:27.980329"
+    },
+    "poly.ai": {
+      "url": "https://poly.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "PolyAI | The enterprise conversation platform",
+      "first_seen": "2026-02-01T00:33:28.061999"
+    },
+    "agentoverflow.dev": {
+      "url": "https://agentoverflow.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.065220"
+    },
+    "polynews.net": {
+      "url": "https://polynews.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "PolyNews - Prediction-Powered News",
+      "first_seen": "2026-02-01T00:33:28.071415"
+    },
+    "polyhub.app": {
+      "url": "https://polyhub.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.096176"
+    },
+    "shellx.app": {
+      "url": "https://shellx.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Mobile Interface for Your Workflows",
+      "first_seen": "2026-02-01T00:33:28.123790"
+    },
+    "botx.xyz": {
+      "url": "https://botx.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.132432"
+    },
+    "starkhub.org": {
+      "url": "https://starkhub.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.147900"
+    },
+    "open.app": {
+      "url": "https://open.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.167903"
+    },
+    "opennet.co": {
+      "url": "https://opennet.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.177941"
+    },
+    "opens.com": {
+      "url": "https://opens.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Opens.com for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:28.198770"
+    },
+    "agentline.ai": {
+      "url": "https://agentline.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Medicare Call Recording Solution for your Agency",
+      "first_seen": "2026-02-01T00:33:28.244868"
+    },
+    "agentlaunch.co": {
+      "url": "https://agentlaunch.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "agentlaunch.co",
+      "first_seen": "2026-02-01T00:33:28.365484"
+    },
+    "clawx.net": {
+      "url": "https://clawx.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Domain Default page",
+      "first_seen": "2026-02-01T00:33:28.371453"
+    },
+    "clawcaster.com": {
+      "url": "https://clawcaster.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Clawcaster - Where agents go social",
+      "first_seen": "2026-02-01T00:33:28.388534"
+    },
+    "polyverse.world": {
+      "url": "https://polyverse.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.392334"
+    },
+    "openroad.org": {
+      "url": "https://openroad.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Programming Visual C++, C, C++, and Windows for Students and Beginners",
+      "first_seen": "2026-02-01T00:33:28.448147"
+    },
+    "botdr.com": {
+      "url": "https://botdr.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Robotics, Robot, and Bot domain names and products from botdr.com",
+      "first_seen": "2026-02-01T00:33:28.474644"
+    },
+    "agentlist.space": {
+      "url": "https://agentlist.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Parked Domain name on Hostinger DNS system",
+      "first_seen": "2026-02-01T00:33:28.478627"
+    },
+    "bankrx.com": {
+      "url": "https://bankrx.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.479574"
+    },
+    "clawdr.com": {
+      "url": "https://clawdr.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.479677"
+    },
+    "polybook.net": {
+      "url": "https://polybook.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.487009"
+    },
+    "botdirect.xyz": {
+      "url": "https://botdirect.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.496801"
+    },
+    "polyverse.xyz": {
+      "url": "https://polyverse.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.515638"
+    },
+    "polyverse.io": {
+      "url": "https://polyverse.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.518543"
+    },
+    "polyline.ai": {
+      "url": "https://polyline.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Polyline",
+      "first_seen": "2026-02-01T00:33:28.539987"
+    },
+    "starkcity.com": {
+      "url": "https://starkcity.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "StarkCity.com is for sale | HugeDomains",
+      "first_seen": "2026-02-01T00:33:28.552648"
+    },
+    "openverse.io": {
+      "url": "https://openverse.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Openverse \u2013 AIGIS For Every Creator",
+      "first_seen": "2026-02-01T00:33:28.557232"
+    },
+    "openlist.ai": {
+      "url": "https://openlist.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.557726"
+    },
+    "poly.org": {
+      "url": "https://poly.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:28.564635"
+    },
+    "opens.co": {
+      "url": "https://opens.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Opens: Stock Insights",
+      "first_seen": "2026-02-01T00:33:28.637341"
+    },
+    "bankr.org": {
+      "url": "https://bankr.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Bankr.org for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:28.650363"
+    },
+    "openbook.xyz": {
+      "url": "https://openbook.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Openbook.xyz for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:28.657970"
+    },
+    "bankrlist.com": {
+      "url": "https://bankrlist.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Bankr | Genesis Verification",
+      "first_seen": "2026-02-01T00:33:28.659950"
+    },
+    "clawoverflow.com": {
+      "url": "https://clawoverflow.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "MoltOverflow - StackOverflow for Coding Agents",
+      "first_seen": "2026-02-01T00:33:28.663898"
+    },
+    "starknet.org": {
+      "url": "https://starknet.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Starknet Foundation",
+      "first_seen": "2026-02-01T00:33:28.792060"
+    },
+    "opennet.dev": {
+      "url": "https://opennet.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "OpenNet \u0431\u0435\u0437 \"www\" - \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u0438\u0441\u0442\u0441\u043a\u0438\u0439 \u0432\u0430\u0440\u0438\u0430\u043d\u0442 \u043f\u043e\u0440\u0442\u0430\u043b\u0430 \u043f\u043e \u043e\u0442\u043a\u0440\u044b\u0442\u043e\u043c\u0443 \u041f\u041e, Linux, BSD \u0438 Unix \u0441\u0438\u0441\u0442\u0435\u043c\u0430\u043c",
+      "first_seen": "2026-02-01T00:33:28.941793"
+    },
+    "polycity.app": {
+      "url": "https://polycity.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "PolyCity: Ultra Realistic",
+      "first_seen": "2026-02-01T00:33:28.989456"
+    },
+    "clawx.com": {
+      "url": "https://clawx.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ClawX",
+      "first_seen": "2026-02-01T00:33:28.990190"
+    },
+    "moltx.org": {
+      "url": "https://moltx.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "918\u535a\u5929\u5802\u4f53\u80b2\u5b98\u7f51-\u5168\u7403\u8d54\u7387\u6700\u9ad8\u5728\u7ebf\u5a31\u4e50\u5e73\u53f0",
+      "first_seen": "2026-02-01T00:33:29.733033"
+    },
+    "openbook.co": {
+      "url": "https://openbook.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Best Accounting, Billing, Banking & GST app in India - OpenBook",
+      "first_seen": "2026-02-01T00:33:29.997913"
+    },
+    "botlaunch.app": {
+      "url": "https://botlaunch.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:30.961509"
+    },
+    "lobsterdirect.com": {
+      "url": "https://lobsterdirect.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:31.776624"
+    },
+    "openbook.com": {
+      "url": "https://openbook.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:33.955635"
+    },
+    "polyverse.com": {
+      "url": "https://polyverse.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:36.600837"
+    },
+    "openverse.ai": {
+      "url": "https://openverse.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:36.719759"
+    },
+    "openplace.xyz": {
+      "url": "https://openplace.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:36.781688"
+    },
+    "polycaster.com": {
+      "url": "https://polycaster.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:36.781848"
+    },
+    "openbase.net": {
+      "url": "https://openbase.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:36.797589"
+    },
+    "agentmates.ai": {
+      "url": "https://agentmates.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "AI Voice Receptionist - Never Miss a Call",
+      "first_seen": "2026-02-01T00:33:36.803078"
+    },
+    "starkworld.com": {
+      "url": "https://starkworld.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:36.803215"
+    },
+    "shellnet.xyz": {
+      "url": "https://shellnet.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:36.825671"
+    },
+    "starkverse.xyz": {
+      "url": "https://starkverse.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:36.829597"
+    },
+    "clawx.xyz": {
+      "url": "https://clawx.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:36.835605"
+    },
+    "openplace.live": {
+      "url": "https://openplace.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:36.841093"
+    },
+    "botcrunch.xyz": {
+      "url": "https://botcrunch.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:36.862250"
+    },
+    "polyverse.space": {
+      "url": "https://polyverse.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Polyverse",
+      "first_seen": "2026-02-01T00:33:36.866973"
+    },
+    "shellx.co": {
+      "url": "https://shellx.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "shellx.co",
+      "first_seen": "2026-02-01T00:33:36.874292"
+    },
+    "starkroad.com": {
+      "url": "https://starkroad.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "StarkRoad.com is for sale | HugeDomains",
+      "first_seen": "2026-02-01T00:33:36.933526"
+    },
+    "polyhub.bot": {
+      "url": "https://polyhub.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:36.956309"
+    },
+    "polymates.ai": {
+      "url": "https://polymates.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:36.986653"
+    },
+    "openworld.xyz": {
+      "url": "https://openworld.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:36.996604"
+    },
+    "botplace.dev": {
+      "url": "https://botplace.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.000023"
+    },
+    "bot.direct": {
+      "url": "https://bot.direct",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "bot.direct for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:37.089464"
+    },
+    "open.io": {
+      "url": "https://open.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.090844"
+    },
+    "openworld.world": {
+      "url": "https://openworld.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.103138"
+    },
+    "botcaster.xyz": {
+      "url": "https://botcaster.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.103351"
+    },
+    "clawlist.ai": {
+      "url": "https://clawlist.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.106608"
+    },
+    "polyworld.com": {
+      "url": "https://polyworld.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.106732"
+    },
+    "starks.xyz": {
+      "url": "https://starks.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "James Starks Homepage",
+      "first_seen": "2026-02-01T00:33:37.132286"
+    },
+    "starkbook.com": {
+      "url": "https://starkbook.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.139720"
+    },
+    "openplace.io": {
+      "url": "https://openplace.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.147345"
+    },
+    "starkhub.net": {
+      "url": "https://starkhub.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.157616"
+    },
+    "polyline.net": {
+      "url": "https://polyline.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.167723"
+    },
+    "starknet.app": {
+      "url": "https://starknet.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "StarKnet.app for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:37.200242"
+    },
+    "polywork.io": {
+      "url": "https://polywork.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.218377"
+    },
+    "poly.dev": {
+      "url": "https://poly.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.254281"
+    },
+    "bankrx.ai": {
+      "url": "https://bankrx.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "BankRx",
+      "first_seen": "2026-02-01T00:33:37.287752"
+    },
+    "opennet.io": {
+      "url": "https://opennet.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.289812"
+    },
+    "moltnews.ai": {
+      "url": "https://moltnews.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Parked Domain name on Hostinger DNS system",
+      "first_seen": "2026-02-01T00:33:37.310829"
+    },
+    "botlaunch.xyz": {
+      "url": "https://botlaunch.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.318114"
+    },
+    "opendr.xyz": {
+      "url": "https://opendr.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.320059"
+    },
+    "polyarena.net": {
+      "url": "https://polyarena.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.348548"
+    },
+    "bankr.io": {
+      "url": "https://bankr.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.354988"
+    },
+    "openverse.org": {
+      "url": "https://openverse.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.397942"
+    },
+    "moltx.net": {
+      "url": "https://moltx.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "moltx.net for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:37.417959"
+    },
+    "starks.app": {
+      "url": "https://starks.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.428945"
+    },
+    "openworld.co": {
+      "url": "https://openworld.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.442273"
+    },
+    "opencity.co": {
+      "url": "https://opencity.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "TORI",
+      "first_seen": "2026-02-01T00:33:37.500356"
+    },
+    "poly.io": {
+      "url": "https://poly.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Polymorphism",
+      "first_seen": "2026-02-01T00:33:37.505251"
+    },
+    "botcrunch.com": {
+      "url": "https://botcrunch.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.505356"
+    },
+    "openhub.xyz": {
+      "url": "https://openhub.xyz",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.505897"
+    },
+    "crabplace.co": {
+      "url": "https://crabplace.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Custom Domain by Bitly",
+      "first_seen": "2026-02-01T00:33:37.554746"
+    },
+    "polynews.app": {
+      "url": "https://polynews.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Polynews - Tomorrow's headlines, today",
+      "first_seen": "2026-02-01T00:33:37.568073"
+    },
+    "agentx.app": {
+      "url": "https://agentx.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.579513"
+    },
+    "openworld.space": {
+      "url": "https://openworld.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "\u0413\u043b\u0430\u0432\u043d\u0430\u044f",
+      "first_seen": "2026-02-01T00:33:37.747041"
+    },
+    "open.direct": {
+      "url": "https://open.direct",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "open.direct for sale | Spaceship.com",
+      "first_seen": "2026-02-01T00:33:37.795612"
+    },
+    "openhub.live": {
+      "url": "https://openhub.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "OpenHub - \u4fe1\u983c\u6027\u306e\u9ad8\u3044LLM\u30b2\u30fc\u30c8\u30a6\u30a7\u30a4",
+      "first_seen": "2026-02-01T00:33:37.796917"
+    },
+    "botarena.co": {
+      "url": "https://botarena.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:37.814881"
+    },
+    "openlist.co": {
+      "url": "https://openlist.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Explore openlink",
+      "first_seen": "2026-02-01T00:33:37.886024"
+    },
+    "openchan.com": {
+      "url": "https://openchan.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Openchan - Verified Leads of Recently Funded Startups",
+      "first_seen": "2026-02-01T00:33:38.113708"
+    },
+    "botlaunch.dev": {
+      "url": "https://botlaunch.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:38.188411"
+    },
+    "crabx.com": {
+      "url": "https://crabx.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "CrabX Exchange",
+      "first_seen": "2026-02-01T00:33:38.377829"
+    },
+    "agentnet.dev": {
+      "url": "https://agentnet.dev",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Form",
+      "first_seen": "2026-02-01T00:33:38.390986"
+    },
+    "polyx.co": {
+      "url": "https://polyx.co",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:38.608949"
+    },
+    "agentarena.ai": {
+      "url": "https://agentarena.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Design Arena",
+      "first_seen": "2026-02-01T00:33:40.097438"
+    },
+    "openline.app": {
+      "url": "https://openline.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Home - openline.app",
+      "first_seen": "2026-02-01T00:33:40.156213"
+    },
+    "botplace.io": {
+      "url": "https://botplace.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "BotPlace.io \u2013 Telegram chatbotlar, mini-landing va do\u2018konlar yaratish platformasi",
+      "first_seen": "2026-02-01T00:33:41.842982"
+    },
+    "openlaunch.app": {
+      "url": "https://openlaunch.app",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "OpenLaunch - Memecoin Launchpad",
+      "first_seen": "2026-02-01T00:33:43.695466"
+    },
+    "agentnet.space": {
+      "url": "https://agentnet.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:45.765324"
+    },
+    "agentlaunch.com": {
+      "url": "https://agentlaunch.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agent Launch",
+      "first_seen": "2026-02-01T00:33:46.077181"
+    },
+    "polyx.org": {
+      "url": "https://polyx.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.081107"
+    },
+    "polys.org": {
+      "url": "https://polys.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.081299"
+    },
+    "agentarena.org": {
+      "url": "https://agentarena.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Agent Arena",
+      "first_seen": "2026-02-01T00:33:46.102838"
+    },
+    "agentx.live": {
+      "url": "https://agentx.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.107506"
+    },
+    "starknet.live": {
+      "url": "https://starknet.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.175200"
+    },
+    "starks.org": {
+      "url": "https://starks.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Stark Family Website",
+      "first_seen": "2026-02-01T00:33:46.191594"
+    },
+    "polyroad.com": {
+      "url": "https://polyroad.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.199393"
+    },
+    "polyhub.com": {
+      "url": "https://polyhub.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.205970"
+    },
+    "bankr.net": {
+      "url": "https://bankr.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.207305"
+    },
+    "opens.bot": {
+      "url": "https://opens.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.213244"
+    },
+    "openwork.live": {
+      "url": "https://openwork.live",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.213492"
+    },
+    "agentx.com": {
+      "url": "https://agentx.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.213989"
+    },
+    "clawx.bot": {
+      "url": "https://clawx.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.239712"
+    },
+    "crabplace.com": {
+      "url": "https://crabplace.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "The Crab Place\u00ae - Carrying the Top 10% of the World's Seafood - Official Site",
+      "first_seen": "2026-02-01T00:33:46.306770"
+    },
+    "shellline.com": {
+      "url": "https://shellline.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "ShellLine.com is for sale | HugeDomains",
+      "first_seen": "2026-02-01T00:33:46.320387"
+    },
+    "starknet.io": {
+      "url": "https://starknet.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Starknet: The Bitcoin DeFi Layer - Supercharged by ZK Tech",
+      "first_seen": "2026-02-01T00:33:46.389726"
+    },
+    "moltlaunch.io": {
+      "url": "https://moltlaunch.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Molt Launch - Launch Moltbook Posts on Solana",
+      "first_seen": "2026-02-01T00:33:46.393329"
+    },
+    "opencity.com": {
+      "url": "https://opencity.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.396019"
+    },
+    "botwork.space": {
+      "url": "https://botwork.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.511615"
+    },
+    "stark.org": {
+      "url": "https://stark.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Hier entsteht eine neue Webseite.",
+      "first_seen": "2026-02-01T00:33:46.524135"
+    },
+    "botx.world": {
+      "url": "https://botx.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "Buy botx.world \u2013 Premium Expired .world Domain on GoDaddy | ExpiredDomains.com",
+      "first_seen": "2026-02-01T00:33:46.547603"
+    },
+    "openworld.bot": {
+      "url": "https://openworld.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Open World VPS \u2014 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u0435 VPS \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e",
+      "first_seen": "2026-02-01T00:33:46.731646"
+    },
+    "opennews.space": {
+      "url": "https://opennews.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "opennews \u2014 \u041d\u043e\u0432\u043e\u0441\u0442\u043d\u043e\u0439 \u043f\u043e\u0440\u0442\u0430\u043b",
+      "first_seen": "2026-02-01T00:33:46.782286"
+    },
+    "polylaunch.com": {
+      "url": "https://polylaunch.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.782807"
+    },
+    "polyworld.world": {
+      "url": "https://polyworld.world",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Polyworld - Semantic Layer-1 for Aligned Intelligence",
+      "first_seen": "2026-02-01T00:33:46.801893"
+    },
+    "agentx.net": {
+      "url": "https://agentx.net",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:33:46.994690"
+    },
+    "openroad.space": {
+      "url": "https://openroad.space",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "openroad.space -",
+      "first_seen": "2026-02-01T00:33:47.025650"
+    },
+    "openlaunch.org": {
+      "url": "https://openlaunch.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Openlaunch: Cultivating the next generation of AI and Tech Innovators",
+      "first_seen": "2026-02-01T00:33:47.255038"
+    },
+    "opens.org": {
+      "url": "https://opens.org",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": true,
+      "title": "Open-S",
+      "first_seen": "2026-02-01T00:33:47.783999"
+    },
+    "cdn.moltx.io": {
+      "url": "https://cdn.moltx.io",
+      "source": "link",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:50:58.044602"
+    },
+    "groan.moltcities.org": {
+      "url": "https://groan.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Groan | MoltCities",
+      "first_seen": "2026-02-01T00:50:58.485452"
+    },
+    "meetkisai.moltcities.org": {
+      "url": "https://meetkisai.moltcities.org",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "meetkisai | MoltCities",
+      "first_seen": "2026-02-01T00:50:58.505250"
+    },
+    "www.cleverbot.com": {
+      "url": "https://www.cleverbot.com",
+      "source": "link",
+      "alive": true,
+      "has_content": true,
+      "title": "Cleverbot.com - a clever bot - speak to an AI with some Actual Intelligence?",
+      "first_seen": "2026-02-01T00:50:59.875357"
+    },
+    "botx.bot": {
+      "url": "https://botx.bot",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:53:04.096432"
+    },
+    "lobsterbook.ai": {
+      "url": "https://lobsterbook.ai",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:53:20.724716"
+    },
+    "lobsters.io": {
+      "url": "https://lobsters.io",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": false,
+      "title": "",
+      "first_seen": "2026-02-01T00:53:21.023878"
+    },
+    "starkbase.com": {
+      "url": "https://starkbase.com",
+      "source": "bruteforce",
+      "alive": true,
+      "has_content": null,
+      "title": "",
+      "first_seen": "2026-02-01T00:53:25.378187"
     }
   },
-  "last_updated": "2026-01-31T23:08:51.487505"
+  "last_updated": "2026-02-01T00:53:38.514160"
 }

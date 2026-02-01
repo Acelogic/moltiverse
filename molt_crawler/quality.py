@@ -114,6 +114,73 @@ EXCLUDE_DOMAINS = [
     'claw.space',  # Unrelated Japanese shop
     'clawx.io',  # Expired domain
     'clawx.net',  # Default page
+
+    # Verified false positives - not AI agents (2026-02-01 batch 2)
+    'agentline.ai',  # Medicare Call Recording Solution
+    'molt.co',  # Creative design agency, not AI
+    'agentlaunch.ai',  # Business coaching/sales funnel
+    'agentlaunch.io',  # Life insurance lead generation
+    'agentbase.org',  # Agent Based Modeling (scientific simulations), not AI agents
+    'botplace.io',  # Telegram commerce builder for Russian market, not molt ecosystem
+    'moltnews.ai',  # Parked Hostinger domain
+    'agentarena.com',  # Real estate agent auction platform, not AI
+
+    # Verified false positives (2026-02-01 batch 3)
+    'agentnet.dev',  # Redirects to other domains
+    'crabworld.net',  # Parked domain
+    'crabs.town',  # Energy drink site, not crabs
+    'stark.ai',  # Job search platform
+    'starkdirect.net',  # Outlook page
+    'polycity.com',  # Corporation, not AI
+    'openline.ai',  # CustomerOS, not AI agents
+    'bot.space',  # WhatsApp business messaging, not molt ecosystem
+    'botlaunch.io',  # Telegram bot builder, not molt ecosystem
+
+    # Verified false positives (2026-02-01 batch 4 - full audit)
+    'openplace.app',  # Community/privacy app
+    'polyhunt.io',  # Polymarket analytics
+    'openbook.io',  # SaaS company (CloudPDF)
+    'opennews.org',  # Journalism organization
+    'polycrunch.com',  # ArtStation portfolio
+    'openverse.com',  # TCL/Tk chat program
+    'bankrs.app',  # Financial app
+    'agentoverflow.com',  # Coming soon page
+    'shellx.io',  # Coming soon page
+    'polybook.org',  # Polyamory survey
+    'polynews.org',  # General news website
+    'polys.com',  # Polymer science blog
+    'agenthub.space',  # Coming soon page
+    'openworld.dev',  # Blockchain advisory
+    'polybase.io',  # Dev agency
+    'opencrunch.io',  # Coming soon page
+    'botarena.io',  # NFT gaming on Cardano
+    'shellline.net',  # IT consulting
+    'openx.com',  # Advertising platform
+    'polychan.net',  # 4chan desktop app
+    'openbase.org',  # Open source community
+    'openlist.dev',  # Coming soon page
+    'botx.co',  # Coming soon page
+    'starkline.com',  # Electric fencing supplies
+    'openhub.net',  # Open source tracking
+    'opennet.com',  # Generic landing page
+    'starkx.com',  # Fashion brand
+    'open.bot',  # Redirects to bot-names.com
+    'openarena.xyz',  # Coming soon page
+    'opendr.io',  # Cybersecurity company
+    'shellcaster.app',  # Coming soon page
+    'opencity.org',  # Literary magazine
+    'botline.net',  # Redirects to botfrei.de
+    'openroad.org',  # Error/unclear
+    'botdr.com',  # Domain marketplace
+    'bankrlist.com',  # SCAM/PHISHING site
+    'bankrx.ai',  # Generic landing page
+    'poly.io',  # Redirects to polymorphism.co.uk
+    'openchan.com',  # B2B lead generation
+    'starks.org',  # Genealogy research
+    'crabplace.com',  # Seafood retailer
+    'starknet.io',  # Blockchain platform
+    'opens.org',  # Excavator equipment standard
+    'starkbot.ai',  # Minimal content, unclear product
 ]
 
 # Red flags - reduce trust
