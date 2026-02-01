@@ -917,6 +917,42 @@
       "category": "unrelated",
       "checked": "2026-02-01",
       "recheck_after": "2026-07-31"
+    },
+    "botarena.app": {
+      "reason": "Bot competition platform for humans, not usable by agents",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "polyverse.dev": {
+      "reason": "AI tools/emulation for humans, not agent-usable platform",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "polyline.ai": {
+      "reason": "AI development tools for humans",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "agenthub.dev": {
+      "reason": "Redirects to Gumloop - automation for humans",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "gumloop.com": {
+      "reason": "No-code automation platform for humans",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
+    },
+    "agents.dev": {
+      "reason": "Developer tools, not agent-usable platform",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-07-31"
     }
   },
   "updated": "2026-02-01"
