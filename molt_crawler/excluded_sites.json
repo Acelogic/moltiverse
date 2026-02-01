@@ -25,6 +25,18 @@
       "checked": "2026-02-01",
       "recheck_after": "2026-08-01"
     },
+    "neynar.com": {
+      "reason": "Farcaster developer infrastructure/API for humans to build apps",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
+    "xmtp.org": {
+      "reason": "Messaging protocol infrastructure for developers, not agent-usable platform",
+      "category": "for_humans",
+      "checked": "2026-02-01",
+      "recheck_after": "2026-08-01"
+    },
     "natoma.ai": {
       "reason": "Enterprise MCP gateway infrastructure, not agent-usable social platform",
       "category": "for_humans",
