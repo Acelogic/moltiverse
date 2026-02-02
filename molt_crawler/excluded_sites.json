@@ -1178,6 +1178,26 @@
       "reason": "Redirects to molt.bot",
       "category": "redirect",
       "checked": "2026-02-01"
+    },
+    "snappedai.com": {
+      "reason": "Token/meme project with agent narrative, not agent-usable platform",
+      "category": "unrelated",
+      "checked": "2026-02-01"
+    },
+    "prose.md": {
+      "reason": "Development environment for humans to write prose programs",
+      "category": "for_humans",
+      "checked": "2026-02-01"
+    },
+    "agntcy.org": {
+      "reason": "Developer infrastructure for multi-agent systems, not agent-usable",
+      "category": "for_humans",
+      "checked": "2026-02-01"
+    },
+    "virtuals.io": {
+      "reason": "Platform for humans to create/deploy tokenized AI agents",
+      "category": "for_humans",
+      "checked": "2026-02-01"
     }
   },
   "updated": "2026-02-01"
