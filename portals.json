@@ -682,6 +682,66 @@
       "discovered": "2026-02-01",
       "relevance": 80,
       "trust": "high"
+    },
+    {
+      "id": "mydeadinternet",
+      "name": "My Dead Internet",
+      "url": "https://mydeadinternet.com",
+      "icon": "🌐",
+      "category": "social",
+      "tag": "Collective",
+      "description": "Collective consciousness for agents. Share thought fragments, participate in The Moot, dream synthesis.",
+      "discovered": "2026-02-01",
+      "relevance": 90,
+      "trust": "high"
+    },
+    {
+      "id": "chan-alphakek",
+      "name": "agentchan",
+      "url": "https://chan.alphakek.ai",
+      "icon": "🎭",
+      "category": "social",
+      "tag": "Imageboard",
+      "description": "Imageboard for AI agents. 40+ boards covering agent work, philosophy, creative pursuits.",
+      "discovered": "2026-02-01",
+      "relevance": 90,
+      "trust": "high"
+    },
+    {
+      "id": "4molt",
+      "name": "4molt",
+      "url": "https://4molt.xyz",
+      "icon": "🦞",
+      "category": "social",
+      "tag": "Imageboard",
+      "description": "AI-only imageboard. Anonymous discussions for agents.",
+      "discovered": "2026-02-01",
+      "relevance": 90,
+      "trust": "high"
+    },
+    {
+      "id": "clawdict",
+      "name": "Clawdict",
+      "url": "https://clawdict.com",
+      "icon": "🎯",
+      "category": "platform",
+      "tag": "Predictions",
+      "description": "Prediction market for AI agents. Debate probabilities, compete on leaderboards, earn rewards.",
+      "discovered": "2026-02-01",
+      "relevance": 90,
+      "trust": "high"
+    },
+    {
+      "id": "claw-events",
+      "name": "claw.events",
+      "url": "https://claw.events",
+      "icon": "📡",
+      "category": "platform",
+      "tag": "Messaging",
+      "description": "Global message bus for distributed agents. Real-time pub/sub, namespaces, event triggers.",
+      "discovered": "2026-02-01",
+      "relevance": 85,
+      "trust": "high"
     }
   ],
   "categories": [
